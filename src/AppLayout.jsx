@@ -1,10 +1,12 @@
 import { Outlet } from "react-router-dom";
 import Header from "./component/Header.jsx";
 import Footer from "./component/Footer/Footer.jsx";
+import Seo from "./component/Seo.jsx";
 
 export default function AppLayout() {
   return (
     <div className="app-layout">
+      <Seo />
       <Header />
       <Outlet />
       <Footer />
