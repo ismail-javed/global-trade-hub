@@ -1,7 +1,7 @@
 import { useState } from "react";
+import { formspreeEndpoint } from "../../config/forms.js";
 
 const ContactUs = () => {
-  const formspreeEndpoint = import.meta.env.VITE_FORMSPREE_ENDPOINT;
   const [form, setForm] = useState({
     name: "",
     email: "",
@@ -18,14 +18,6 @@ const ContactUs = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
-    if (!formspreeEndpoint) {
-      setSubmitStatus({
-        type: "error",
-        message: "Form is not configured yet. Please try again shortly.",
-      });
-      return;
-    }
 
     setIsSubmitting(true);
     setSubmitStatus({ type: "", message: "" });

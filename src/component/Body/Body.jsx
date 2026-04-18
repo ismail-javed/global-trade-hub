@@ -3,12 +3,12 @@ import Flags from "./indexBody/Flags";
 import Services from "./indexBody/services-cards";
 import WhyUs from "./indexBody/whyUs";
 import Hero from "./indexBody/Hero";
+import { formspreeEndpoint } from "../../config/forms.js";
 import '../../index.css';
 
 
 
 const Body = () => {
-    const formspreeEndpoint = import.meta.env.VITE_FORMSPREE_ENDPOINT;
     const [form, setForm] = useState({
         name: "",
         email: "",
@@ -25,14 +25,6 @@ const Body = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-
-        if (!formspreeEndpoint) {
-            setSubmitStatus({
-                type: "error",
-                message: "Form is not configured yet. Please try again shortly.",
-            });
-            return;
-        }
 
         setIsSubmitting(true);
         setSubmitStatus({ type: "", message: "" });

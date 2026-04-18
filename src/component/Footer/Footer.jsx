@@ -55,7 +55,7 @@
                 </div>
 
                 <div className="contact-line">
-                <span>📞 +91 9084399069</span>
+                <span>📞 +91 90843 99069</span>
                 </div>
 
                 <div className="contact-line">

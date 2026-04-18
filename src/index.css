@@ -206,6 +206,10 @@
             cursor: pointer;
             letter-spacing: 0.02em;
             transition: background 0.2s, transform 0.15s;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
         }
 
         .login-btn:hover {

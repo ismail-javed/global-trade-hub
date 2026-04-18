@@ -8,7 +8,7 @@ const Services = () => {
         <div className="section-header">
             <div className="section-header-left">
             <span className="tag-label">Our Services</span>
-            <h2 className="section-heading">What We Provide</h2>
+            <h2 className="section-heading">What We Serve</h2>
             </div>
 
             <p className="section-header-right">
@@ -22,7 +22,7 @@ const Services = () => {
             <a href="#spare-parts" className="service-card" style={{ textDecoration: "none" }}>
             <img src="https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775758012/SpareParts_wkdta5.png" alt="Spare Parts" className="service-card-img" />
             <div className="service-card-body">
-                <h3>Spare Parts Export</h3>
+                <h3>Spare Parts </h3>
                 <p>High-quality spare parts for various industries, ensuring durability, precision, and global standards.</p>
                 {/* <span className="service-card-arrow">Learn more →</span> */}
             </div>
@@ -46,14 +46,14 @@ const Services = () => {
             </div>
             </div>
 
-            <div className="service-card">
+            {/* <div className="service-card">
             <img src="https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775758010/chemical_wzbwgz.png" alt="Chemical Products" className="service-card-img" />
             <div className="service-card-body">
                 <h3>Chemical Products</h3>
                 <p>Industrial chemicals, pharmaceuticals, and specialty chemicals adhering to global safety standards.</p>
                 {/* <span className="service-card-arrow">Learn more →</span> */}
-            </div>
-            </div>
+            {/* </div>
+            </div> */}
 
             <div className="service-card">
             <img src="https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775758012/textile_wc0dod.png" alt="Textiles" className="service-card-img" />
