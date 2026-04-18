@@ -11,7 +11,7 @@ const HeroServices = () => {
                 <span>Our Services</span>
             </div>
 
-            <h1 className="hero-title">What We Provide</h1>
+            <h1 className="hero-title">What We Serve</h1>
 
             <p className="hero-desc">
                 From precision-engineered spare parts to hand-forged artifacts,

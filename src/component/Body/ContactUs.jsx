@@ -87,7 +87,7 @@ const ContactUs = () => {
             </a>
             <div>
               <span>Working hours</span>
-              <strong>Mon - Sat, 9:00 AM - 7:00 PM</strong>
+              <strong>Mon - Sat, IST (GMT +5:30) 9:00 AM - 7:00 PM</strong>
             </div>
           </div>
         </aside>

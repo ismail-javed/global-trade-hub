@@ -36,12 +36,12 @@ function Hero() {
 
             <div className="hero-stats">
                 <div className="hero-stat">
-                <span className="num">10+</span>
+                <span className="num">27+</span>
                 <span className="lbl">Countries Served</span>
                 </div>
 
                 <div className="hero-stat">
-                <span className="num">12+</span>
+                <span className="num">1000+</span>
                 <span className="lbl">Product Categories</span>
                 </div>
 
