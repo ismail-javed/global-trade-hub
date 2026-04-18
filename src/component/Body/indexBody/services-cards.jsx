@@ -28,7 +28,7 @@ const Services = () => {
             </div>
             </a>
 
-            <a href="https://youtube.com" className="service-card" style={{ textDecoration: "none" }}>
+            <a href="" className="service-card" style={{ textDecoration: "none" }}>
             <img src="https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775758010/handicraft2_hbippu.png" alt="Handcrafted Artifacts" className="service-card-img" />
             <div className="service-card-body">
                 <h3>Handcrafted Artifacts</h3>
