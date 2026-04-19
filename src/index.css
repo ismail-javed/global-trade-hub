@@ -1242,6 +1242,7 @@
 }
 
 .contact-form-modern input,
+.contact-form-modern select,
 .contact-form-modern textarea {
   width: 100%;
   padding: 0.8rem 0.9rem;
@@ -1259,7 +1260,14 @@
   resize: vertical;
 }
 
+.phone-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.6rem;
+}
+
 .contact-form-modern input:focus,
+.contact-form-modern select:focus,
 .contact-form-modern textarea:focus {
   border-color: #4d84d9;
   box-shadow: 0 0 0 3px rgba(77, 132, 217, 0.16);
@@ -1322,6 +1330,10 @@
   }
 
   .contact-grid-two {
+    grid-template-columns: 1fr;
+  }
+
+  .phone-group {
     grid-template-columns: 1fr;
   }
 }

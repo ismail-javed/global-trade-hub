@@ -4,7 +4,10 @@ import Services from "./indexBody/services-cards";
 import WhyUs from "./indexBody/whyUs";
 import Hero from "./indexBody/Hero";
 import { formspreeEndpoint } from "../../config/forms.js";
+import { countryCodes } from "../../config/countryCodes.js";
 import '../../index.css';
+
+const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 
 
@@ -12,6 +15,8 @@ const Body = () => {
     const [form, setForm] = useState({
         name: "",
         email: "",
+        countrySearch: "India (+91)",
+        countryCode: "+91",
         phone: "",
         subject: "",
         message: "",
@@ -20,27 +25,96 @@ const Body = () => {
     const [submitStatus, setSubmitStatus] = useState({ type: "", message: "" });
 
     const handleChange = (e) => {
-        setForm({ ...form, [e.target.name]: e.target.value });
+        const { name, value } = e.target;
+        if (name === "countrySearch") {
+            const query = value.trim().toLowerCase();
+            const match = countryCodes.find((country) => {
+                const label = `${country.name} (${country.dial})`.toLowerCase();
+                return (
+                    label === query ||
+                    country.name.toLowerCase() === query ||
+                    country.dial.toLowerCase() === query
+                );
+            });
+
+            setForm({
+                ...form,
+                countrySearch: value,
+                countryCode: match ? match.dial : form.countryCode,
+            });
+            return;
+        }
+
+        setForm({ ...form, [name]: value });
     };
 
     const handleSubmit = async (e) => {
         e.preventDefault();
 
+        const localPhone = form.phone.replace(/\D/g, "");
+        const selectedCountry = countryCodes.find(
+            (country) =>
+                form.countrySearch.trim().toLowerCase() ===
+                    `${country.name} (${country.dial})`.toLowerCase() ||
+                form.countrySearch.trim().toLowerCase() === country.name.toLowerCase() ||
+                form.countrySearch.trim().toLowerCase() === country.dial.toLowerCase()
+        );
+
+        if (!selectedCountry) {
+            setSubmitStatus({
+                type: "error",
+                message: "Please select a valid country or country code from the list.",
+            });
+            return;
+        }
+
+        if (!emailRegex.test(form.email.trim())) {
+            setSubmitStatus({
+                type: "error",
+                message: "Please enter a valid email address.",
+            });
+            return;
+        }
+
+        if (!/^\d{4,14}$/.test(localPhone)) {
+            setSubmitStatus({
+                type: "error",
+                message: "Phone number must contain 4 to 14 digits.",
+            });
+            return;
+        }
+
         setIsSubmitting(true);
         setSubmitStatus({ type: "", message: "" });
 
         try {
+            const payload = {
+                ...form,
+                countryCode: selectedCountry.dial,
+                countrySearch: `${selectedCountry.name} (${selectedCountry.dial})`,
+                phone: `${selectedCountry.dial} ${localPhone}`.trim(),
+            };
+
             const response = await fetch(formspreeEndpoint, {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
                     Accept: "application/json",
                 },
-                body: JSON.stringify(form),
+                body: JSON.stringify(payload),
             });
 
             if (!response.ok) {
-                throw new Error("Submission failed");
+                let message = "Could not send your message. Please check your details.";
+                try {
+                    const data = await response.json();
+                    if (Array.isArray(data?.errors) && data.errors[0]?.message) {
+                        message = data.errors[0].message;
+                    }
+                } catch {
+                    // Keep fallback message when server response is not JSON.
+                }
+                throw new Error(message);
             }
 
             setSubmitStatus({
@@ -50,14 +124,16 @@ const Body = () => {
             setForm({
                 name: "",
                 email: "",
+                countrySearch: "India (+91)",
+                countryCode: "+91",
                 phone: "",
                 subject: "",
                 message: "",
             });
-        } catch {
+        } catch (error) {
             setSubmitStatus({
                 type: "error",
-                message: "Could not send your message. Please try again.",
+                message: error.message || "Could not send your message. Please try again.",
             });
         } finally {
             setIsSubmitting(false);
@@ -81,9 +157,9 @@ const Body = () => {
                     </p>
 
                     <div className="contact-info-list">
-                        <a href="mailto:jnssioverseas@gmail.com">
+                        <a href="mailto:support@jnssioverseas.info">
                             <span>Email</span>
-                            <strong>jnssioverseas@gmail.com</strong>
+                            <strong>support@jnssioverseas.info</strong>
                         </a>
                         <a href="tel:+919084399069">
                             <span>Phone</span>
@@ -91,7 +167,7 @@ const Body = () => {
                         </a>
                         <div>
                             <span>Working hours</span>
-                            <strong>Mon - Sat, 9:00 AM - 7:00 PM</strong>
+                            <strong>Mon - Sat, IST (GMT +5:30) 9:00 AM - 7:00 PM</strong>
                         </div>
                     </div>
                 </aside>
@@ -107,14 +183,37 @@ const Body = () => {
                                 onChange={handleChange}
                                 required
                             />
-                            <input
-                                type="tel"
-                                name="phone"
-                                placeholder="Phone number"
-                                value={form.phone}
-                                onChange={handleChange}
-                                required
-                            />
+                            <div className="phone-group">
+                                <input
+                                    type="text"
+                                    name="countrySearch"
+                                    list="country-code-list-home"
+                                    placeholder="Country or code"
+                                    value={form.countrySearch}
+                                    onChange={handleChange}
+                                    aria-label="Country name or code"
+                                    required
+                                />
+                                <datalist id="country-code-list-home">
+                                    {countryCodes.map((country) => (
+                                        <option
+                                            key={`${country.name}-${country.dial}`}
+                                            value={`${country.name} (${country.dial})`}
+                                        />
+                                    ))}
+                                </datalist>
+                                <input
+                                    type="tel"
+                                    name="phone"
+                                    placeholder="Phone number (without country code)"
+                                    value={form.phone}
+                                    onChange={handleChange}
+                                    inputMode="numeric"
+                                    pattern="[0-9]{4,14}"
+                                    title="Enter 4 to 14 digits."
+                                    required
+                                />
+                            </div>
                         </div>
                         <input
                             type="email"

@@ -51,7 +51,7 @@
                 <h4>Contact</h4>
 
                 <div className="contact-line">
-                <span>📧 jnssioverseas@gmail.com</span>
+                <span>📧 support@jnssioverseas.info</span>
                 </div>
 
                 <div className="contact-line">
