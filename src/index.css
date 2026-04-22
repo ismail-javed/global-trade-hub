@@ -476,23 +476,37 @@
         }
 
         .flag-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.5rem;
+            flex-shrink: 0;
+        }
+
+        .flag-image-wrap {
             width: 50px;
             height: 50px;
             border-radius: 50%;
             overflow: hidden;
             border: 2px solid rgba(255,255,255,0.12);
-            flex-shrink: 0;
             transition: transform 0.2s;
         }
 
-        .flag-item:hover {
+        .flag-item:hover .flag-image-wrap {
             transform: scale(1.12);
         }
 
-        .flag-item img {
+        .flag-image-wrap img {
             width: 100%;
             height: 100%;
             object-fit: cover;
+        }
+
+        .flag-country-name {
+            font-size: 0.68rem;
+            color: rgba(255,255,255,0.88);
+            line-height: 1;
+            white-space: nowrap;
         }
 
         /* ===== SERVICES ===== */

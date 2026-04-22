@@ -1,6 +1,7 @@
 import { defineConfig, loadEnv } from 'vite'
 import react, { reactCompilerPreset } from '@vitejs/plugin-react'
 import babel from '@rolldown/plugin-babel'
+import { fileURLToPath, URL } from 'node:url'
 
 // https://vite.dev/config/
 export default defineConfig(({ mode }) => {
@@ -11,6 +12,11 @@ export default defineConfig(({ mode }) => {
   )
 
   return {
+    resolve: {
+      alias: {
+        '@data': fileURLToPath(new URL('../data', import.meta.url)),
+      },
+    },
     plugins: [
       react(),
       babel({ presets: [reactCompilerPreset()] }),
