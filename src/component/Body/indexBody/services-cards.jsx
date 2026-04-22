@@ -22,9 +22,7 @@ const Services = () => {
             <a href="#spare-parts" className="service-card" style={{ textDecoration: "none" }}>
             <img src="https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775758012/SpareParts_wkdta5.png" alt="Spare Parts" className="service-card-img" />
             <div className="service-card-body">
-                <h3>Spare Parts git add .
-git commit -m "Describe your little changes"
-git push</h3>
+                <h3>Spare Parts</h3>
                 <p>High-quality spare parts for various industries, ensuring durability, precision, and global standards.</p>
                 {/* <span className="service-card-arrow">Learn more →</span> */}
             </div>
