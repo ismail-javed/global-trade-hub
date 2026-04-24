@@ -15,7 +15,7 @@ const Body = () => {
     const [form, setForm] = useState({
         name: "",
         email: "",
-        countrySearch: "India (+91)",
+        countrySearch: "",
         countryCode: "+91",
         phone: "",
         subject: "",

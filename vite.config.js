@@ -15,7 +15,12 @@ export default defineConfig(({ mode }) => {
   return {
     resolve: {
       alias: {
-        '@data': fileURLToPath(new URL('./src/data', import.meta.url)),
+        '@data': fileURLToPath(new URL('../data', import.meta.url)),
+      },
+    },
+    server: {
+      fs: {
+        allow: [fileURLToPath(new URL('..', import.meta.url))],
       },
     },
     plugins: [

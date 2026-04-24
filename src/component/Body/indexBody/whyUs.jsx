@@ -27,7 +27,7 @@
                 <div className="advantage-text">
                     <h4>Extensive Global Network</h4>
                     <p>
-                    A vast network of suppliers and logistics partners ensuring efficient delivery to over 10 countries.
+                    A vast network of suppliers and logistics partners ensuring efficient delivery to over 27+ countries.
                     </p>
                 </div>
                 </div>

@@ -14,6 +14,7 @@ import ContactUs from "./component/Body/ContactUs.jsx";
 import About from "./component/Body/indexBody/About.jsx";
 import HeroServices from "./component/Body/HeroServices.jsx";
 import NotFound from "./component/Body/NotFound.jsx";
+import ServiceCategoryPage from "./component/Body/ServiceCategoryPage.jsx";
 
 // ✅ Router
 const appRouter = createBrowserRouter([
@@ -25,6 +26,7 @@ const appRouter = createBrowserRouter([
       { path: "/about", element: <About /> },
       { path: "/contact", element: <ContactUs /> },
       { path: "/services", element: <HeroServices /> },
+      { path: "/services/:slug", element: <ServiceCategoryPage /> },
       { path: "*", element: <NotFound /> },
     ],
   },

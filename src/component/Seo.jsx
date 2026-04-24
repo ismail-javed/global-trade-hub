@@ -36,7 +36,14 @@ const NOT_FOUND = {
 
 export default function Seo() {
   const { pathname } = useLocation();
-  const meta = ROUTES[pathname] ?? NOT_FOUND;
+  const isServiceDetail = pathname.startsWith("/services/");
+  const meta = isServiceDetail
+    ? {
+        title: "Service Products | JNSSI Overseas",
+        description:
+          "Browse product items by service category at JNSSI Overseas, including agriculture, shipping, handicrafts, and more.",
+      }
+    : ROUTES[pathname] ?? NOT_FOUND;
   const path = pathname.replace(/\/$/, "") || "/";
   const canonical = path === "/" ? `${siteUrl}/` : `${siteUrl}${path}`;
 

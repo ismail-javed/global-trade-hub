@@ -609,6 +609,19 @@
             color: rgba(255,255,255,0.55);
         }
 
+        .service-card.global-shipping-card {
+            background: var(--navy);
+            border-color: var(--navy);
+        }
+
+        .service-card.global-shipping-card .service-card-body h3 {
+            color: var(--white);
+        }
+
+        .service-card.global-shipping-card .service-card-body p {
+            color: rgba(255,255,255,0.75);
+        }
+
         /* ===== WHY CHOOSE US ===== */
         .advantages-section {
             margin-top: 6rem;
@@ -1553,4 +1566,85 @@ img {
     height: 50px;
     font-size: 1.6rem;
   }
+}
+
+.service-detail-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 7rem 1.5rem 4rem;
+}
+
+.service-detail-header {
+  margin-bottom: 2rem;
+}
+
+.service-detail-kicker {
+  color: var(--gold);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.service-detail-header h1 {
+  color: var(--navy);
+  margin-top: 0.4rem;
+}
+
+.service-detail-desc {
+  margin-top: 0.9rem;
+  color: var(--text-mid);
+  max-width: 760px;
+  line-height: 1.7;
+}
+
+.service-products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.2rem;
+}
+
+.service-product-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: 0 10px 24px rgba(11, 29, 58, 0.06);
+}
+
+.service-product-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+}
+
+.service-product-body {
+  padding: 0.9rem 1rem 1rem;
+}
+
+.service-product-body h3 {
+  color: var(--navy);
+  font-size: 1rem;
+  margin-bottom: 0.35rem;
+}
+
+.service-subcategory {
+  color: var(--gold);
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 0.5rem;
+}
+
+.service-product-body p {
+  color: var(--text-mid);
+  font-size: 0.88rem;
+  line-height: 1.6;
+}
+
+.service-empty-state {
+  color: var(--text-mid);
+  font-size: 0.95rem;
 }

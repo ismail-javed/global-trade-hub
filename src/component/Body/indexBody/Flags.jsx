@@ -1,7 +1,7 @@
 import mocData from "@data/moc_Data.json";
 
 const flagsCategory = mocData.categories.find(
-  (category) => category.category_name === "flags"
+  (category) => category.category_flag === "flags"
 );
 const flagsData = flagsCategory?.flags_list ?? [];
 
