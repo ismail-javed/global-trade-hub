@@ -1,295 +1,641 @@
 {
-  "categories": [
-    {
-      "category_name": "flags",
-      "flags_list": [
+    "categories": [
         {
-          "id": 1,
-          "country": "India",
-          "slug": "india-flag",
-          "category": "flags",
-          "images": [
-            "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775757986/INDIA_n2dxda.png"
-          ],
-          "alt": "Indian Flag",
-          "price_usd": 2.5,
-          "min_order_qty": 100,
-          "in_stock": true
+          "category_flag": "flags",
+          "flags_list": [
+              {
+                "id": 1,
+                "country": "India",
+                "slug": "india-flag",
+                "category": "flags",
+                "images": [
+                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775757986/INDIA_n2dxda.png"
+                ],
+                "alt": "Indian Flag"
+              },
+              {
+                "id": 2,
+                "country": "Australia",
+                "slug": "australia-flag",
+                "category": "flags",
+                "images": [
+                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776618035/Australia_fdhrqb.png"
+                ],
+                "alt": "Australia Flag"
+              },
+              {
+                "id": 3,
+                "country": "USA",
+                "slug": "usa-flag",
+                "category": "flags",
+                "images": [
+                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775757987/USA_cixmvc.png"
+                ],
+                "alt": "USA Flag"
+              },
+              {
+                "id": 4,
+                "country": "UAE",
+                "slug": "uae-flag",
+                "category": "flags",
+                "images": [
+                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776264005/UAE_i7acta.png"
+                ],
+                "alt": "UAE Flag"
+              },
+              {
+                "id": 5,
+                "country": "UK",
+                "slug": "uk-flag",
+                "category": "flags",
+                "images": [
+                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775757988/uk_zfovql.png"
+                ],
+                "alt": "UK Flag"
+              },
+              {
+                "id": 6,
+                "country": "Canada",
+                "slug": "canada-flag",
+                "category": "flags",
+                "images": [
+                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775757986/canada_usiclm.png"
+                ],
+                "alt": "Canada Flag"
+              },
+              {
+                "id": 7,
+                "country": "Saudi Arabia",
+                "slug": "saudi-arabia-flag",
+                "category": "flags",
+                "images": [
+                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776618861/Saudi_pnel2w.png"
+                ],
+                "alt": "Saudi Arabia Flag"
+              },
+              {
+                "id": 8,
+                "country": "Germany",
+                "slug": "germany-flag",
+                "category": "flags",
+                "images": [
+                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776856067/Germany_azhznx.png"
+                ],
+                "alt": "Germany Flag"
+              },
+              {
+                "id": 9,
+                "country": "France",
+                "slug": "france-flag",
+                "category": "flags",
+                "images": [
+                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776621827/France_oi6tj8.png"
+                ],
+                "alt": "France Flag"
+              },
+              {
+                "id": 10,
+                "country": "Italy",
+                "slug": "italy-flag",
+                "category": "flags",
+                "images": [
+                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776856258/Italy_yhrlan.png"
+                ],
+                "alt": "Italy Flag"
+              },
+              {
+                "id": 11,
+                "country": "Austria",
+                "slug": "austria-flag",
+                "category": "flags",
+                "images": [
+                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776620365/Austria_slcmpw.png"
+                ],
+                "alt": "Austria Flag"
+              },
+              {
+                "id": 12,
+                "country": "Ireland",
+                "slug": "ireland-flag",
+                "category": "flags",
+                "images": [
+                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776618861/ireland_l2xebs.png"
+                ],
+                "alt": "Ireland Flag"
+              },
+              {
+                "id": 13,
+                "country": "Belgium",
+                "slug": "belgium-flag",
+                "category": "flags",
+                "images": [
+                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776618861/Belgium_h48rqq.png"
+                ],
+                "alt": "Belgium Flag"
+              },
+              {
+                "id": 14,
+                "country": "Turkey",
+                "slug": "turkey-flag",
+                "category": "flags",
+                "images": [
+                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776620119/Turkey_t4my9c.png"
+                ],
+                "alt": "Turkey Flag"
+              },
+              {
+                "id": 15,
+                "country": "Bulgaria",
+                "slug": "bulgaria-flag",
+                "category": "flags",
+                "images": [
+                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776620688/Bulgaria_v81a3n.png"
+                ],
+                "alt": "Bulgaria Flag"
+              },
+              {
+                "id": 16,
+                "country": "Hungary",
+                "slug": "hungary-flag",
+                "category": "flags",
+                "images": [
+                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776620822/Hungry_pvdtrw.png"
+                ],
+                "alt": "Hungary Flag"
+              },
+              {
+                "id": 17,
+                "country": "Sweden",
+                "slug": "sweden-flag",
+                "category": "flags",
+                "images": [
+                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776621834/Sweden_scl60z.png"
+                ],
+                "alt": "Sweden Flag"
+              },
+              {
+                "id": 18,
+                "country": "Spain",
+                "slug": "spain-flag",
+                "category": "flags",
+                "images": [
+                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776621833/Spain_fk0enu.png"
+                ],
+                "alt": "Spain Flag",
+                "price_usd": 2.5
+              },
+              {
+                "id": 19,
+                "country": "Slovenia",
+                "slug": "slovenia-flag",
+                "category": "flags",
+                "images": [
+                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776621832/Slovenia_imuidi.png"
+                ],
+                "alt": "Slovenia Flag"
+              },
+              {
+                "id": 20,
+                "country": "Romania",
+                "slug": "romania-flag",
+                "category": "flags",
+                "images": [
+                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776621829/romania_sjabai.png"
+                ],
+                "alt": "Romania Flag"
+              },
+              {
+                "id": 21,
+                "country": "Portugal",
+                "slug": "portugal-flag",
+                "category": "flags",
+                "images": [
+                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776621828/portugal_izofzb.png"
+                ],
+                "alt": "Portugal Flag"
+              },
+              {
+                "id": 22,
+                "country": "Poland",
+                "slug": "poland-flag",
+                "category": "flags",
+                "images": [
+                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776621827/poland_t17ilo.png"
+                ],
+                "alt": "Poland Flag"
+              }
+            ]
         },
         {
-          "id": 2,
-          "country": "Australia",
-          "slug": "australia-flag",
-          "category": "flags",
-          "images": [
-            "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776618035/Australia_fdhrqb.png"
-          ],
-          "alt": "Australia Flag",
-          "price_usd": 2.5,
-          "min_order_qty": 100,
-          "in_stock": true
-        },
+            "general_category" : "service-items",
+            "category_name": "Agriculture",
+            "category_image": "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775758010/agriculture_tvh4rc.png",
+            "category_description": "Premium spices, grains, and organic produce sourced from India's most fertile farming regions.",
+
+            
+            "subcategories": [
+              
+              {
+                "name": "vegetables",
+                "items": [
+                  {
+                    "id": 10101,
+                    "name": "Potatoes",
+                    "slug": "potatoes",
+                    "images": [
+                      "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776782043/patato-bag_zwi3uw.png"
+                    ],
+                    "description": "Export-quality potatoes",
+                    "price": 1.5,
+                    "currency": "AED"
+                  },
+                  {
+                    "id": 10102,
+                    "name": "Onions",
+                    "slug": "onions",
+                    "images": [
+                      "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776782041/onion_dfldok.png"
+                    ],
+                    "description": "Export-quality onions",
+                    "price": 2.0,
+                    "currency": "AED"
+                  },
+                  {
+                    "id": 10103,
+                    "name": "Carrots",
+                    "slug": "carrots",
+                    "images": [
+                      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNssYuyDQtMEqAN0UTLO2U6zsB_Qes2jIxGqzNjR10gsDykWpeZd7q_VwMaa91Va8OW_EhfinDk4LW4zs5xDRrgEjKINIXfRLQg1_gyuK21g&s=10"
+                    ],
+                    "description": "Fresh carrots",
+                    "price": 2.5,
+                    "currency": "AED"
+                  }
+                ]
+              },
+          
+              {
+                "name": "fruits",
+                "items": [
+                  {
+                    "id": 10201,
+                    "name": "Apples",
+                    "slug": "apples",
+                    "images": [
+                      "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1777043892/Apple_ndxqlf.png"
+                    ],
+                    "description": "Fresh apples",
+                    "price": 4.5,
+                    "currency": "AED"
+                  },
+                  {
+                    "id": 10202,
+                    "name": "Oranges",
+                    "slug": "oranges",
+                    "images": [
+                      "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1777043893/Orange_wxpeot.png"
+                    ],
+                    "description": "Fresh oranges",
+                    "price": 5.0,
+                    "currency": "AED"
+                  },
+                 
+                  {
+                    "id": 10203,
+                    "name": "Coconut",
+                    "slug": "coconut",
+                    "images": [
+                      "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776782043/Nariyal_btyftg.png"
+                    ],
+                    "description": "Fresh coconuts",
+                    "price": 4.0,
+                    "currency": "AED"
+                  },
+                  {
+                    "id": 10204,
+                    "name": "Banana",
+                    "slug": "Banana",
+                    "images": [
+                      "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1777044740/Banana_sc2j6e.png"
+                    ],
+                    "description": "Fresh ",
+                    "price": 4.0,
+                    "currency": "AED"
+                  },
+                  {
+                    "id": 10205,
+                    "name": "Pine Apple",
+                    "slug": "Pine Apple",
+                    "images": [
+                      "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1777044797/71_qAJehpkL_fxo7yp.jpg",
+                      "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1777044796/1800ss_getty_rf_pineapples_brqgxe.webp"
+                    ],
+                    "description": "Fresh Pine Apple",
+                    "price": 4.0,
+                    "currency": "AED"
+                  },
+                  {
+                    "id": 10206,
+                    "name": "Mango",
+                    "slug": "Mango",
+                    "images": [
+                      "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1777044905/vibrant.mango.indica.tree.fruit._dlmoxu.jpg",
+                       "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1777044905/mango_fu7t2f.jpg"
+                    ],
+                    "description": "Fresh ",
+                    "price": 4.0,
+                    "currency": "AED"
+                  },
+                  {
+                    "id": 10207,
+                    "name": "Guava",
+                    "slug": "Guava",
+                    "images": [
+                      "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1777044826/51z5USsZaAL_v1y7k4.jpg",
+                      "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1777044825/Gauvava600x300_gmwwzx.jpg"
+                    ],
+                    "description": "Fresh ",
+                    "price": 4.0,
+                    "currency": "AED"
+                  },
+                  {
+                    "id": 10208,
+                    "name": "Star Fruits",
+                    "slug": "Star Fruits",
+                    "images": [
+                      "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1777045041/iStock-518225859-e1699245319339_q68twp.jpg"
+                    ],
+                    "description": "Fresh ",
+                    "price": 4.0,
+                    "currency": "AED"
+                  },
+                  {
+                    "id": 10209,
+                    "name": "Grapes",
+                    "slug": "Grapes",
+                    "images": [
+                      "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1777044980/grapes_qy2ex1.png",
+                      "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1777044981/271072_7931568161023_gxeiiq.jpg"
+                    ],
+                    "description": "Fresh Grapes",
+                    "price": 4.0,
+                    "currency": "AED"
+                  }
+                  
+                ]
+              },
+          
+              {
+                "name": "grains",
+                "items": [
+                  {
+                    "id": 10301,
+                    "name": "Basmati Rice",
+                    "slug": "basmati-rice",
+                    "images": [
+                      "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776782045/Rice2_cfwilu.png"
+                    ],
+                    "description": "Premium export-quality basmati rice",
+                    "price": 6.0,
+                    "currency": "AED"
+                  }
+                ]
+              }
+          
+            ]
+          },
+
+      {
+          "general_category" : "service-items",
+        "category_name": "spare_parts",
+        "category_image": "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775758012/SpareParts_wkdta5.png",
+            "category_description":   "High-quality spare parts for various industries, ensuring durability, precision, and global standards.",
+
+            "items": [
+              {
+                "id": 20101,
+                "name": "spare parts ",
+                "slug": "Spare Parts ",
+                "images": [
+                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1777045362/gear-spare-parts-background-workshop-260nw-2483737041_lquzan.jpg"
+                ],
+                "description": "We manufacture the gears according to your dimensions",
+                "price": "based upon the requirement",
+                "currency": "AED"
+              }
+            
+        ]
+      },
+
+      {
+          "general_category" : "service-items",
+        "category_name": "Furniture & Home Decor",
+        "category_image": "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775758011/home-decore_osh38j.png",
+        "category_description": "Traditional Indian designs and contemporary pieces for global home and lifestyle markets.",
+            "items": [
+              {
+                "id": 30101,
+                "name": "",
+                "slug": "",
+                "images": [
+                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776782043/patato-bag_zwi3uw.png",
+                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776782042/Patato_obczas.png"
+                ],
+                "description": "High-quality export potatoes with multiple varieties.",
+                "price": 1.5,
+                "currency": "AED"
+              }
+            
+        ]
+      } ,
+
         {
-          "id": 3,
-          "country": "USA",
-          "slug": "usa-flag",
-          "category": "flags",
-          "images": [
-            "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775757987/USA_cixmvc.png"
-          ],
-          "alt": "USA Flag",
-          "price_usd": 2.5,
-          "min_order_qty": 100,
-          "in_stock": true
-        },
-        {
-          "id": 4,
-          "country": "UAE",
-          "slug": "uae-flag",
-          "category": "flags",
-          "images": [
-            "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776264005/UAE_i7acta.png"
-          ],
-          "alt": "UAE Flag",
-          "price_usd": 2.5,
-          "min_order_qty": 100,
-          "in_stock": true
-        },
-        {
-          "id": 5,
-          "country": "UK",
-          "slug": "uk-flag",
-          "category": "flags",
-          "images": [
-            "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775757988/uk_zfovql.png"
-          ],
-          "alt": "UK Flag",
-          "price_usd": 2.5,
-          "min_order_qty": 100,
-          "in_stock": true
-        },
-        {
-          "id": 6,
-          "country": "Canada",
-          "slug": "canada-flag",
-          "category": "flags",
-          "images": [
-            "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775757986/canada_usiclm.png"
-          ],
-          "alt": "Canada Flag",
-          "price_usd": 2.5,
-          "min_order_qty": 100,
-          "in_stock": true
-        },
-        {
-          "id": 7,
-          "country": "Saudi Arabia",
-          "slug": "saudi-arabia-flag",
-          "category": "flags",
-          "images": [
-            "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776618861/Saudi_pnel2w.png"
-          ],
-          "alt": "Saudi Arabia Flag",
-          "price_usd": 2.5,
-          "min_order_qty": 100,
-          "in_stock": true
-        },
-        {
-          "id": 8,
-          "country": "Germany",
-          "slug": "germany-flag",
-          "category": "flags",
-          "images": [
-            "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776856067/Germany_azhznx.png"
-          ],
-          "alt": "Germany Flag",
-          "price_usd": 2.5,
-          "min_order_qty": 100,
-          "in_stock": true
-        },
-        {
-          "id": 9,
-          "country": "France",
-          "slug": "france-flag",
-          "category": "flags",
-          "images": [
-            "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776621827/France_oi6tj8.png"
-          ],
-          "alt": "France Flag",
-          "price_usd": 2.5,
-          "min_order_qty": 100,
-          "in_stock": true
-        },
-        {
-          "id": 10,
-          "country": "Italy",
-          "slug": "italy-flag",
-          "category": "flags",
-          "images": [
-            "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776856258/Italy_yhrlan.png"
-          ],
-          "alt": "Italy Flag",
-          "price_usd": 2.5,
-          "min_order_qty": 100,
-          "in_stock": true
-        },
-        {
-          "id": 11,
-          "country": "Austria",
-          "slug": "austria-flag",
-          "category": "flags",
-          "images": [
-            "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776620365/Austria_slcmpw.png"
-          ],
-          "alt": "Austria Flag",
-          "price_usd": 2.5,
-          "min_order_qty": 100,
-          "in_stock": true
-        },
-        {
-          "id": 12,
-          "country": "Ireland",
-          "slug": "ireland-flag",
-          "category": "flags",
-          "images": [
-            "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776618861/ireland_l2xebs.png"
-          ],
-          "alt": "Ireland Flag",
-          "price_usd": 2.5,
-          "min_order_qty": 100,
-          "in_stock": true
-        },
-        {
-          "id": 13,
-          "country": "Belgium",
-          "slug": "belgium-flag",
-          "category": "flags",
-          "images": [
-            "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776618861/Belgium_h48rqq.png"
-          ],
-          "alt": "Belgium Flag",
-          "price_usd": 2.5,
-          "min_order_qty": 100,
-          "in_stock": true
-        },
-        {
-          "id": 14,
-          "country": "Turkey",
-          "slug": "turkey-flag",
-          "category": "flags",
-          "images": [
-            "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776620119/Turkey_t4my9c.png"
-          ],
-          "alt": "Turkey Flag",
-          "price_usd": 2.5,
-          "min_order_qty": 100,
-          "in_stock": true
-        },
-        {
-          "id": 15,
-          "country": "Bulgaria",
-          "slug": "bulgaria-flag",
-          "category": "flags",
-          "images": [
-            "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776620688/Bulgaria_v81a3n.png"
-          ],
-          "alt": "Bulgaria Flag",
-          "price_usd": 2.5,
-          "min_order_qty": 100,
-          "in_stock": true
-        },
-        {
-          "id": 16,
-          "country": "Hungary",
-          "slug": "hungary-flag",
-          "category": "flags",
-          "images": [
-            "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776620822/Hungry_pvdtrw.png"
-          ],
-          "alt": "Hungary Flag",
-          "price_usd": 2.5,
-          "min_order_qty": 100,
-          "in_stock": true
-        },
-        {
-          "id": 17,
-          "country": "Sweden",
-          "slug": "sweden-flag",
-          "category": "flags",
-          "images": [
-            "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776621834/Sweden_scl60z.png"
-          ],
-          "alt": "Sweden Flag",
-          "price_usd": 2.5,
-          "min_order_qty": 100,
-          "in_stock": true
-        },
-        {
-          "id": 18,
-          "country": "Spain",
-          "slug": "spain-flag",
-          "category": "flags",
-          "images": [
-            "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776621833/Spain_fk0enu.png"
-          ],
-          "alt": "Spain Flag",
-          "price_usd": 2.5,
-          "min_order_qty": 100,
-          "in_stock": true
-        },
-        {
-          "id": 19,
-          "country": "Slovenia",
-          "slug": "slovenia-flag",
-          "category": "flags",
-          "images": [
-            "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776621832/Slovenia_imuidi.png"
-          ],
-          "alt": "Slovenia Flag",
-          "price_usd": 2.5,
-          "min_order_qty": 100,
-          "in_stock": true
-        },
-        {
-          "id": 20,
-          "country": "Romania",
-          "slug": "romania-flag",
-          "category": "flags",
-          "images": [
-            "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776621829/romania_sjabai.png"
-          ],
-          "alt": "Romania Flag",
-          "price_usd": 2.5,
-          "min_order_qty": 100,
-          "in_stock": true
-        },
-        {
-          "id": 21,
-          "country": "Portugal",
-          "slug": "portugal-flag",
-          "category": "flags",
-          "images": [
-            "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776621828/portugal_izofzb.png"
-          ],
-          "alt": "Portugal Flag",
-          "price_usd": 2.5,
-          "min_order_qty": 100,
-          "in_stock": true
-        },
-        {
-          "id": 22,
-          "country": "Poland",
-          "slug": "poland-flag",
-          "category": "flags",
-          "images": [
-            "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776621827/poland_t17ilo.png"
-          ],
-          "alt": "Poland Flag",
-          "price_usd": 2.5,
-          "min_order_qty": 100,
-          "in_stock": true
-        }
-      ]
-    }
-  ]
+        "general_category" : "service-items",
+        "category_name": "Medical Supplies",
+        "category_image": "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775758011/medical-supplies_ll9qfl.png",
+        "category_description": "PPE, medical devices, and healthcare products adhering to global health and safety standards.",
+            "items": [
+              {
+                "id": 40101,
+                "name": "",
+                "slug": "",
+                "images": [
+                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776782043/patato-bag_zwi3uw.png",
+                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776782042/Patato_obczas.png"
+                ],
+                "description": "High-quality export potatoes with multiple varieties.",
+                "price": 1.5,
+                "currency": "AED"
+              }
+            
+        ]
+      }     ,
+
+
+      
+      {
+          "general_category" : "service-items",
+        "category_name": "Handi-Crafts",
+        "category_image": "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775758010/handicraft2_hbippu.png",
+        "category_description": "Authentic handcrafted artifacts reflecting India's rich heritage, perfect for collectors and global markets.",
+            "items": [
+              {
+                "id": 50101,
+                "name": "",
+                "slug": "",
+                "images": [
+                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776782043/patato-bag_zwi3uw.png",
+                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776782042/Patato_obczas.png"
+                ],
+                "description": "High-quality export potatoes with multiple varieties.",
+                "price": 1.5,
+                "currency": "AED"
+              }
+            
+        ]
+      },
+
+
+
+      {
+          "general_category" : "service-items",
+        "category_name": "Electronics & Gadgets",
+        "category_image": "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775758009/electronics_fpone5.png",
+        "category_description": "Consumer electronics, smart devices, and innovative tech products meeting global quality standards.",
+            "items": [
+              {
+                "id": 60101,
+                "name": "",
+                "slug": "",
+                "images": [
+                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776782043/patato-bag_zwi3uw.png",
+                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776782042/Patato_obczas.png"
+                ],
+                "description": "High-quality export potatoes with multiple varieties.",
+                "price": 1.5,
+                "currency": "AED"
+              }
+            
+        ]
+      },
+
+
+      {
+        "general_category" : "service-items",
+        "category_name": "Jwellery & accessory",
+        "category_image": "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775758011/jewellery_uzwijc.png",
+        "category_description": "Exquisite traditional and contemporary jewellery pieces crafted for global markets.",
+            "items": [
+              {
+                "id": 70101,
+                "name": "",
+                "slug": "",
+                "images": [
+                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776782043/patato-bag_zwi3uw.png",
+                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776782042/Patato_obczas.png"
+                ],
+                "description": "High-quality export potatoes with multiple varieties.",
+                "price": 1.5,
+                "currency": "AED"
+              }
+            
+        ]
+      },
+
+      {
+        "general_category" : "service-items",
+        "category_name": "Food & Beverages ",
+        "category_image": "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775758010/food_rigycr.png",
+        "category_description": "Fresh produce, processed foods, and beverages catering to a diverse range of global markets.",
+            "items": [
+              {
+                "id": 80101,
+                "name": "",
+                "slug": "",
+                "images": [
+                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776782043/patato-bag_zwi3uw.png",
+                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776782042/Patato_obczas.png"
+                ],
+                "description": "High-quality export potatoes with multiple varieties.",
+                "price": 1.5,
+                "currency": "AED"
+              }
+            
+        ]
+      },
+      {
+        "general_category" : "service-items",
+        "category_name": "Automotive Components",
+        "category_image": "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775758009/automotive_vnpxzh.png",
+        "category_description": "Engine parts, accessories, and aftermarket products catering to global automotive markets.",
+            "items": [
+              {
+                "id": 90101,
+                "name": "",
+                "slug": "",
+                "images": [
+                  
+                ],
+                "description": "High-quality export potatoes with multiple varieties.",
+                "price": 1.5,
+                "currency": "AED"
+              }
+            
+        ]
+      },
+
+      {
+        "general_category" : "service-items",
+        "category_name": "Textiles & Febrics",
+        "category_image": "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775758012/textile_wc0dod.png",
+        "category_description": "Exquisite traditional and contemporary jewellery pieces crafted for global markets.",
+            "items": [
+              {
+                "id": 100101,
+                "name": "",
+                "slug": "",
+                "images": [
+                  
+                ],
+                "description": "",
+                "price": 1.5,
+                "currency": "AED"
+              }
+            
+        ]
+      },
+      {
+        "general_category" : "service-items",
+        "category_name": "Global Shipping",
+        "category_image": "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775758011/Shipping_bx7rlo.png",
+        "category_description": "Reliable worldwide logistics with secure packaging and timely delivery across 27+ countries.",
+            "items": [
+              {
+                "id": 100101,
+                "name": "",
+                "slug": "",
+                "images": [
+                  
+                ],
+                "description": "",
+                "price": 1.5,
+                "currency": "AED"
+              }
+            
+        ]
+      }
+
+
+
+
+
+
+
+
+     
+      
+
+
+    ]
 }
+
