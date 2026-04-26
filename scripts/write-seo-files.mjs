@@ -29,6 +29,43 @@ function readSiteUrl() {
 }
 
 const base = readSiteUrl()
+const dataPath = path.join(root, 'src', 'data', 'moc_Data.json')
+
+function normalizeServiceSlug(category) {
+  if (!category || typeof category !== 'object') return null
+  const slugify = (value) =>
+    value
+      .toString()
+      .trim()
+      .toLowerCase()
+      .replace(/[^a-z0-9\s-]/g, '')
+      .replace(/\s+/g, '-')
+  if (typeof category.slug === 'string' && category.slug.trim()) {
+    return slugify(category.slug)
+  }
+  if (typeof category.category_name === 'string' && category.category_name.trim()) {
+    return slugify(category.category_name)
+  }
+  return null
+}
+
+function readServicePaths() {
+  if (!fs.existsSync(dataPath)) return []
+  try {
+    const raw = fs.readFileSync(dataPath, 'utf8')
+    const parsed = JSON.parse(raw)
+    const categories = Array.isArray(parsed?.categories) ? parsed.categories : []
+    const slugs = categories
+      .filter((category) => category?.general_category === 'service-items')
+      .map(normalizeServiceSlug)
+      .filter(Boolean)
+    return [...new Set(slugs)].map((slug) => `/services/${slug}`)
+  } catch (error) {
+    console.warn('Could not parse service data for sitemap:', error.message)
+    return []
+  }
+}
+
 const robots = `User-agent: *
 Allow: /
 
@@ -36,7 +73,7 @@ Sitemap: ${base}/sitemap.xml
 `
 
 const today = new Date().toISOString().slice(0, 10)
-const paths = ['/', '/about', '/services', '/contact']
+const paths = ['/', '/about', '/services', '/contact', ...readServicePaths()]
 const urlEntries = paths
   .map((p) => {
     const loc = p === '/' ? `${base}/` : `${base}${p}`

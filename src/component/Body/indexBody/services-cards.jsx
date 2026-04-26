@@ -7,6 +7,14 @@ const formatTitle = (value = "") =>
     .replace(/\b\w/g, (char) => char.toUpperCase())
     .trim();
 
+const toSlug = (value = "") =>
+  value
+    .toString()
+    .trim()
+    .toLowerCase()
+    .replace(/[^a-z0-9\s-]/g, "")
+    .replace(/\s+/g, "-");
+
 const dynamicServices = Array.isArray(mocData?.categories)
   ? mocData.categories
       .filter((category) => category.general_category === "service-items")
@@ -14,7 +22,7 @@ const dynamicServices = Array.isArray(mocData?.categories)
         category_name: formatTitle(category.category_name),
         category_image: category.category_image,
         category_description: category.category_description,
-        slug: category.slug || category.category_name?.toLowerCase().replace(/\s+/g, "-"),
+        slug: toSlug(category.slug || category.category_name || ""),
       }))
       .filter((category) => category.category_name && category.category_image)
   : [];

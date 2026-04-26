@@ -4,14 +4,16 @@ import mocData from "@data/moc_Data.json";
 const normalize = (value = "") =>
   value.toString().trim().toLowerCase().replace(/[-_]+/g, " ");
 
-const categoryToSlug = (category = {}) =>
-  category.slug ||
-  category.category_name
-    ?.toString()
+const toSlug = (value = "") =>
+  value
+    .toString()
     .trim()
     .toLowerCase()
     .replace(/[^a-z0-9\s-]/g, "")
     .replace(/\s+/g, "-");
+
+const categoryToSlug = (category = {}) =>
+  toSlug(category.slug || category.category_name || "");
 
 const toTitleCase = (value = "") =>
   value

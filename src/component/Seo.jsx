@@ -37,6 +37,7 @@ const NOT_FOUND = {
 export default function Seo() {
   const { pathname } = useLocation();
   const isServiceDetail = pathname.startsWith("/services/");
+  const isKnownRoute = Boolean(ROUTES[pathname]) || isServiceDetail || pathname === "/";
   const meta = isServiceDetail
     ? {
         title: "Service Products | JNSSI Overseas",
@@ -62,6 +63,7 @@ export default function Seo() {
       <meta name="twitter:title" content={meta.title} />
       <meta name="twitter:description" content={meta.description} />
       <meta name="twitter:image" content={OG_IMAGE} />
+      {!isKnownRoute ? <meta name="robots" content="noindex, nofollow" /> : null}
     </Helmet>
   );
 }
