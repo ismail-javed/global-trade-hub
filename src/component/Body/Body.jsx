@@ -14,7 +14,7 @@ const Body = () => {
         <Flags />
         <Services />
         <WhyUs />
-        <ContactSection wrapperClassName="contact-page home-contact" datalistId="country-code-list-home" />
+       
 
         </div>
 
