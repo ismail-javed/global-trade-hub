@@ -2,6 +2,7 @@ import { Outlet } from "react-router-dom";
 import Header from "./component/Header.jsx";
 import Footer from "./component/Footer/Footer.jsx";
 import Seo from "./component/Seo.jsx";
+import ContactSection from "./component/Contact/ContactSection.jsx";
 
 export default function AppLayout() {
   return (
@@ -9,6 +10,7 @@ export default function AppLayout() {
       <Seo />
       <Header />
       <Outlet />
+      
       <Footer />
       <a
         href="https://wa.me/919084399069"

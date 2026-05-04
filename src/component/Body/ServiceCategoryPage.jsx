@@ -1,5 +1,6 @@
+import { useEffect, useMemo, useRef, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import mocData from "@data/moc_Data.json";
+import { useSiteData } from "../../data/siteDataContext.js";
 
 const normalize = (value = "") =>
   value.toString().trim().toLowerCase().replace(/[-_]+/g, " ");
@@ -44,15 +45,134 @@ const collectItems = (category) => {
     : [];
 
   return [...subcategoryItems, ...directItems].filter(
-    (item) => item && (item.name || (Array.isArray(item.images) && item.images[0]))
+    (item) =>
+      item &&
+      !item.hidden &&
+      (item.name || (Array.isArray(item.images) && item.images[0]))
+  );
+};
+
+const getProductImages = (product, fallbackImage) => {
+  const images = Array.isArray(product?.images)
+    ? product.images.filter((src) => typeof src === "string" && src.trim())
+    : [];
+  if (images.length > 0) return images;
+  return fallbackImage ? [fallbackImage] : [];
+};
+
+const ProductImageCarousel = ({ images, alt }) => {
+  const trackRef = useRef(null);
+  const [activeIndex, setActiveIndex] = useState(0);
+
+  const safeImages = useMemo(
+    () => (Array.isArray(images) ? images.filter(Boolean) : []),
+    [images]
+  );
+
+  useEffect(() => {
+    setActiveIndex(0);
+    const track = trackRef.current;
+    if (track) track.scrollLeft = 0;
+  }, [safeImages.length]);
+
+  useEffect(() => {
+    const track = trackRef.current;
+    if (!track) return;
+
+    let rafId = 0;
+    const onScroll = () => {
+      cancelAnimationFrame(rafId);
+      rafId = requestAnimationFrame(() => {
+        const width = track.clientWidth || 1;
+        const nextIndex = Math.round(track.scrollLeft / width);
+        setActiveIndex((prev) => (prev === nextIndex ? prev : nextIndex));
+      });
+    };
+
+    track.addEventListener("scroll", onScroll, { passive: true });
+    return () => {
+      cancelAnimationFrame(rafId);
+      track.removeEventListener("scroll", onScroll);
+    };
+  }, []);
+
+  const scrollToIndex = (index) => {
+    const track = trackRef.current;
+    if (!track) return;
+    const width = track.clientWidth || 0;
+    track.scrollTo({ left: width * index, behavior: "smooth" });
+  };
+
+  if (safeImages.length <= 1) {
+    return (
+      <img
+        src={safeImages[0] || ""}
+        alt={alt}
+        className="service-product-image"
+        loading="lazy"
+      />
+    );
+  }
+
+  return (
+    <div className="service-product-carousel" aria-label={`${alt} images`}>
+      <div className="service-product-carousel-track" ref={trackRef}>
+        {safeImages.map((src, idx) => (
+          <div className="service-product-carousel-slide" key={`${src}-${idx}`}>
+            <img
+              src={src}
+              alt={alt}
+              className="service-product-image"
+              loading="lazy"
+              draggable="false"
+            />
+          </div>
+        ))}
+      </div>
+
+      <button
+        type="button"
+        className="service-product-carousel-arrow service-product-carousel-prev"
+        onClick={() => scrollToIndex(Math.max(activeIndex - 1, 0))}
+        disabled={activeIndex === 0}
+        aria-label="Previous image"
+      >
+        ‹
+      </button>
+      <button
+        type="button"
+        className="service-product-carousel-arrow service-product-carousel-next"
+        onClick={() => scrollToIndex(Math.min(activeIndex + 1, safeImages.length - 1))}
+        disabled={activeIndex === safeImages.length - 1}
+        aria-label="Next image"
+      >
+        ›
+      </button>
+
+      <div className="service-product-carousel-dots" aria-label="Choose image">
+        {safeImages.map((_, idx) => (
+          <button
+            key={idx}
+            type="button"
+            className={`service-product-carousel-dot${
+              idx === activeIndex ? " is-active" : ""
+            }`}
+            onClick={() => scrollToIndex(idx)}
+            aria-label={`Go to image ${idx + 1}`}
+            aria-current={idx === activeIndex ? "true" : "false"}
+          />
+        ))}
+      </div>
+    </div>
   );
 };
 
 export default function ServiceCategoryPage() {
   const { slug = "" } = useParams();
+  const { data } = useSiteData();
 
-  const categories = Array.isArray(mocData?.categories)
-    ? mocData.categories.filter((category) => category.general_category === "service-items")
+  const categories = Array.isArray(data?.categories)
+    ? data.categories.filter((category) => category.general_category === "service-items")
     : [];
 
   const matchedCategory = categories.find((category) => {
@@ -100,15 +220,12 @@ export default function ServiceCategoryPage() {
         ) : (
           <div className="service-products-grid">
             {products.map((product, index) => {
-              const image =
-                Array.isArray(product.images) && product.images.length > 0
-                  ? product.images[0]
-                  : matchedCategory.category_image;
               const itemName = product.name?.trim() ? product.name : `Product ${index + 1}`;
+              const images = getProductImages(product, matchedCategory.category_image);
 
               return (
                 <article className="service-product-card" key={`${product.id || itemName}-${index}`}>
-                  <img src={image} alt={itemName} className="service-product-image" />
+                  <ProductImageCarousel images={images} alt={itemName} />
                   <div className="service-product-body">
                     <h3>{itemName}</h3>
                     {product.subcategory ? <p className="service-subcategory">{product.subcategory}</p> : null}

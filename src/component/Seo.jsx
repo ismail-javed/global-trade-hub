@@ -47,6 +47,26 @@ export default function Seo() {
     : ROUTES[pathname] ?? NOT_FOUND;
   const path = pathname.replace(/\/$/, "") || "/";
   const canonical = path === "/" ? `${siteUrl}/` : `${siteUrl}${path}`;
+  const organizationSchema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "JNSSI Overseas",
+    url: siteUrl,
+    logo: OG_IMAGE,
+    sameAs: [],
+  };
+  const websiteSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "JNSSI Overseas",
+    url: siteUrl,
+    inLanguage: "en",
+    potentialAction: {
+      "@type": "SearchAction",
+      target: `${siteUrl}/services/{search_term_string}`,
+      "query-input": "required name=search_term_string",
+    },
+  };
 
   return (
     <Helmet>
@@ -64,6 +84,8 @@ export default function Seo() {
       <meta name="twitter:description" content={meta.description} />
       <meta name="twitter:image" content={OG_IMAGE} />
       {!isKnownRoute ? <meta name="robots" content="noindex, nofollow" /> : null}
+      <script type="application/ld+json">{JSON.stringify(organizationSchema)}</script>
+      <script type="application/ld+json">{JSON.stringify(websiteSchema)}</script>
     </Helmet>
   );
 }

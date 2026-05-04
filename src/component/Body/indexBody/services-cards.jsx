@@ -1,5 +1,5 @@
-import mocData from "@data/moc_Data.json";
 import { Link } from "react-router-dom";
+import { useSiteData } from "../../../data/siteDataContext.js";
 
 const formatTitle = (value = "") =>
   value
@@ -15,8 +15,11 @@ const toSlug = (value = "") =>
     .replace(/[^a-z0-9\s-]/g, "")
     .replace(/\s+/g, "-");
 
-const dynamicServices = Array.isArray(mocData?.categories)
-  ? mocData.categories
+const Services = () => {
+  const { data } = useSiteData();
+
+  const dynamicServices = Array.isArray(data?.categories)
+  ? data.categories
       .filter((category) => category.general_category === "service-items")
       .map((category) => ({
         category_name: formatTitle(category.category_name),
@@ -27,21 +30,19 @@ const dynamicServices = Array.isArray(mocData?.categories)
       .filter((category) => category.category_name && category.category_image)
   : [];
 
-const serviceData = dynamicServices;
-
-const Services = () => {
+  const serviceData = dynamicServices;
   return (
     <section className="services-section">
       <div className="section-header">
         <div className="section-header-left">
           <span className="tag-label">Our Services</span>
-          <h2 className="section-heading">We Deal In</h2>
+          <p className="section-heading">We Deal In</p>
         </div>
 
-        <p className="section-header-right">
+        <h3 className="section-header-right">
           From precision-engineered spare parts to hand-forged artifacts - every
           product carries the quality India is known for.
-        </p>
+        </h3>
       </div>
 
       <div className="services-grid">

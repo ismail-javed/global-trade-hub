@@ -1,6 +1,6 @@
-# My App (React + Vite)
+# JNSSI Overseas Website (React + Vite)
 
-A React 19 single-page website powered by Vite, with routing handled by `react-router-dom`.
+React 19 + Vite single-page website with routing via `react-router-dom`.
 
 ## Tech stack
 
@@ -9,49 +9,55 @@ A React 19 single-page website powered by Vite, with routing handled by `react-r
 - React Router DOM 7
 - ESLint 9
 
-## Getting started
+## Local development
 
-1. Install dependencies:
+Install and run:
 
 ```bash
 npm install
-```
-
-2. Start the development server:
-
-```bash
 npm run dev
 ```
 
-3. Open the app:
+Then open the URL shown in the terminal (usually `http://localhost:5173`).
 
-- [http://localhost:5173](http://localhost:5173)
+## Scripts
 
-## Available scripts
+- `npm run dev`: start dev server
+- `npm run build`: production build
+- `npm run preview`: preview the build
+- `npm run lint`: run ESLint
 
-- `npm run dev` - Start local development server
-- `npm run build` - Build production bundle
-- `npm run preview` - Preview production build locally
-- `npm run lint` - Run ESLint checks
+## Environment variables
 
-## Project structure
+This project uses Vite env vars.
 
-```text
-src/
-├── main.jsx                 ✅ (router configured)
-├── index.css               ✅ (all styles)
-├── App.jsx                 ✅ (not used - using router instead)
-├── component/
-│   ├── header.jsx          ✅ (needs useState fix)
-│   ├── Footer/
-│   │   └── Footer.jsx      ✅
-│   └── Body/
-│       ├── Body.jsx        ✅
-│       ├── ContactUs.jsx   ✅
-│       ├── HeroServices.jsx✅
-│       ├── indexBody/
-│       │   ├── About.jsx   ✅
-│       │   ├── Flags.jsx   ✅
-│       │   ├── Hero.jsx    ✅
-│       │   ├── services-cars.jsx ✅
-│       │   └── whyUs.jsx   ✅
+- **Public (client-exposed) vars** must be prefixed with `VITE_` (example: `VITE_FORMSPREE_ENDPOINT`)
+- **Secrets must NOT use `VITE_`** (because `VITE_*` values are bundled into browser JS)
+
+If you need real admin authentication, implement it server-side (API + HttpOnly cookies) instead of storing passwords in `.env` with `VITE_*`.
+
+## Google Search Console verification (HTML file method)
+
+The verification file lives in `public/` so it’s served from the site root:
+
+- `public/google23b23d1d45111c52.html`
+
+After deploying, confirm it loads:
+
+- `https://jnssioverseas.info/google23b23d1d45111c52.html`
+
+Then click **Verify** in Google Search Console.
+
+## Deploy (Vercel)
+
+- Import the repo in Vercel
+- If your Vite app root is this folder, set **Root Directory** to `my-app`
+- Deploy
+- Add your custom domain in **Project → Settings → Domains**
+
+## Notes about “admin console” data
+
+The current admin UI persists edits to the browser’s `localStorage`. That means:
+
+- Changes do **not** update `src/data/moc_Data.json`
+- Other users/devices will **not** see your edits

@@ -1,11 +1,12 @@
-import mocData from "@data/moc_Data.json";
-
-const flagsCategory = mocData.categories.find(
-  (category) => category.category_flag === "flags"
-);
-const flagsData = flagsCategory?.flags_list ?? [];
+import { useSiteData } from "../../../data/siteDataContext.js";
 
 const Flags = () => {
+  const { data } = useSiteData();
+  const flagsCategory = (data?.categories || []).find(
+    (category) => category.category_flag === "flags"
+  );
+  const flagsData = flagsCategory?.flags_list ?? [];
+
   return (
     <div className="flags-strip">
       <div className="flags-strip-inner">

@@ -15,6 +15,10 @@ import About from "./component/Body/indexBody/About.jsx";
 import HeroServices from "./component/Body/HeroServices.jsx";
 import NotFound from "./component/Body/NotFound.jsx";
 import ServiceCategoryPage from "./component/Body/ServiceCategoryPage.jsx";
+import AdminDataPage from "./component/Body/AdminDataPage.jsx";
+import AdminLogin from "./component/Admin/AdminLogin.jsx";
+import RequireAdminAuth from "./component/Admin/RequireAdminAuth.jsx";
+import { SiteDataProvider } from "./data/SiteDataProvider.jsx";
 
 // ✅ Router
 const appRouter = createBrowserRouter([
@@ -27,6 +31,15 @@ const appRouter = createBrowserRouter([
       { path: "/contact", element: <ContactUs /> },
       { path: "/services", element: <HeroServices /> },
       { path: "/services/:slug", element: <ServiceCategoryPage /> },
+      { path: "/admin/login", element: <AdminLogin /> },
+      {
+        path: "/admin",
+        element: (
+          <RequireAdminAuth>
+            <AdminDataPage />
+          </RequireAdminAuth>
+        ),
+      },
       { path: "*", element: <NotFound /> },
     ],
   },
@@ -36,7 +49,9 @@ const appRouter = createBrowserRouter([
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <HelmetProvider>
-      <RouterProvider router={appRouter} />
+      <SiteDataProvider>
+        <RouterProvider router={appRouter} />
+      </SiteDataProvider>
     </HelmetProvider>
   </StrictMode>
 );
