@@ -194,7 +194,7 @@
             color: var(--navy);
         }
 
-        .login-btn {
+        .tel-btn {
             padding: 9px 22px;
             background: var(--navy);
             color: var(--white);
@@ -210,9 +210,10 @@
             display: inline-flex;
             align-items: center;
             justify-content: center;
+            gap: 8px;
         }
 
-        .login-btn:hover {
+        .tel-btn:hover {
             background: var(--gold);
             transform: translateY(-1px);
         }
@@ -849,7 +850,14 @@
             .nav { display: none; }
             .nav.open { display: flex; flex-direction: column; }
             .menu-icon { display: flex; }
-            .login-btn { display: none; }
+            .tel-btn {
+                display: inline-flex;
+                padding: 9px 12px;
+            }
+
+            .tel-text {
+                display: none;
+            }
 
             .nav.open {
                 position: fixed;
