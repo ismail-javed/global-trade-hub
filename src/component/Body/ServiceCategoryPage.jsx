@@ -103,6 +103,19 @@ const ProductImageCarousel = ({ images, alt }) => {
     track.scrollTo({ left: width * index, behavior: "smooth" });
   };
 
+  useEffect(() => {
+    if (safeImages.length <= 1) return;
+
+    const intervalId = window.setInterval(() => {
+      const nextIndex = (activeIndex + 1) % safeImages.length;
+      scrollToIndex(nextIndex);
+    }, 2000);
+
+    return () => {
+      window.clearInterval(intervalId);
+    };
+  }, [activeIndex, safeImages.length]);
+
   if (safeImages.length <= 1) {
     return (
       <img
@@ -133,8 +146,7 @@ const ProductImageCarousel = ({ images, alt }) => {
       <button
         type="button"
         className="service-product-carousel-arrow service-product-carousel-prev"
-        onClick={() => scrollToIndex(Math.max(activeIndex - 1, 0))}
-        disabled={activeIndex === 0}
+        onClick={() => scrollToIndex((activeIndex - 1 + safeImages.length) % safeImages.length)}
         aria-label="Previous image"
       >
         ‹
@@ -142,8 +154,7 @@ const ProductImageCarousel = ({ images, alt }) => {
       <button
         type="button"
         className="service-product-carousel-arrow service-product-carousel-next"
-        onClick={() => scrollToIndex(Math.min(activeIndex + 1, safeImages.length - 1))}
-        disabled={activeIndex === safeImages.length - 1}
+        onClick={() => scrollToIndex((activeIndex + 1) % safeImages.length)}
         aria-label="Next image"
       >
         ›

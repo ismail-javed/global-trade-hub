@@ -13,7 +13,7 @@ const About = () => {
 
           <div className="about-highlights">
             <article>
-              <span>10+</span>
+              <span>27+</span>
               <p>Countries served</p>
             </article>
             <article>
