@@ -1628,9 +1628,11 @@ img {
 
 .service-product-image {
   width: 100%;
-  height: 180px;
-  object-fit: cover;
+  height: 220px;
+  object-fit: contain;
+  object-position: center;
   display: block;
+  background: #f8fafc;
 }
 
 .service-product-carousel {
@@ -1654,6 +1656,10 @@ img {
 .service-product-carousel-slide {
   flex: 0 0 100%;
   scroll-snap-align: start;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f8fafc;
 }
 
 .service-product-carousel-arrow {

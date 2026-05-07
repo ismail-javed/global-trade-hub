@@ -1,5 +1,3 @@
-import ContactSection from "../Contact/ContactSection.jsx";
-
 const ContactUs = () => {
   return (
     <main className="contact-page">
@@ -12,7 +10,6 @@ const ContactUs = () => {
         </p>
       </section>
 
-      <ContactSection wrapperClassName="" datalistId="country-code-list-contact" />
     </main>
   );
 };

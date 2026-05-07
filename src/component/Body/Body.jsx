@@ -13,7 +13,7 @@ const Body = () => {
 
         <Flags />
         <Services />
-        <WhyUs />
+        
        
 
         </div>
