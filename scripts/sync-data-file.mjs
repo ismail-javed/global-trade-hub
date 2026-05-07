@@ -23,7 +23,7 @@ async function syncDataFile() {
 
   if (!hasPreferredSource && hasTarget) {
     // In Vercel, repository root may be `my-app`, so keep existing src data file.
-    console.log(`Data source not found at ${preferredSourcePath}; using existing ${targetPath}`);
+    // Quietly continue to keep predev logs clean.
     return;
   }
 

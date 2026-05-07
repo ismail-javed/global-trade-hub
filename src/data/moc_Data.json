@@ -765,10 +765,119 @@
 
       {
           "general_category" : "service-items",
-        "category_name": "Electronics & Gadgets",
-        "category_image": "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775758009/electronics_fpone5.png",
+        "category_name": "Biodegradable Disposable Utensils",
+        "category_image": "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776780987/ds4_aeqqq2.png",
         "category_description": "Consumer electronics, smart devices, and innovative tech products meeting global quality standards.",
             "items": [
+              {
+                "id": 60101,
+                "name": "Biodegradable utensils made from bagasse",
+                "slug": "Biodegradable utensils made from bagasse",
+                "images": [
+                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776780999/ds7_x6hsev.png"
+                ],
+                "description": "Biodegradable disposable utensils made from sugarcane waste (bagasse) are eco-friendly, compostable alternatives to plastic. They are crafted from fibrous agricultural residue, offering a sturdy, microwave-safe, and oil-resistant solution that decomposes within weeks, supporting a circular economy.",
+                "price": 1.5,
+                "currency": "AED"
+              },
+              {
+                "id": 60102,
+                "name": "Biodegradable utensils made from bagasse",
+                "slug": "Biodegradable utensils made from bagasse",
+                "images": [
+                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776780998/ds6_shdkje.png"
+                ],
+                "description": "",
+                "price": 1.5,
+                "currency": "AED"
+              },
+              {
+                "id": 60103,
+                "name": "Biodegradable utensils made from bagasse",
+                "slug": "Biodegradable utensils made from bagasse",
+                "images": [
+                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776780996/ds4_esvq2i.png"
+                ],
+                "description": "",
+                "price": 1.5,
+                "currency": "AED"
+              },
+              {
+                "id": 60104,
+                "name": "Biodegradable utensils made from bagasse",
+                "slug": "Biodegradable utensils made from bagasse",
+                "images": [
+                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776780995/ds3_kqy1ef.png"
+                ],
+                "description": "",
+                "price": 1.5,
+                "currency": "AED"
+              },
+              {
+                "id": 60105,
+                "name": "Biodegradable utensils made from bagasse",
+                "slug": "Biodegradable utensils made from bagasse",
+                "images": [
+                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776780994/ds2_rigqnj.png"
+                ],
+                "description": "",
+                "price": 1.5,
+                "currency": "AED"
+              },{
+                "id": 60106,
+                "name": "Biodegradable utensils made from bagasse",
+                "slug": "Biodegradable utensils made from bagasse",
+                "images": [
+                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776780989/ds5_lxxkfn.png"
+                ],
+                "description": "",
+                "price": 1.5,
+                "currency": "AED"
+              },
+              {
+                "id": 60107,
+                "name": "Biodegradable utensils made from bagasse",
+                "slug": "Biodegradable utensils made from bagasse",
+                "images": [
+                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776780987/ds4_aeqqq2.png"
+                ],
+                "description": "",
+                "price": 1.5,
+                "currency": "AED"
+              },
+              {
+                "id": 60108,
+                "name": "",
+                "slug": "",
+                "images": [
+                  ""
+                ],
+                "description": "",
+                "price": 1.5,
+                "currency": "AED"
+              },
+              {
+                "id": 60109,
+                "name": "",
+                "slug": "",
+                "images": [
+                  ""
+                ],
+                "description": "",
+                "price": 1.5,
+                "currency": "AED"
+              },
+              {
+                "id": 60101,
+                "name": "",
+                "slug": "",
+                "images": [
+                  ""
+                ],
+                "description": "",
+                "price": 1.5,
+                "currency": "AED"
+              },
               {
                 "id": 60101,
                 "name": "",
