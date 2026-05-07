@@ -7,19 +7,19 @@ const OG_IMAGE =
 
 const ROUTES = {
   "/": {
-    title: "JNSSI Overseas | Exports, Spare Parts & Handcrafted Artifacts",
+    title: "JNSSI Overseas | Multi-Category Export Partner from India",
     description:
-      "JNSSI Overseas exports high-quality spare parts and authentic handcrafted artifacts from India to the United States and worldwide — engineering precision meets Indian craftsmanship.",
+      "JNSSI Overseas exports products across agriculture, textiles, handicrafts, medical supplies, electronics, automotive components, and more from India to global markets.",
   },
   "/about": {
     title: "About Us | JNSSI Overseas",
     description:
-      "Learn about JNSSI Overseas — global export partner for spare parts, handcrafted artifacts, and quality products from India to the US and beyond.",
+      "Learn about JNSSI Overseas, a trusted multi-category export company from India serving global buyers across diverse product segments.",
   },
   "/services": {
     title: "Services | JNSSI Overseas",
     description:
-      "JNSSI Overseas delivers export services, spare parts, handicrafts, and global shipping — quality products and trusted logistics worldwide.",
+      "Explore JNSSI Overseas categories including agriculture, textiles, handicrafts, medical supplies, electronics, automotive components, and global shipping.",
   },
   "/contact": {
     title: "Contact | JNSSI Overseas",
@@ -31,7 +31,7 @@ const ROUTES = {
 const NOT_FOUND = {
   title: "Page Not Found | JNSSI Overseas",
   description:
-    "The page you requested could not be found. Visit JNSSI Overseas for exports, spare parts, and handcrafted artifacts.",
+    "The page you requested could not be found. Visit JNSSI Overseas to explore our export categories and global trade services.",
 };
 
 export default function Seo() {
