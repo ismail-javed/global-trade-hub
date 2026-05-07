@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://jnssioverseas.com/sitemap.xml
+Sitemap: https://jnssioverseas.info/sitemap.xml

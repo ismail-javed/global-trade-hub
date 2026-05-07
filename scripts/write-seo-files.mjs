@@ -4,7 +4,7 @@ import { fileURLToPath } from 'url'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const root = path.join(__dirname, '..')
-const DEFAULT_SITE = 'https://jnssioverseas.com'
+const DEFAULT_SITE = 'https://jnssioverseas.info'
 
 function readSiteUrl() {
   const envPath = path.join(root, '.env')
