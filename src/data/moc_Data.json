@@ -766,8 +766,8 @@
       {
           "general_category" : "service-items",
         "category_name": "Biodegradable Disposable Utensils",
-        "category_image": "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776780987/ds4_aeqqq2.png",
-        "category_description": "Consumer electronics, smart devices, and innovative tech products meeting global quality standards.",
+        "category_image": "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776780987/ds4_aeqqq2.png", 
+        "category_description": "Biodegradable disposable utensils made from sugarcane waste (bagasse) are eco-friendly, compostable alternatives to plastic. They are crafted from fibrous agricultural residue, offering a sturdy, microwave-safe, and oil-resistant solution that decomposes within weeks, supporting a circular economy.",
             "items": [
               {
                 "id": 60101,
@@ -776,7 +776,7 @@
                 "images": [
                   "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776780999/ds7_x6hsev.png"
                 ],
-                "description": "Biodegradable disposable utensils made from sugarcane waste (bagasse) are eco-friendly, compostable alternatives to plastic. They are crafted from fibrous agricultural residue, offering a sturdy, microwave-safe, and oil-resistant solution that decomposes within weeks, supporting a circular economy.",
+                "description": "Biodegradable disposable utensils made from sugarcane",
                 "price": 1.5,
                 "currency": "AED"
               },
