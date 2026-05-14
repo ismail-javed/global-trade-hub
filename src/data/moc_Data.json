@@ -603,7 +603,7 @@
       
       {
           "general_category" : "service-items",
-        "category_name": "Handi-Crafts",
+        "category_name": "Handicrafts",
         "category_image": "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775758010/handicraft2_hbippu.png",
         "category_description": "Authentic handcrafted artifacts reflecting India's rich heritage, perfect for collectors and global markets.",
             "items": [
@@ -767,7 +767,7 @@
           "general_category" : "service-items",
         "category_name": "Biodegradable Disposable Utensils",
         "category_image": "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776780987/ds4_aeqqq2.png", 
-        "category_description": "Biodegradable disposable utensils made from sugarcane waste (bagasse) are eco-friendly, compostable alternatives to plastic. They are crafted from fibrous agricultural residue, offering a sturdy, microwave-safe, and oil-resistant solution that decomposes within weeks, supporting a circular economy.",
+        "category_description": "Biodegradable disposable utensils made from sugarcane waste (bagasse) are eco-friendly, compostable alternatives to plastic.",
             "items": [
               {
                 "id": 60101,
@@ -896,7 +896,7 @@
 
       {
         "general_category" : "service-items",
-        "category_name": "Jwellery & accessory",
+        "category_name": "Jewellery & accessory",
         "category_image": "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775758011/jewellery_uzwijc.png",
         "category_description": "Exquisite traditional and contemporary jewellery pieces crafted for global markets.",
             "items": [
@@ -1214,7 +1214,7 @@
 
       {
         "general_category" : "service-items",
-        "category_name": "Textiles & Febrics",
+        "category_name": "Textiles & Fabrics",
         "category_image": "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775758012/textile_wc0dod.png",
         "category_description": "Exquisite traditional and contemporary jewellery pieces crafted for global markets.",
             "items": [
