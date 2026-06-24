@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { Outlet, useLocation } from "react-router-dom";
-import Header from "./component/Header.jsx";
+import NavBar from "./component/NavBar.jsx";
 import Footer from "./component/Footer/Footer.jsx";
 import Seo from "./component/Seo.jsx";
 import ContactSection from "./component/Contact/ContactSection.jsx";
@@ -16,7 +16,7 @@ export default function AppLayout() {
   return (
     <div className="app-layout">
       <Seo />
-      <Header />
+      <NavBar />
       <Outlet />
       <ContactSection datalistId="country-code-list-global" />
       <WhyUs />

@@ -510,7 +510,7 @@
             "items": [
               {
                 "id": 40101,
-                "name": "",
+                "name": "PPE KIT",
                 "slug": "",
                 "images": [
                   "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778150102/ppe-kit-90-gsm-full-body-ppe-kit-protection-safety-suits-for-original-imag37h3cujshegb_bnaske.jpg"
@@ -521,7 +521,7 @@
               },
               {
                 "id": 40102,
-                "name": "",
+                "name": "SKA12-BAG-PP ",
                 "slug": "",
                 "images": [
                   "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778150100/SKA12-BAG-PP_z4lxvu.jpg"
@@ -532,7 +532,7 @@
               },
               {
                 "id": 40103,
-                "name": "",
+                "name": "Arc Flash Face Shield Kit",
                 "slug": "",
                 "images": [
                   "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778150098/3260.003.120-salisbury-arc-flash-faceshield-kit-as1200-ska12-pp-angle_medium_umowyk.jpg"
@@ -543,7 +543,7 @@
               },    
               {
                 "id": 40104,
-                "name": "",
+                "name": "PPE Kit",
                 "slug": "",
                 "images": [
                   "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778150097/ppe-kit-500x500_p580nf.png"
@@ -554,7 +554,7 @@
               },   
               {
                 "id": 40105,
-                "name": "",
+                "name": "PPE Gloves",
                 "slug": "",
                 "images": [
                   "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778150096/ppe1001-pdpm-original-imafrtm7hnx9wdz6_oyj2ri.jpg"
@@ -565,7 +565,7 @@
               },
               {
                 "id": 40106,
-                "name": "",
+                "name": "Medical Gadgets",
                 "slug": "",
                 "images": [
                   "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778150038/medical-gadgets_ku9mrj.jpg"
@@ -576,7 +576,7 @@
               },
               {
                 "id": 40107,
-                "name": "",
+                "name": "Blood Pressure Monitor",
                 "slug": "",
                 "images": [
                   "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778150038/caretaker_jzisgh.jpg"
@@ -587,18 +587,74 @@
               },
               {
                 "id": 40108,
-                "name": "",
+                "name": "Safety Goggles",
                 "slug": "",
                 "images": [
-                  ""
+                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1782333410/medical-protective-goggles-800x800_ugfgt1.jpg",
+                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1782333411/16.0100CR_vkxjpv.jpg"
+                ],
+                "description": "",
+                "price": 1.5,
+                "currency": "AED"
+              },
+              {
+                "id": 40109,
+                "name": "Scrubs",
+                "slug": "",
+                "images": [
+                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1782296989/white_blue-scrubs_xspogf.png"
+                ],
+                "description": "",
+                "price": 1.5,
+                "currency": "AED"
+              },
+              {
+                "id": 40110,
+                "name": "Medical Face Mask",
+                "slug": "",
+                "images": [
+                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1782296989/scrubs_white_skbhvj.png"
+            ],
+                "description": "",
+                "price": 1.5,
+                "currency": "AED"
+              } ,
+              {
+                "id": 40111,
+                "name": "Medical Face Mask",
+                "slug": "",
+                "images": [
+                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1782296988/White-Scrubs_wnnhgl.png"
+                ],
+                "description": "",
+                "price": 1.5,
+                "currency": "AED"
+              },
+              {
+                "id": 40113,
+                "name": "Scrubs",
+                "slug": "",
+                "images": [
+                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1782296859/Scrub_Black_vpbasz.png"
+                ],
+                "description": "",
+                "price": 1.5,
+                "currency": "AED"
+              },
+              {
+                "id": 40114,
+                "name": "Medical Face Mask",
+                "slug": "",
+                "images": [
+                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1782334547/61yMKe_2Br-SL._SS400__factdk.jpg"
                 ],
                 "description": "",
                 "price": 1.5,
                 "currency": "AED"
               }
-        ]
-      },
-
+            ]
+          },
+                    
 
       
       {
@@ -643,6 +699,8 @@
                 "price": 1.5,
                 "currency": "AED"
               },
+
+
               
               {
                 "id": 50104,

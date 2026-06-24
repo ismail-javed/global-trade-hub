@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 
-const Header = () => {
+const NavBar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const handleToggleMenu = () => {
@@ -58,7 +58,7 @@ const Header = () => {
         <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
           <a href="tel:+919084399069" className="tel-btn" aria-label="Call +91 90843 99069">
             <FontAwesomeIcon icon={faPhone} />
-            <span className="tel-text">+91 90843 99069</span>
+            <span className="tel-text"></span>
           </a>
           <div
             className="menu-icon"
@@ -83,4 +83,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default NavBar;
