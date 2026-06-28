@@ -49,6 +49,10 @@ function Hero() {
                 <span className="num">100%</span>
                 <span className="lbl">Quality Assured</span>
                 </div>
+                <div className="hero-stat">
+                <span className="num">2.5K+</span>
+                <span className="lbl">Happy Customers</span>
+                </div>
             </div>
             </div>
 
