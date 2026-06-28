@@ -562,7 +562,14 @@
             width: 100%;
             height: 150px;
             object-fit: cover;
+            object-position: center;
             display: block;
+        }
+
+        .service-card-img--contain {
+            object-fit: contain;
+            object-position: center;
+            background: #f8fafc;
         }
 
         .service-card-body {
@@ -1520,6 +1527,14 @@ img {
 
   .service-card-img {
     height: 190px;
+    object-position: center;
+    object-fit: cover;
+  }
+
+  .service-card-img--contain {
+    object-fit: contain;
+    object-position: center;
+    background: #f8fafc;
   }
 
   .section-header {

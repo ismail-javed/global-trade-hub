@@ -651,6 +651,28 @@
                 "description": "",
                 "price": 1.5,
                 "currency": "AED"
+              },
+              {
+                "id": 40115,
+                "name": "Lab Coat",
+                "slug": "",
+                "images": [
+                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1782378976/image_o1xhz9.png"
+                ],
+                "description": "",
+                "price": 1.5,
+                "currency": "AED"
+              },
+              {
+                "id": 40116,
+                "name": "Lab Coat",
+                "slug": "",
+                "images": [
+                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1782378976/image_1_qfxb3i.png"
+                ],
+                "description": "",
+                "price": 1.5,
+                "currency": "AED"
               }
             ]
           },
@@ -1278,7 +1300,7 @@
             "items": [
               {
                 "id": 100101,
-                "name": "",
+                "name": "Shirt Fabric 100% Cotton Plain Woven Stretch Combed Cotton",
                 "slug": "",
                 "images": [
                   "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778148883/Shirt-Fabric-100-Cotton-Plain-Woven-Stretch-Combed-Cotton-Poplin-Men-Shirts_uly7ri.webp"
@@ -1333,7 +1355,7 @@
               },
               {
                 "id": 100106,
-                "name": "",
+                "name": "cotton 40% polyester plain oxford fabric 165gsm oxford fabric strip wrinkle resistant classic shirt fabric",
                 "slug": "",
                 "images": [
                   "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778148883/60-Cotton40-Polyester-Plain-Oxford-Fabric-165gsm-Oxford-Fabric-Strip-Wrinkle-Resistant-Classic-Shirt-Fabric_u254be.jpg"
@@ -1344,7 +1366,7 @@
               },
               {
                 "id": 100107,
-                "name": "",
+                "name": "100% Cotton Plain Woven Stretch Combed Cotton Fabric",
                 "slug": "",
                 "images": [
                   "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778148883/BF356990-AC5E-488E-93A5-3E524D0F557E_mka38b.jpg"
@@ -1399,6 +1421,61 @@
               }
         ]
       },
+
+{
+        "general_category" : "service-items",
+        "category_name": "Midevial & Historical Artifacts Replicas",
+        "category_image": "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1782339583/armor_absvw2.png",
+        "category_description": "Battle-ready medieval armor replicas, handcrafted for collectors, reenactors, and Buhurt fighters—built for authenticity, durability, and combat performance.",
+            "items": [
+              {
+                "id": 100101,
+                "name": "",
+                "slug": "",
+                "images": [
+                  
+                ],
+                "description": "",
+                "price": 1.5,
+                "currency": "AED"
+              },
+              {
+                "id": 100102,
+                "name": "",
+                "slug": "",
+                "images": [
+                  
+                ],
+                "description": "",
+                "price": 1.5,
+                "currency": "AED"
+              },
+              {
+                "id": 100103,
+                "name": "",
+                "slug": "",
+                "images": [
+                  
+                ],
+                "description": "",
+                "price": 1.5,
+                "currency": "AED"
+              },
+              {
+                "id": 100104,
+                "name": "",
+                "slug": "",
+                "images": [
+                  
+                ],
+                "description": "",
+                "price": 1.5,
+                "currency": "AED"
+              }
+            ]
+          },
+
+
       {
         "general_category" : "service-items",
         "category_name": "Global Shipping",
@@ -1432,5 +1509,6 @@
 
 
     ]
-}
+  }
+
 

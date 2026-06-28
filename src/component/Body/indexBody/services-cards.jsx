@@ -52,6 +52,9 @@ const Services = () => {
           serviceData.map((service) => {
             const isGlobalShipping =
               service.category_name?.trim().toLowerCase() === "global shipping";
+            const isMedievalArmor =
+              service.slug === "midevial-historical-artifacts-replicas" ||
+              service.category_name?.toLowerCase().includes("medieval");
 
             return (
               <Link
@@ -63,7 +66,7 @@ const Services = () => {
                 <img
                   src={service.category_image}
                   alt={service.category_name}
-                  className="service-card-img"
+                  className={`service-card-img${isMedievalArmor ? " service-card-img--contain" : ""}`}
                 />
                 <div className="service-card-body">
                   <h3>{service.category_name}</h3>
