@@ -19,6 +19,7 @@ import AdminDataPage from "./component/Body/AdminDataPage.jsx";
 import AdminLogin from "./component/Admin/AdminLogin.jsx";
 import RequireAdminAuth from "./component/Admin/RequireAdminAuth.jsx";
 import { SiteDataProvider } from "./data/SiteDataProvider.jsx";
+import ProductDetailPage from "./component/Body/ProductDetailPage.jsx";
 
 // ✅ Router
 const appRouter = createBrowserRouter([
@@ -31,6 +32,7 @@ const appRouter = createBrowserRouter([
       { path: "/contact", element: <ContactUs /> },
       { path: "/services", element: <HeroServices /> },
       { path: "/services/:slug", element: <ServiceCategoryPage /> },
+      { path: "/products/*", element: <ProductDetailPage /> },
       { path: "/admin/login", element: <AdminLogin /> },
       {
         path: "/admin",

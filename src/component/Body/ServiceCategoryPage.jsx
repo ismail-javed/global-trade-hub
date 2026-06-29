@@ -233,16 +233,28 @@ export default function ServiceCategoryPage() {
             {products.map((product, index) => {
               const itemName = product.name?.trim() ? product.name : `Product ${index + 1}`;
               const images = getProductImages(product, matchedCategory.category_image);
+              const cardSlug = toSlug(product.slug || product.name || itemName);
 
               return (
-                <article className="service-product-card" key={`${product.id || itemName}-${index}`}>
+                <Link
+                  to={`/products/${cardSlug}`}
+                  className="service-product-card"
+                  key={`${product.id || itemName}-${index}`}
+                  style={{ cursor: "pointer", textDecoration: "none", color: "inherit" }}
+                >
                   <ProductImageCarousel images={images} alt={itemName} />
                   <div className="service-product-body">
                     <h3>{itemName}</h3>
                     {product.subcategory ? <p className="service-subcategory">{product.subcategory}</p> : null}
                     <p>{product.description?.trim() || "More details available on request."}</p>
+                    <span
+                      className="service-card-arrow"
+                      style={{ marginTop: 12, display: "inline-flex", cursor: "pointer" }}
+                    >
+                      View Product
+                    </span>
                   </div>
-                </article>
+                </Link>
               );
             })}
           </div>

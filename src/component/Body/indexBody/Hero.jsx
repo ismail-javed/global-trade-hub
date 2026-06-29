@@ -40,10 +40,10 @@ function Hero() {
                 <span className="lbl">Countries Served</span>
                 </div>
 
-                <div className="hero-stat">
+                {/* <div className="hero-stat">
                 <span className="num">1000+</span>
                 <span className="lbl">Product Categories</span>
-                </div>
+                </div> */}
 
                 <div className="hero-stat">
                 <span className="num">100%</span>

@@ -33,7 +33,7 @@ const About = () => {
 
         <div className="about-hero-media">
           <img
-            src="https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775758011/ship_agrzty.png"
+            src="https://res.cloudinary.com/dyb9hlxzq/image/upload/v1782734024/5a7498bf-24db-494d-aeee-d2e32ae95c25.png"
             alt="JNSSI Overseas team and logistics"
           />
         </div>
@@ -47,6 +47,12 @@ const About = () => {
 
         <div className="about-story-grid">
           <article className="about-story-card">
+            <div className="about-story-icon">
+              <img
+                src="https://res.cloudinary.com/dyb9hlxzq/image/upload/v1782734024/5a7498bf-24db-494d-aeee-d2e32ae95c25.png"
+                alt="JNSSI Overseas Logo"
+              />
+            </div>
             <h3>How we started</h3>
             <p>
               We began as a focused supplier with one goal: export products that
@@ -54,6 +60,12 @@ const About = () => {
             </p>
           </article>
           <article className="about-story-card">
+            <div className="about-story-icon">
+              <img
+                src="https://res.cloudinary.com/dyb9hlxzq/image/upload/v1782650858/3665910c-46e7-400a-9a8e-57fafe165009.png"
+                alt="Global Shipping — JNSSI Overseas"
+              />
+            </div>
             <h3>How we work today</h3>
             <p>
               Our team handles sourcing, compliance, and logistics end-to-end so
@@ -61,6 +73,12 @@ const About = () => {
             </p>
           </article>
           <article className="about-story-card">
+            <div className="about-story-icon">
+              <img
+                src="https://res.cloudinary.com/dyb9hlxzq/image/upload/v1782734836/c0324b3e-003b-4e96-93b8-748c48834413.png"
+                alt="Global Shipping — JNSSI Overseas"
+              />
+            </div>
             <h3>What drives us</h3>
             <p>
               Long-term relationships, ethical trade practices, and consistent
