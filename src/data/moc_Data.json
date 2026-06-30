@@ -1,1514 +1,1200 @@
 {
     "categories": [
         {
-          "category_flag": "flags",
-          "flags_list": [
-              {
-                "id": 1,
-                "country": "India",
-                "slug": "india-flag",
-                "category": "flags",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775757986/INDIA_n2dxda.png"
-                ],
-                "alt": "Indian Flag"
-              },
-              {
-                "id": 2,
-                "country": "Australia",
-                "slug": "australia-flag",
-                "category": "flags",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776618035/Australia_fdhrqb.png"
-                ],
-                "alt": "Australia Flag"
-              },
-              {
-                "id": 3,
-                "country": "USA",
-                "slug": "usa-flag",
-                "category": "flags",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775757987/USA_cixmvc.png"
-                ],
-                "alt": "USA Flag"
-              },
-              {
-                "id": 4,
-                "country": "UAE",
-                "slug": "uae-flag",
-                "category": "flags",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776264005/UAE_i7acta.png"
-                ],
-                "alt": "UAE Flag"
-              },
-              {
-                "id": 5,
-                "country": "UK",
-                "slug": "uk-flag",
-                "category": "flags",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775757988/uk_zfovql.png"
-                ],
-                "alt": "UK Flag"
-              },
-              {
-                "id": 6,
-                "country": "Canada",
-                "slug": "canada-flag",
-                "category": "flags",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775757986/canada_usiclm.png"
-                ],
-                "alt": "Canada Flag"
-              },
-              {
-                "id": 7,
-                "country": "Saudi Arabia",
-                "slug": "saudi-arabia-flag",
-                "category": "flags",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776618861/Saudi_pnel2w.png"
-                ],
-                "alt": "Saudi Arabia Flag"
-              },
-              {
-                "id": 8,
-                "country": "Germany",
-                "slug": "germany-flag",
-                "category": "flags",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776856067/Germany_azhznx.png"
-                ],
-                "alt": "Germany Flag"
-              },
-              {
-                "id": 9,
-                "country": "France",
-                "slug": "france-flag",
-                "category": "flags",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776621827/France_oi6tj8.png"
-                ],
-                "alt": "France Flag"
-              },
-              {
-                "id": 10,
-                "country": "Italy",
-                "slug": "italy-flag",
-                "category": "flags",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776856258/Italy_yhrlan.png"
-                ],
-                "alt": "Italy Flag"
-              },
-              {
-                "id": 11,
-                "country": "Austria",
-                "slug": "austria-flag",
-                "category": "flags",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776620365/Austria_slcmpw.png"
-                ],
-                "alt": "Austria Flag"
-              },
-              {
-                "id": 12,
-                "country": "Ireland",
-                "slug": "ireland-flag",
-                "category": "flags",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776618861/ireland_l2xebs.png"
-                ],
-                "alt": "Ireland Flag"
-              },
-              {
-                "id": 13,
-                "country": "Belgium",
-                "slug": "belgium-flag",
-                "category": "flags",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776618861/Belgium_h48rqq.png"
-                ],
-                "alt": "Belgium Flag"
-              },
-              {
-                "id": 14,
-                "country": "Turkey",
-                "slug": "turkey-flag",
-                "category": "flags",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776620119/Turkey_t4my9c.png"
-                ],
-                "alt": "Turkey Flag"
-              },
-              {
-                "id": 15,
-                "country": "Bulgaria",
-                "slug": "bulgaria-flag",
-                "category": "flags",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776620688/Bulgaria_v81a3n.png"
-                ],
-                "alt": "Bulgaria Flag"
-              },
-              {
-                "id": 16,
-                "country": "Hungary",
-                "slug": "hungary-flag",
-                "category": "flags",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776620822/Hungry_pvdtrw.png"
-                ],
-                "alt": "Hungary Flag"
-              },
-              {
-                "id": 17,
-                "country": "Sweden",
-                "slug": "sweden-flag",
-                "category": "flags",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776621834/Sweden_scl60z.png"
-                ],
-                "alt": "Sweden Flag"
-              },
-              {
-                "id": 18,
-                "country": "Spain",
-                "slug": "spain-flag",
-                "category": "flags",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776621833/Spain_fk0enu.png"
-                ],
-                "alt": "Spain Flag",
-                "price_usd": 2.5
-              },
-              {
-                "id": 19,
-                "country": "Slovenia",
-                "slug": "slovenia-flag",
-                "category": "flags",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776621832/Slovenia_imuidi.png"
-                ],
-                "alt": "Slovenia Flag"
-              },
-              {
-                "id": 20,
-                "country": "Romania",
-                "slug": "romania-flag",
-                "category": "flags",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776621829/romania_sjabai.png"
-                ],
-                "alt": "Romania Flag"
-              },
-              {
-                "id": 21,
-                "country": "Portugal",
-                "slug": "portugal-flag",
-                "category": "flags",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776621828/portugal_izofzb.png"
-                ],
-                "alt": "Portugal Flag"
-              },
-              {
-                "id": 22,
-                "country": "Poland",
-                "slug": "poland-flag",
-                "category": "flags",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776621827/poland_t17ilo.png"
-                ],
-                "alt": "Poland Flag"
-              }
-            ]
-        },
-        {
-            "general_category" : "service-items",
+            "general_category": "service-items",
             "category_name": "Agriculture",
             "category_image": "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775758010/agriculture_tvh4rc.png",
             "category_description": "Premium spices, grains, and organic produce sourced from India's most fertile farming regions.",
-
-            
             "subcategories": [
-              
-              {
-                "name": "vegetables",
-                "items": [
-                  {
-                    "id": 10101,
-                    "name": "Potatoes",
-                    "slug": "potatoes",
-                    "images": [
-                      "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776782043/patato-bag_zwi3uw.png"
-                    ],
-                    "description": "Export-quality potatoes",
-                    "price": 1.5,
-                    "currency": "AED"
-                  },
-                  {
-                    "id": 10102,
-                    "name": "Onions",
-                    "slug": "onions",
-                    "images": [
-                      "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776782041/onion_dfldok.png"
-                    ],
-                    "description": "Export-quality onions",
-                    "price": 2.0,
-                    "currency": "AED"
-                  },
-                  {
-                    "id": 10103,
-                    "name": "Carrots",
-                    "slug": "carrots",
-                    "images": [
-                      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNssYuyDQtMEqAN0UTLO2U6zsB_Qes2jIxGqzNjR10gsDykWpeZd7q_VwMaa91Va8OW_EhfinDk4LW4zs5xDRrgEjKINIXfRLQg1_gyuK21g&s=10"
-                    ],
-                    "description": "Fresh carrots",
-                    "price": 2.5,
-                    "currency": "AED"
-                  }
-                ]
-              },
-          
-              {
-                "name": "fruits",
-                "items": [
-                  {
-                    "id": 10201,
-                    "name": "Apples",
-                    "slug": "apples",
-                    "images": [
-                      "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1777043892/Apple_ndxqlf.png"
-                    ],
-                    "description": "Fresh apples",
-                    "price": 4.5,
-                    "currency": "AED"
-                  },
-                  {
-                    "id": 10202,
-                    "name": "Oranges",
-                    "slug": "oranges",
-                    "images": [
-                      "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1777043893/Orange_wxpeot.png"
-                    ],
-                    "description": "Fresh oranges",
-                    "price": 5.0,
-                    "currency": "AED"
-                  },
-                 
-                  {
-                    "id": 10203,
-                    "name": "Coconut",
-                    "slug": "coconut",
-                    "images": [
-                      "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776782043/Nariyal_btyftg.png"
-                    ],
-                    "description": "Fresh coconuts",
-                    "price": 4.0,
-                    "currency": "AED"
-                  },
-                  {
-                    "id": 10204,
-                    "name": "Banana",
-                    "slug": "Banana",
-                    "images": [
-                      "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1777044740/Banana_sc2j6e.png"
-                    ],
-                    "description": "Fresh ",
-                    "price": 4.0,
-                    "currency": "AED"
-                  },
-                  {
-                    "id": 10205,
-                    "name": "Pine Apple",
-                    "slug": "Pine Apple",
-                    "images": [
-                      "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1777044797/71_qAJehpkL_fxo7yp.jpg",
-                      "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1777044796/1800ss_getty_rf_pineapples_brqgxe.webp"
-                    ],
-                    "description": "Fresh Pine Apple",
-                    "price": 4.0,
-                    "currency": "AED"
-                  },
-                  {
-                    "id": 10206,
-                    "name": "Mango",
-                    "slug": "Mango",
-                    "images": [
-                      "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1777044905/vibrant.mango.indica.tree.fruit._dlmoxu.jpg",
-                       "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1777044905/mango_fu7t2f.jpg"
-                    ],
-                    "description": "Fresh ",
-                    "price": 4.0,
-                    "currency": "AED"
-                  },
-                  {
-                    "id": 10207,
-                    "name": "Guava",
-                    "slug": "Guava",
-                    "images": [
-                      "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1777044826/51z5USsZaAL_v1y7k4.jpg",
-                      "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1777044825/Gauvava600x300_gmwwzx.jpg"
-                    ],
-                    "description": "Fresh ",
-                    "price": 4.0,
-                    "currency": "AED"
-                  },
-                  {
-                    "id": 10208,
-                    "name": "Star Fruits",
-                    "slug": "Star Fruits",
-                    "images": [
-                      "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1777045041/iStock-518225859-e1699245319339_q68twp.jpg"
-                    ],
-                    "description": "Fresh ",
-                    "price": 4.0,
-                    "currency": "AED"
-                  },
-                  {
-                    "id": 10209,
-                    "name": "Grapes",
-                    "slug": "Grapes",
-                    "images": [
-                      "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1777044980/grapes_qy2ex1.png",
-                      "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1777044981/271072_7931568161023_gxeiiq.jpg"
-                    ],
-                    "description": "Fresh Grapes",
-                    "price": 4.0,
-                    "currency": "AED"
-                  }
-                  
-                ]
-              },
-          
-              {
-                "name": "grains",
-                "items": [
-                  {
-                    "id": 10301,
-                    "name": "Basmati Rice",
-                    "slug": "basmati-rice",
-                    "images": [
-                      "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776782045/Rice2_cfwilu.png"
-                    ],
-                    "description": "Premium export-quality basmati rice",
-                    "price": 6.0,
-                    "currency": "AED"
-                  }
-                ]
-              }
-          
-            ]
-          },
-
-      {
-          "general_category" : "service-items",
-        "category_name": "spare_parts",
-        "category_image": "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775758012/SpareParts_wkdta5.png",
-            "category_description":   "High-quality spare parts for various industries, ensuring durability, precision, and global standards.",
-
-            "items": [
-              {
-                "id": 20101,
-                "name": "spare parts ",
-                "slug": "Spare Parts ",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775758012/SpareParts_wkdta5.png",
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778152776/-C2012x1131_29_9-S1200-FWEBP_yjijdh.webp",
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778152774/staubli-textile-spare-parts-hip_doc2xt.jpg",
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778152772/hero-oem-car-parts-640x350-min_jfx6br.jpg",
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778152770/y_yuhctl.png",
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778152770/3113940538-1_ubvaaq.png"
-                ],
-                "description": "We manufacture the gears according to your dimensions",
-                "price": "based upon the requirement",
-                "currency": "AED"
-              }
-            
-        ]
-      },
-
-      {
-          "general_category" : "service-items",
-        "category_name": "Furniture & Home Decor",
-        "category_image": "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775758011/home-decore_osh38j.png",
-        "category_description": "Traditional Indian designs and contemporary pieces for global home and lifestyle markets.",
-            "items": [
-              {
-                "id": 30101,
-                "name": "Indoor Miniature Planting Pot",
-                "slug": "Indoor Miniature Planting Pot",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1777210054/O1CN01b5dVdv1xlisu1Owzn__2206931006484_xgi4es.jpg",
-                  ""
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-
-              {
-                "id": 30102,
-                "name": "Garden Pottery Set",
-                "slug": "Garden Pottery Set",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1777210053/decorative_outdoor_garden_pottery_set_1280x900_ob3txj.jpg",
-                  ""
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              {
-                "id": 30103,
-                "name": "Round White Earthenware Ceramic-planter",
-                "slug": "round-white-vietnam-earthenware-ceramic-planter",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1777210053/round-white-vietnam-earthenware-ceramic-planter-141546_xiunk9.jpg"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              {
-                "id": 30104,
-                "name": "Clay Pot",
-                "slug": "Clay Pot",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1777210053/WhatsApp-Image-2024-08-02-at-10-58-42_a0e9dcf0_y87fsd.jpg"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              {
-                "id": 30105,
-                "name": "Glazed Pottery",
-                "slug": "Glazed Pottery",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1777210052/Glazed-Pottery-Store-Feature_rzne5m.jpg"
-                ],
-                "description": "",
-                "price": "",
-                "currency": "AED"
-              }
-        ]
-
-
-
-      } ,
-
-        {
-        "general_category" : "service-items",
-        "category_name": "Medical Supplies",
-        "category_image": "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775758011/medical-supplies_ll9qfl.png",
-        "category_description": "PPE, medical devices, and healthcare products adhering to global health and safety standards.",
-            "items": [
-              {
-                "id": 40101,
-                "name": "PPE KIT",
-                "slug": "",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778150102/ppe-kit-90-gsm-full-body-ppe-kit-protection-safety-suits-for-original-imag37h3cujshegb_bnaske.jpg"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              {
-                "id": 40102,
-                "name": "SKA12-BAG-PP ",
-                "slug": "",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778150100/SKA12-BAG-PP_z4lxvu.jpg"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              {
-                "id": 40103,
-                "name": "Arc Flash Face Shield Kit",
-                "slug": "",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778150098/3260.003.120-salisbury-arc-flash-faceshield-kit-as1200-ska12-pp-angle_medium_umowyk.jpg"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },    
-              {
-                "id": 40104,
-                "name": "PPE Kit",
-                "slug": "",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778150097/ppe-kit-500x500_p580nf.png"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },   
-              {
-                "id": 40105,
-                "name": "PPE Gloves",
-                "slug": "",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778150096/ppe1001-pdpm-original-imafrtm7hnx9wdz6_oyj2ri.jpg"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              {
-                "id": 40106,
-                "name": "Medical Gadgets",
-                "slug": "",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778150038/medical-gadgets_ku9mrj.jpg"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              {
-                "id": 40107,
-                "name": "Blood Pressure Monitor",
-                "slug": "",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778150038/caretaker_jzisgh.jpg"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              {
-                "id": 40108,
-                "name": "Safety Goggles",
-                "slug": "",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1782333410/medical-protective-goggles-800x800_ugfgt1.jpg",
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1782333411/16.0100CR_vkxjpv.jpg"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              {
-                "id": 40109,
-                "name": "Scrubs",
-                "slug": "",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1782296989/white_blue-scrubs_xspogf.png"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              {
-                "id": 40110,
-                "name": "Medical Face Mask",
-                "slug": "",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1782296989/scrubs_white_skbhvj.png"
-            ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              } ,
-              {
-                "id": 40111,
-                "name": "Medical Face Mask",
-                "slug": "",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1782296988/White-Scrubs_wnnhgl.png"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              {
-                "id": 40113,
-                "name": "Scrubs",
-                "slug": "",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1782296859/Scrub_Black_vpbasz.png"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              {
-                "id": 40114,
-                "name": "Medical Face Mask",
-                "slug": "",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1782334547/61yMKe_2Br-SL._SS400__factdk.jpg"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              {
-                "id": 40115,
-                "name": "Lab Coat",
-                "slug": "",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1782378976/image_o1xhz9.png"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              {
-                "id": 40116,
-                "name": "Lab Coat",
-                "slug": "",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1782378976/image_1_qfxb3i.png"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              }
-            ]
-          },
-                    
-
-      
-      {
-          "general_category" : "service-items",
-        "category_name": "Handicrafts",
-        "category_image": "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775758010/handicraft2_hbippu.png",
-        "category_description": "Authentic handcrafted artifacts reflecting India's rich heritage, perfect for collectors and global markets.",
-            "items": [
-              {
-                "id": 50101,
-                  "name": "Ceramic Plate",
-                "slug": "Ceramic Plate",
-                
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1777210016/537562-iznik-design-ceramic-plate-hardu-rumi-hdsf01334-sf01334-x_wfvuex.jpg"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              
-              {
-                "id": 50102 ,
-                "name": "Ceramic Plate",
-                "slug": "Ceramic Plate",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1777210015/74777-iznik-design-ceramic-plate-halic-scp25026-jpg-scp25026_jcpdmd.jpg"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              
-              {
-                "id": 50103,
-                "name": "Ceramic Plate",
-                "slug": "Ceramic Plate",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1777210015/537651-iznik-design-ceramic-plate-hardu-rumi-hdsf01334-hdsf01334-3-copy_ffkbdx.png"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-
-
-              
-              {
-                "id": 50104,
-                "name": "Ceramic Plate",
-                "slug": "Ceramic Plate",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1777210014/CM-45_vqa2by.jpg"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              
-              {
-                "id": 50105,
-                "name": "Kitchen Downey",
-                "slug": "Kitchen Downey",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1777210014/kitchen-downey-finished01-0524pmi_oft7qh.jpg"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              
-              {
-                "id": 50106,
-                "name": "Table Cover",
-                "slug": "Table Cover",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778078587/a39b595c809440ed8dd62621cbcaff75-goods.jpeg_wtgdjq.webp"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              {
-                "id": 50107,
-                "name": "Rosewood Wooden Temple",
-                "slug": "Rosewood Wooden Temple",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778078587/Indian-Handcrafted-Brown-Rosewood-Wooden-Temple-Home-Decorative-Item.jpg_300x300_axpbi4.jpg"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              {
-                "id": 50108,
-                "name": "Brass Decorative Kettle",
-                "slug": "Brass Decorative Kettle",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778078586/ddp290_h8rz2n.jpg"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              {
-                "id": 50109,
-                "name": "Table Decor",
-                "slug": "Table Decor",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778078586/s-l400_epqnwx.jpg"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              {
-                "id": 50110,
-                "name": "Brass Decorative Musician",
-                "slug": "Brass Decorative Musician",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778078585/brass-musician-decorative-with-stonework-set-of-5-table-decor-indian-home-decor-crafts-n-chisel-1_1000x_mdokzj.jpg"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-
-              {
-                "id": 50111,
-                "name": "Brass Decorative Elephant",
-                "slug": "Brass Decorative Elephant",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778078585/71TrnulxAtL._AC_UF894_1000_QL80__mol4dt.jpg"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              
-              {
-                "id": 50112,
-                "name": "Brass Decorative Camel",
-                "slug": "Brass Decorative Camel",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778078585/il_570xN.3716711052_c02f_xs7j0y.jpg"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              {
-                "id": 50113,
-                "name": "Brass Decorative Camel",
-                "slug": "Brass Decorative Camel",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778078585/brass-decorative-camel-handmade-home-decor-gift-item-indian-home-decor-crafts-n-chisel-3_800x_pauqzp.jpg"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              }
-        ]
-      },
-
-
-
-      {
-          "general_category" : "service-items",
-        "category_name": "Biodegradable Disposable Utensils",
-        "category_image": "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776780987/ds4_aeqqq2.png", 
-        "category_description": "Biodegradable disposable utensils made from sugarcane waste (bagasse) are eco-friendly, compostable alternatives to plastic.",
-            "items": [
-              {
-                "id": 60101,
-                "name": "Biodegradable utensils made from bagasse",
-                "slug": "Biodegradable utensils made from bagasse",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776780999/ds7_x6hsev.png"
-                ],
-                "description": "Biodegradable disposable utensils made from sugarcane",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              {
-                "id": 60102,
-                "name": "Biodegradable utensils made from bagasse",
-                "slug": "Biodegradable utensils made from bagasse",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776780998/ds6_shdkje.png"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              {
-                "id": 60103,
-                "name": "Biodegradable utensils made from bagasse",
-                "slug": "Biodegradable utensils made from bagasse",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776780996/ds4_esvq2i.png"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              {
-                "id": 60104,
-                "name": "Biodegradable utensils made from bagasse",
-                "slug": "Biodegradable utensils made from bagasse",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776780995/ds3_kqy1ef.png"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              {
-                "id": 60105,
-                "name": "Biodegradable utensils made from bagasse",
-                "slug": "Biodegradable utensils made from bagasse",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776780994/ds2_rigqnj.png"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },{
-                "id": 60106,
-                "name": "Biodegradable utensils made from bagasse",
-                "slug": "Biodegradable utensils made from bagasse",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776780989/ds5_lxxkfn.png"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              {
-                "id": 60107,
-                "name": "Biodegradable utensils made from bagasse",
-                "slug": "Biodegradable utensils made from bagasse",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776780987/ds4_aeqqq2.png"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              {
-                "id": 60108,
-                "name": "",
-                "slug": "",
-                "images": [
-                  ""
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              {
-                "id": 60109,
-                "name": "",
-                "slug": "",
-                "images": [
-                  ""
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              {
-                "id": 60101,
-                "name": "",
-                "slug": "",
-                "images": [
-                  ""
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              {
-                "id": 60101,
-                "name": "",
-                "slug": "",
-                "images": [
-                  ""
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              }
-            
-        ]
-      },
-
-
-      {
-        "general_category" : "service-items",
-        "category_name": "Jewellery & accessory",
-        "category_image": "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775758011/jewellery_uzwijc.png",
-        "category_description": "Exquisite traditional and contemporary jewellery pieces crafted for global markets.",
-            "items": [
-              {
-                "id": 70101,
-                "name": "Hindu Marriage Bridal Ring",
-                "slug": "Hindu Marriage Bridal Ring",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778147695/jwellery-hindu-marriage-bridel-one-ring-corner-background-blur-selective-focus-186469339_bwe1nn.jpg"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              { 
-                "id": 70102,
-                "name": "Silver Chain",
-                "slug": "Silver Chain",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778147694/il_300x300.7898691718_2732_fjhiaq.jpg"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              {
-                "id": 70103,
-                "name": "Silver Chain",
-                "slug": "Silver Chain",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778147691/SILDWP007-3_rl6nai.jpg"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              { 
-                "id": 70104,
-                "name": "AD Set",
-                "slug": "AD Set",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778147694/1-19_twwybr.jpg"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              {
-                "id": 70105,
-                "name": "Gold Chain",
-                "slug": "Gold Chain",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778147691/il_570xN.5892637234_7upm_efske8.jpg"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              {
-                "id": 70106,
-                "name": "Kundan Necklace",
-                "slug": "Kundan Necklace",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778147691/necklace-jwellery-by-kajal-41753165233_udo2mq.jpg"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              {
-                "id": 70107,
-                "name": "Gold Chain",
-                "slug": "Gold Chain",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778147689/productIDiXJ2RH6bUrggkTY7pIHWd6IafRlg38c9JahDfp1R_bkmts0.jpg"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              {
-                "id": 70108,
-                "name": "Kundan Necklace",
-                "slug": "Kundan Necklace",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778147688/il_570xN.5736872171_3m9o_soj4c6.jpg"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              {
-                "id": 70109,
-                      "name": "Jewellers",
-                "slug": "Jewellers",
-                
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778147687/1596109-png-jewellers_yuqerl.webp"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              {
-                "id": 70110,
-                "name": "Polki Kundan Bridal Jwellery",
-                "slug": "Polki Kundan Bridal Jwellery", 
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778147686/ishhaara-maharani-designer-polki-kundan-bridal-jwellery-11519997118888_rxtuft.jpg"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              {
-                "id": 70111,
-                "name": "Jwellery Marriage Bridal Ring",
-                "slug": "Jwellery Marriage Bridal Ring",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778147685/jwellery-marriage-bridle-background-blur-selective-focus-185448554_zsscch.jpg"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              }
-        ]       
-      },
-
-
-
-      {
-        "general_category" : "service-items",
-        "category_name": "Food & Beverages ",
-        "category_image": "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775758010/food_rigycr.png",
-        "category_description": "Fresh produce, processed foods, and beverages catering to a diverse range of global markets.",
-            "items": [
-              {
-                "id": 80101,
-                "name": "Spices",
-                "slug": "Spices",
-               
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775757845/samples/food/spices.jpg"
-                ],
-                "description": "High-quality export potatoes with multiple varieties.",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              {
-                "id": 80102,
-                "name": "Pickles",
-                "slug": "Pickles",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775757845/samples/food/spices.jpg"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              {
-                "id": 80103,
-                "name": "Spices",
-                "slug": "Spices",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775757841/samples/food/fish-vegetables.jpg"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              }
-        ]
-      },
-      {
-        "general_category" : "service-items",
-        "category_name": "Jute Bags",
-        "category_image": "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776780847/bd1_xotmjb.png",
-        "category_description": "A beautiful, eco-friendly jute bag is a durable yet stylish accessory crafted from natural, biodegradable fiber. It often features a rustic beige tone enhanced with trendy elements like intricate embroidery, leather handles, colorful prints, or bohemian doll embellishments.",
-            "items": [
-              {
-                "id": 90101,
-                "name": "Jute Bags",
-                "slug": "Jute Bags",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776780847/bd1_xotmjb.png"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              {
-                "id": 90102,
-                "name": " Blue Color Jute Bags",
-                "slug": "Jute Bags",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776780845/b9_ir3pq5.png"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              {
-                "id": 90103,
-                "name": "Hand Jute Bags",
-                "slug": "Hand Jute Bags",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776780843/b8_tuz3qq.png"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              {
-                "id": 90104,
-                "name": "Handbag ",
-                "slug": "Jute Bags",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776780841/b6_amlxcy.png"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              {
-                "id": 90105,
-                "name": "Jute Bags",
-                "slug": "Jute Bags",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776780840/b4_n2hbvp.png"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              {
-                "id": 90106,
-                "name": "Jute Bags",
-                "slug": "Jute Bags",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776780839/b2_v5fier.png"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              {
-                "id": 90107,
-                "name": "Jute Bags",
-                "slug": "Jute Bags",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776780839/b3_dghxbx.png"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              {
-                "id": 90108,
-                "name": "Jute Bags",
-                "slug": "Jute Bags",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776780839/b1_jugmim.png"
-                  ],
-                "description": "",
-                  "price": 1.5,
-                  "currency": "AED"
+                {
+                    "name": "vegetables",
+                    "items": [
+                        {
+                            "id": 10101,
+                            "name": "Potatoes",
+                            "slug": "potatoes",
+                            "images": [
+                                "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1782817983/88be5c9f-ee12-4713-8cae-d4d777d669f2.png"
+                            ],
+                            "description": "Export-quality potatoes",
+                            "price": 1.5,
+                            "currency": "AED"
+                        },
+                        {
+                            "id": 10102,
+                            "name": "Onions",
+                            "slug": "onions",
+                            "images": [
+                                "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776782041/onion_dfldok.png"
+                            ],
+                            "description": "Export-quality onions",
+                            "price": 2,
+                            "currency": "AED"
+                        },
+                        {
+                            "id": 10103,
+                            "name": "Carrots",
+                            "slug": "carrots",
+                            "images": [
+                                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNssYuyDQtMEqAN0UTLO2U6zsB_Qes2jIxGqzNjR10gsDykWpeZd7q_VwMaa91Va8OW_EhfinDk4LW4zs5xDRrgEjKINIXfRLQg1_gyuK21g&s=10"
+                            ],
+                            "description": "Fresh carrots",
+                            "price": 2.5,
+                            "currency": "AED"
+                        }
+                    ]
                 },
                 {
-                  "id": 90109,
-                  "name": "Jute Bags",
-                  "slug": "Jute Bags",
-                  "images": [
-                    "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776780846/b10_tlwg9y.png"
-                  ],
-                  "description": "",
-                  "price": 1.5,
-                  "currency": "AED"
+                    "name": "fruits",
+                    "items": [
+                        {
+                            "id": 10201,
+                            "name": "Apples",
+                            "slug": "apples",
+                            "images": [
+                                "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1777043892/Apple_ndxqlf.png"
+                            ],
+                            "description": "Fresh apples",
+                            "price": 4.5,
+                            "currency": "AED"
+                        },
+                        {
+                            "id": 10202,
+                            "name": "Oranges",
+                            "slug": "oranges",
+                            "images": [
+                                "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1777043893/Orange_wxpeot.png"
+                            ],
+                            "description": "Fresh oranges",
+                            "price": 5,
+                            "currency": "AED"
+                        },
+                        {
+                            "id": 10203,
+                            "name": "Coconut",
+                            "slug": "coconut",
+                            "images": [
+                                "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776782043/Nariyal_btyftg.png"
+                            ],
+                            "description": "Fresh coconuts",
+                            "price": 4,
+                            "currency": "AED"
+                        },
+                        {
+                            "id": 10204,
+                            "name": "Banana",
+                            "slug": "banana",
+                            "images": [
+                                "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1777044740/Banana_sc2j6e.png"
+                            ],
+                            "description": "Fresh ",
+                            "price": 4,
+                            "currency": "AED"
+                        },
+                        {
+                            "id": 10205,
+                            "name": "Pine Apple",
+                            "slug": "pine-apple",
+                            "images": [
+                                "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1777044797/71_qAJehpkL_fxo7yp.jpg",
+                                "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1777044796/1800ss_getty_rf_pineapples_brqgxe.webp"
+                            ],
+                            "description": "Fresh Pine Apple",
+                            "price": 4,
+                            "currency": "AED"
+                        },
+                        {
+                            "id": 10206,
+                            "name": "Mango",
+                            "slug": "mango",
+                            "images": [
+                                "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1777044905/vibrant.mango.indica.tree.fruit._dlmoxu.jpg",
+                                "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1777044905/mango_fu7t2f.jpg"
+                            ],
+                            "description": "Fresh ",
+                            "price": 4,
+                            "currency": "AED"
+                        },
+                        {
+                            "id": 10207,
+                            "name": "Guava",
+                            "slug": "guava",
+                            "images": [
+                                "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1777044826/51z5USsZaAL_v1y7k4.jpg",
+                                "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1777044825/Gauvava600x300_gmwwzx.jpg"
+                            ],
+                            "description": "Fresh ",
+                            "price": 4,
+                            "currency": "AED"
+                        },
+                        {
+                            "id": 10208,
+                            "name": "Star Fruits",
+                            "slug": "star-fruits",
+                            "images": [
+                                "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1777045041/iStock-518225859-e1699245319339_q68twp.jpg"
+                            ],
+                            "description": "Fresh ",
+                            "price": 4,
+                            "currency": "AED"
+                        },
+                        {
+                            "id": 10209,
+                            "name": "Grapes",
+                            "slug": "grapes",
+                            "images": [
+                                "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1777044980/grapes_qy2ex1.png",
+                                "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1777044981/271072_7931568161023_gxeiiq.jpg"
+                            ],
+                            "description": "Fresh Grapes",
+                            "price": 4,
+                            "currency": "AED"
+                        }
+                    ]
                 },
                 {
-                  "id": 90110,
-                  "name": "Jute Bags",
-                  "slug": "Jute Bags",
-                  "images": [
-                    "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776780847/Canvas_jute_hkqnoq.png"
-                  ],
-                  "description": "",
-                  "price": 1.5,
-                  "currency": "AED"
-                  
-
-                },
-                {
-                  "id": 90111,
-                  "name": "Power Bank Jute Bags",
-                  "slug": "Power Bank Jute Bags",
-                  "images": [
-                    "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776780850/powerbankjutebag_dcci3a.png"
-                  ],
-                  "description": "",
-                  "price": 1.5,
-                  "currency": "AED"
-                },
-                {
-                  "id": 90112,
-                  "name": "Jute Bags",
-                  "slug": "Jute Bags",
-                  "images": [
-                    "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776780851/potli_bf54tj.png"
-                  ],
-                  "description": "",
-                  "price": 1.5,
-                  "currency": "AED"
+                    "name": "grains",
+                    "items": [
+                        {
+                            "id": 10301,
+                            "name": "Basmati Rice",
+                            "slug": "basmati-rice",
+                            "images": [
+                                "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776782045/Rice2_cfwilu.png"
+                            ],
+                            "description": "Premium export-quality basmati rice",
+                            "price": 6,
+                            "currency": "AED"
+                        }
+                    ]
                 }
             ]
-      },
-
-      {
-        "general_category" : "service-items",
-        "category_name": "Textiles & Fabrics",
-        "category_image": "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775758012/textile_wc0dod.png",
-        "category_description": "Exquisite traditional and contemporary jewellery pieces crafted for global markets.",
+        },
+        {
+            "general_category": "service-items",
+            "category_name": "spare_parts",
+            "category_image": "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775758012/SpareParts_wkdta5.png",
+            "category_description": "High-quality spare parts for various industries, ensuring durability, precision, and global standards.",
             "items": [
-              {
-                "id": 100101,
-                "name": "Shirt Fabric 100% Cotton Plain Woven Stretch Combed Cotton",
-                "slug": "",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778148883/Shirt-Fabric-100-Cotton-Plain-Woven-Stretch-Combed-Cotton-Poplin-Men-Shirts_uly7ri.webp"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              {
-                "id": 100102,
-                "name": "",
-                "slug": "",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778148883/K7193_2_nleuln.jpg"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              {
-                "id": 100103,
-                "name": "",
-                "slug": "",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778148885/Hot-Sale-Woven-Plain-Lightweight-60S-Floral-100-Cotton-Rose-Liberty-Lawn-Printing-Poplin-Fabric-for-Shirt-Blouse-Clothing.jpg_300x300_dsufj9.jpg"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              {
-                "id": 100104,
-                "name": "",
-                "slug": "",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778148884/product-jpeg-500x500_nghzzj.jpg"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },  
-              {
-                "id": 100105,
-                "name": "",
-                "slug": "",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778148883/43_a2b94493-2eec-4df0-9792-729e7602e32f_amfckr.png"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              {
-                "id": 100106,
-                "name": "cotton 40% polyester plain oxford fabric 165gsm oxford fabric strip wrinkle resistant classic shirt fabric",
-                "slug": "",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778148883/60-Cotton40-Polyester-Plain-Oxford-Fabric-165gsm-Oxford-Fabric-Strip-Wrinkle-Resistant-Classic-Shirt-Fabric_u254be.jpg"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              {
-                "id": 100107,
-                "name": "100% Cotton Plain Woven Stretch Combed Cotton Fabric",
-                "slug": "",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778148883/BF356990-AC5E-488E-93A5-3E524D0F557E_mka38b.jpg"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED" 
-              },
-              {
-                "id": 100108,
-                "name": "",
-                "slug": "",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778148886/FY0847-5_umwzcf.jpg"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              {
-                "id": 100109,
-                "name": "",
-                "slug": "",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778148886/high-quality-fabrics-with-excellent-fit-black-shirt--292_fwxgxo.jpg"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              {
-                "id": 100110,
-                "name": "",
-                "slug": "",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778149370/support_your_local_dealer_tshirt_thek_deniz_weber_graphic_design_itsnice_EfuYaJj_qf1huj.webp"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              {
-                "id": 100111,
-                "name": "",
-                "slug": "",
-                "images": [
-                  "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778149369/B1pppR4gVKL._CLa_7C2140_2C2000_7C61D8N6mfy3L.png_7C0_2C0_2C2140_2C2000_2B0.0_2C0.0_2C2140.0_2C2000.0_AC_UY1000__agxsuo.jpg"
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              }
-        ]
-      },
-
-{
-        "general_category" : "service-items",
-        "category_name": "Midevial & Historical Artifacts Replicas",
-        "category_image": "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1782339583/armor_absvw2.png",
-        "category_description": "Battle-ready medieval armor replicas, handcrafted for collectors, reenactors, and Buhurt fighters—built for authenticity, durability, and combat performance.",
-            "items": [
-              {
-                "id": 100101,
-                "name": "",
-                "slug": "",
-                "images": [
-                  
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              {
-                "id": 100102,
-                "name": "",
-                "slug": "",
-                "images": [
-                  
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              {
-                "id": 100103,
-                "name": "",
-                "slug": "",
-                "images": [
-                  
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              },
-              {
-                "id": 100104,
-                "name": "",
-                "slug": "",
-                "images": [
-                  
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              }
+                {
+                    "id": 20101,
+                    "name": "spare parts ",
+                    "slug": "spare-parts",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775758012/SpareParts_wkdta5.png",
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778152776/-C2012x1131_29_9-S1200-FWEBP_yjijdh.webp",
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778152774/staubli-textile-spare-parts-hip_doc2xt.jpg",
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778152772/hero-oem-car-parts-640x350-min_jfx6br.jpg",
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778152770/y_yuhctl.png",
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778152770/3113940538-1_ubvaaq.png"
+                    ],
+                    "description": "We manufacture the gears according to your dimensions",
+                    "price": "based upon the requirement",
+                    "currency": "AED"
+                }
             ]
-          },
-
-
-      {
-        "general_category" : "service-items",
-        "category_name": "Global Shipping",
-        "category_image": "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775758011/Shipping_bx7rlo.png",
-        "category_description": "Reliable worldwide logistics with secure packaging and timely delivery across 27+ countries.",
+        },
+        {
+            "general_category": "service-items",
+            "category_name": "Furniture & Home Decor",
+            "category_image": "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775758011/home-decore_osh38j.png",
+            "category_description": "Traditional Indian designs and contemporary pieces for global home and lifestyle markets.",
             "items": [
-              {
-                "id": 100101,
-                "name": "",
-                "slug": "",
-                "images": [
-                  
-                ],
-                "description": "",
-                "price": 1.5,
-                "currency": "AED"
-              }
-            
-        ]
-      }
-
-
-
-
-
-
-
-
-     
-      
-
-
+                {
+                    "id": 30101,
+                    "name": "Indoor Miniature Planting Pot",
+                    "slug": "indoor-miniature-planting-pot",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1777210054/O1CN01b5dVdv1xlisu1Owzn__2206931006484_xgi4es.jpg",
+                        ""
+                    ],
+                    "description": "Export-quality Indoor Miniature Planting Pot",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 30102,
+                    "name": "Garden Pottery Set",
+                    "slug": "garden-pottery-set",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1777210053/decorative_outdoor_garden_pottery_set_1280x900_ob3txj.jpg",
+                        ""
+                    ],
+                    "description": "Export-quality Garden Pottery Set",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 30103,
+                    "name": "Round White Earthenware Ceramic-planter",
+                    "slug": "round-white-vietnam-earthenware-ceramic-planter",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1777210053/round-white-vietnam-earthenware-ceramic-planter-141546_xiunk9.jpg"
+                    ],
+                    "description": "Export-quality Round White Earthenware Ceramic-planter",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 30104,
+                    "name": "Clay Pot",
+                    "slug": "clay-pot",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1777210053/WhatsApp-Image-2024-08-02-at-10-58-42_a0e9dcf0_y87fsd.jpg"
+                    ],
+                    "description": "Export-quality Clay Pot",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 30105,
+                    "name": "Glazed Pottery",
+                    "slug": "glazed-pottery",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1777210052/Glazed-Pottery-Store-Feature_rzne5m.jpg"
+                    ],
+                    "description": "Export-quality Glazed Pottery",
+                    "price": "",
+                    "currency": "AED"
+                }
+            ]
+        },
+        {
+            "general_category": "service-items",
+            "category_name": "Medical Supplies",
+            "category_image": "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775758011/medical-supplies_ll9qfl.png",
+            "category_description": "PPE, medical devices, and healthcare products adhering to global health and safety standards.",
+            "items": [
+                {
+                    "id": 40101,
+                    "name": "PPE KIT",
+                    "slug": "ppe-kit",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778150102/ppe-kit-90-gsm-full-body-ppe-kit-protection-safety-suits-for-original-imag37h3cujshegb_bnaske.jpg"
+                    ],
+                    "description": "Export-quality PPE KIT",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 40102,
+                    "name": "SKA12-BAG-PP ",
+                    "slug": "ska12-bag-pp",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778150100/SKA12-BAG-PP_z4lxvu.jpg"
+                    ],
+                    "description": "Export-quality SKA12-BAG-PP ",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 40103,
+                    "name": "Arc Flash Face Shield Kit",
+                    "slug": "arc-flash-face-shield-kit",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778150098/3260.003.120-salisbury-arc-flash-faceshield-kit-as1200-ska12-pp-angle_medium_umowyk.jpg"
+                    ],
+                    "description": "Export-quality Arc Flash Face Shield Kit",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 40104,
+                    "name": "PPE Kit",
+                    "slug": "ppe-kit-40104",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778150097/ppe-kit-500x500_p580nf.png"
+                    ],
+                    "description": "Export-quality PPE Kit",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 40105,
+                    "name": "PPE Gloves",
+                    "slug": "ppe-gloves",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778150096/ppe1001-pdpm-original-imafrtm7hnx9wdz6_oyj2ri.jpg"
+                    ],
+                    "description": "Export-quality PPE Gloves",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 40106,
+                    "name": "Medical Gadgets",
+                    "slug": "medical-gadgets",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778150038/medical-gadgets_ku9mrj.jpg"
+                    ],
+                    "description": "Export-quality Medical Gadgets",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 40107,
+                    "name": "Blood Pressure Monitor",
+                    "slug": "blood-pressure-monitor",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778150038/caretaker_jzisgh.jpg"
+                    ],
+                    "description": "Export-quality Blood Pressure Monitor",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 40108,
+                    "name": "Safety Goggles",
+                    "slug": "safety-goggles",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1782333410/medical-protective-goggles-800x800_ugfgt1.jpg",
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1782333411/16.0100CR_vkxjpv.jpg"
+                    ],
+                    "description": "Export-quality Safety Goggles",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 40109,
+                    "name": "Scrubs",
+                    "slug": "scrubs",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1782296989/white_blue-scrubs_xspogf.png"
+                    ],
+                    "description": "Export-quality Scrubs",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 40110,
+                    "name": "Medical Face Mask",
+                    "slug": "medical-face-mask",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1782296989/scrubs_white_skbhvj.png"
+                    ],
+                    "description": "Export-quality Medical Face Mask",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 40111,
+                    "name": "Medical Face Mask",
+                    "slug": "medical-face-mask-40111",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1782296988/White-Scrubs_wnnhgl.png"
+                    ],
+                    "description": "Export-quality Medical Face Mask",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 40113,
+                    "name": "Scrubs",
+                    "slug": "scrubs-40113",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1782296859/Scrub_Black_vpbasz.png"
+                    ],
+                    "description": "Export-quality Scrubs",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 40114,
+                    "name": "Medical Face Mask",
+                    "slug": "medical-face-mask-40114",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1782334547/61yMKe_2Br-SL._SS400__factdk.jpg"
+                    ],
+                    "description": "Export-quality Medical Face Mask",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 40115,
+                    "name": "Lab Coat",
+                    "slug": "lab-coat",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1782378976/image_o1xhz9.png"
+                    ],
+                    "description": "Export-quality Lab Coat",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 40116,
+                    "name": "Lab Coat",
+                    "slug": "lab-coat-40116",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1782378976/image_1_qfxb3i.png"
+                    ],
+                    "description": "Export-quality Lab Coat",
+                    "price": 1.5,
+                    "currency": "AED"
+                }
+            ]
+        },
+        {
+            "general_category": "service-items",
+            "category_name": "Handicrafts",
+            "category_image": "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775758010/handicraft2_hbippu.png",
+            "category_description": "Authentic handcrafted artifacts reflecting India's rich heritage, perfect for collectors and global markets.",
+            "items": [
+                {
+                    "id": 50101,
+                    "name": "Ceramic Plate",
+                    "slug": "ceramic-plate",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1777210016/537562-iznik-design-ceramic-plate-hardu-rumi-hdsf01334-sf01334-x_wfvuex.jpg"
+                    ],
+                    "description": "Export-quality Ceramic Plate",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 50102,
+                    "name": "Ceramic Plate",
+                    "slug": "ceramic-plate-50102",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1777210015/74777-iznik-design-ceramic-plate-halic-scp25026-jpg-scp25026_jcpdmd.jpg"
+                    ],
+                    "description": "Export-quality Ceramic Plate",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 50103,
+                    "name": "Ceramic Plate",
+                    "slug": "ceramic-plate-50103",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1777210015/537651-iznik-design-ceramic-plate-hardu-rumi-hdsf01334-hdsf01334-3-copy_ffkbdx.png"
+                    ],
+                    "description": "Export-quality Ceramic Plate",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 50104,
+                    "name": "Ceramic Plate",
+                    "slug": "ceramic-plate-50104",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1777210014/CM-45_vqa2by.jpg"
+                    ],
+                    "description": "Export-quality Ceramic Plate",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 50105,
+                    "name": "Kitchen Downey",
+                    "slug": "kitchen-downey",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1777210014/kitchen-downey-finished01-0524pmi_oft7qh.jpg"
+                    ],
+                    "description": "Export-quality Kitchen Downey",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 50106,
+                    "name": "Table Cover",
+                    "slug": "table-cover",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778078587/a39b595c809440ed8dd62621cbcaff75-goods.jpeg_wtgdjq.webp"
+                    ],
+                    "description": "Export-quality Table Cover",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 50107,
+                    "name": "Rosewood Wooden Temple",
+                    "slug": "rosewood-wooden-temple",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778078587/Indian-Handcrafted-Brown-Rosewood-Wooden-Temple-Home-Decorative-Item.jpg_300x300_axpbi4.jpg"
+                    ],
+                    "description": "Export-quality Rosewood Wooden Temple",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 50108,
+                    "name": "Brass Decorative Kettle",
+                    "slug": "brass-decorative-kettle",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778078586/ddp290_h8rz2n.jpg"
+                    ],
+                    "description": "Export-quality Brass Decorative Kettle",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 50109,
+                    "name": "Table Decor",
+                    "slug": "table-decor",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778078586/s-l400_epqnwx.jpg"
+                    ],
+                    "description": "Export-quality Table Decor",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 50110,
+                    "name": "Brass Decorative Musician",
+                    "slug": "brass-decorative-musician",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778078585/brass-musician-decorative-with-stonework-set-of-5-table-decor-indian-home-decor-crafts-n-chisel-1_1000x_mdokzj.jpg"
+                    ],
+                    "description": "Export-quality Brass Decorative Musician",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 50111,
+                    "name": "Brass Decorative Elephant",
+                    "slug": "brass-decorative-elephant",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778078585/71TrnulxAtL._AC_UF894_1000_QL80__mol4dt.jpg"
+                    ],
+                    "description": "Export-quality Brass Decorative Elephant",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 50112,
+                    "name": "Brass Decorative Camel",
+                    "slug": "brass-decorative-camel",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778078585/il_570xN.3716711052_c02f_xs7j0y.jpg"
+                    ],
+                    "description": "Export-quality Brass Decorative Camel",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 50113,
+                    "name": "Brass Decorative Camel",
+                    "slug": "brass-decorative-camel-50113",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778078585/brass-decorative-camel-handmade-home-decor-gift-item-indian-home-decor-crafts-n-chisel-3_800x_pauqzp.jpg"
+                    ],
+                    "description": "Export-quality Brass Decorative Camel",
+                    "price": 1.5,
+                    "currency": "AED"
+                }
+            ]
+        },
+        {
+            "general_category": "service-items",
+            "category_name": "Biodegradable Disposable Utensils",
+            "category_image": "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776780987/ds4_aeqqq2.png",
+            "category_description": "Biodegradable disposable utensils made from sugarcane waste (bagasse) are eco-friendly, compostable alternatives to plastic.",
+            "items": [
+                {
+                    "id": 60101,
+                    "name": "Biodegradable utensils made from bagasse",
+                    "slug": "biodegradable-utensils-made-from-bagasse",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776780999/ds7_x6hsev.png"
+                    ],
+                    "description": "Biodegradable disposable utensils made from sugarcane",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 60102,
+                    "name": "Biodegradable utensils made from bagasse",
+                    "slug": "biodegradable-utensils-made-from-bagasse-60102",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776780998/ds6_shdkje.png"
+                    ],
+                    "description": "Export-quality Biodegradable utensils made from bagasse",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 60103,
+                    "name": "Biodegradable utensils made from bagasse",
+                    "slug": "biodegradable-utensils-made-from-bagasse-60103",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776780996/ds4_esvq2i.png"
+                    ],
+                    "description": "Export-quality Biodegradable utensils made from bagasse",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 60104,
+                    "name": "Biodegradable utensils made from bagasse",
+                    "slug": "biodegradable-utensils-made-from-bagasse-60104",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776780995/ds3_kqy1ef.png"
+                    ],
+                    "description": "Export-quality Biodegradable utensils made from bagasse",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 60105,
+                    "name": "Biodegradable utensils made from bagasse",
+                    "slug": "biodegradable-utensils-made-from-bagasse-60105",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776780994/ds2_rigqnj.png"
+                    ],
+                    "description": "Export-quality Biodegradable utensils made from bagasse",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 60106,
+                    "name": "Biodegradable utensils made from bagasse",
+                    "slug": "biodegradable-utensils-made-from-bagasse-60106",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776780989/ds5_lxxkfn.png"
+                    ],
+                    "description": "Export-quality Biodegradable utensils made from bagasse",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 60107,
+                    "name": "Biodegradable utensils made from bagasse",
+                    "slug": "biodegradable-utensils-made-from-bagasse-60107",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776780987/ds4_aeqqq2.png"
+                    ],
+                    "description": "Export-quality Biodegradable utensils made from bagasse",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 60108,
+                    "name": "",
+                    "slug": "product-60108",
+                    "images": [
+                        ""
+                    ],
+                    "description": "Export-quality ",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 60109,
+                    "name": "",
+                    "slug": "product-60109",
+                    "images": [
+                        ""
+                    ],
+                    "description": "Export-quality ",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 60101,
+                    "name": "",
+                    "slug": "product-60101",
+                    "images": [
+                        ""
+                    ],
+                    "description": "Export-quality ",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 60101,
+                    "name": "",
+                    "slug": "product-60101-60101",
+                    "images": [
+                        ""
+                    ],
+                    "description": "Export-quality ",
+                    "price": 1.5,
+                    "currency": "AED"
+                }
+            ]
+        },
+        {
+            "general_category": "service-items",
+            "category_name": "Jewellery & accessory",
+            "category_image": "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775758011/jewellery_uzwijc.png",
+            "category_description": "Exquisite traditional and contemporary jewellery pieces crafted for global markets.",
+            "items": [
+                {
+                    "id": 70101,
+                    "name": "Hindu Marriage Bridal Ring",
+                    "slug": "hindu-marriage-bridal-ring",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778147695/jwellery-hindu-marriage-bridel-one-ring-corner-background-blur-selective-focus-186469339_bwe1nn.jpg"
+                    ],
+                    "description": "Export-quality Hindu Marriage Bridal Ring",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 70102,
+                    "name": "Silver Chain",
+                    "slug": "silver-chain",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778147694/il_300x300.7898691718_2732_fjhiaq.jpg"
+                    ],
+                    "description": "Export-quality Silver Chain",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 70103,
+                    "name": "Silver Chain",
+                    "slug": "silver-chain-70103",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778147691/SILDWP007-3_rl6nai.jpg"
+                    ],
+                    "description": "Export-quality Silver Chain",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 70104,
+                    "name": "AD Set",
+                    "slug": "ad-set",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778147694/1-19_twwybr.jpg"
+                    ],
+                    "description": "Export-quality AD Set",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 70105,
+                    "name": "Gold Chain",
+                    "slug": "gold-chain",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778147691/il_570xN.5892637234_7upm_efske8.jpg"
+                    ],
+                    "description": "Export-quality Gold Chain",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 70106,
+                    "name": "Kundan Necklace",
+                    "slug": "kundan-necklace",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778147691/necklace-jwellery-by-kajal-41753165233_udo2mq.jpg"
+                    ],
+                    "description": "Export-quality Kundan Necklace",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 70107,
+                    "name": "Gold Chain",
+                    "slug": "gold-chain-70107",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778147689/productIDiXJ2RH6bUrggkTY7pIHWd6IafRlg38c9JahDfp1R_bkmts0.jpg"
+                    ],
+                    "description": "Export-quality Gold Chain",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 70108,
+                    "name": "Kundan Necklace",
+                    "slug": "kundan-necklace-70108",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778147688/il_570xN.5736872171_3m9o_soj4c6.jpg"
+                    ],
+                    "description": "Export-quality Kundan Necklace",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 70109,
+                    "name": "Jewellers",
+                    "slug": "jewellers",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778147687/1596109-png-jewellers_yuqerl.webp"
+                    ],
+                    "description": "Export-quality Jewellers",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 70110,
+                    "name": "Polki Kundan Bridal Jwellery",
+                    "slug": "polki-kundan-bridal-jwellery",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778147686/ishhaara-maharani-designer-polki-kundan-bridal-jwellery-11519997118888_rxtuft.jpg"
+                    ],
+                    "description": "Export-quality Polki Kundan Bridal Jwellery",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 70111,
+                    "name": "Jwellery Marriage Bridal Ring",
+                    "slug": "jwellery-marriage-bridal-ring",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778147685/jwellery-marriage-bridle-background-blur-selective-focus-185448554_zsscch.jpg"
+                    ],
+                    "description": "Export-quality Jwellery Marriage Bridal Ring",
+                    "price": 1.5,
+                    "currency": "AED"
+                }
+            ]
+        },
+        {
+            "general_category": "service-items",
+            "category_name": "Food & Beverages ",
+            "category_image": "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775758010/food_rigycr.png",
+            "category_description": "Fresh produce, processed foods, and beverages catering to a diverse range of global markets.",
+            "items": [
+                {
+                    "id": 80101,
+                    "name": "Spices",
+                    "slug": "spices",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775757845/samples/food/spices.jpg"
+                    ],
+                    "description": "High-quality export potatoes with multiple varieties.",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 80102,
+                    "name": "Pickles",
+                    "slug": "pickles",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775757845/samples/food/spices.jpg"
+                    ],
+                    "description": "Export-quality Pickles",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 80103,
+                    "name": "Spices",
+                    "slug": "spices-80103",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775757841/samples/food/fish-vegetables.jpg"
+                    ],
+                    "description": "Export-quality Spices",
+                    "price": 1.5,
+                    "currency": "AED"
+                }
+            ]
+        },
+        {
+            "general_category": "service-items",
+            "category_name": "Jute Bags",
+            "category_image": "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776780847/bd1_xotmjb.png",
+            "category_description": "A beautiful, eco-friendly jute bag is a durable yet stylish accessory crafted from natural, biodegradable fiber. It often features a rustic beige tone enhanced with trendy elements like intricate embroidery, leather handles, colorful prints, or bohemian doll embellishments.",
+            "items": [
+                {
+                    "id": 90101,
+                    "name": "Jute Bags",
+                    "slug": "jute-bags",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776780847/bd1_xotmjb.png"
+                    ],
+                    "description": "Export-quality Jute Bags",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 90102,
+                    "name": " Blue Color Jute Bags",
+                    "slug": "jute-bags-90102",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776780845/b9_ir3pq5.png"
+                    ],
+                    "description": "Export-quality  Blue Color Jute Bags",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 90103,
+                    "name": "Hand Jute Bags",
+                    "slug": "hand-jute-bags",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776780843/b8_tuz3qq.png"
+                    ],
+                    "description": "Export-quality Hand Jute Bags",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 90104,
+                    "name": "Handbag ",
+                    "slug": "jute-bags-90104",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776780841/b6_amlxcy.png"
+                    ],
+                    "description": "Export-quality Handbag ",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 90105,
+                    "name": "Jute Bags",
+                    "slug": "jute-bags-90105",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776780840/b4_n2hbvp.png"
+                    ],
+                    "description": "Export-quality Jute Bags",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 90106,
+                    "name": "Jute Bags",
+                    "slug": "jute-bags-90106",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776780839/b2_v5fier.png"
+                    ],
+                    "description": "Export-quality Jute Bags",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 90107,
+                    "name": "Jute Bags",
+                    "slug": "jute-bags-90107",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776780839/b3_dghxbx.png"
+                    ],
+                    "description": "Export-quality Jute Bags",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 90108,
+                    "name": "Jute Bags",
+                    "slug": "jute-bags-90108",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776780839/b1_jugmim.png"
+                    ],
+                    "description": "Export-quality Jute Bags",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 90109,
+                    "name": "Jute Bags",
+                    "slug": "jute-bags-90109",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776780846/b10_tlwg9y.png"
+                    ],
+                    "description": "Export-quality Jute Bags",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 90110,
+                    "name": "Jute Bags",
+                    "slug": "jute-bags-90110",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776780847/Canvas_jute_hkqnoq.png"
+                    ],
+                    "description": "Export-quality Jute Bags",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 90111,
+                    "name": "Power Bank Jute Bags",
+                    "slug": "power-bank-jute-bags",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776780850/powerbankjutebag_dcci3a.png"
+                    ],
+                    "description": "Export-quality Power Bank Jute Bags",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 90112,
+                    "name": "Jute Bags",
+                    "slug": "jute-bags-90112",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776780851/potli_bf54tj.png"
+                    ],
+                    "description": "Export-quality Jute Bags",
+                    "price": 1.5,
+                    "currency": "AED"
+                }
+            ]
+        },
+        {
+            "general_category": "service-items",
+            "category_name": "Textiles & Fabrics",
+            "category_image": "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775758012/textile_wc0dod.png",
+            "category_description": "Exquisite traditional and contemporary jewellery pieces crafted for global markets.",
+            "items": [
+                {
+                    "id": 100101,
+                    "name": "Shirt Fabric 100% Cotton Plain Woven Stretch Combed Cotton",
+                    "slug": "shirt-fabric-100-cotton-plain-woven-stretch-combed-cotton",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778148883/Shirt-Fabric-100-Cotton-Plain-Woven-Stretch-Combed-Cotton-Poplin-Men-Shirts_uly7ri.webp"
+                    ],
+                    "description": "Export-quality Shirt Fabric 100% Cotton Plain Woven Stretch Combed Cotton",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 100102,
+                    "name": "",
+                    "slug": "product-100102",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778148883/K7193_2_nleuln.jpg"
+                    ],
+                    "description": "Export-quality ",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 100103,
+                    "name": "",
+                    "slug": "product-100103",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778148885/Hot-Sale-Woven-Plain-Lightweight-60S-Floral-100-Cotton-Rose-Liberty-Lawn-Printing-Poplin-Fabric-for-Shirt-Blouse-Clothing.jpg_300x300_dsufj9.jpg"
+                    ],
+                    "description": "Export-quality ",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 100104,
+                    "name": "",
+                    "slug": "product-100104",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778148884/product-jpeg-500x500_nghzzj.jpg"
+                    ],
+                    "description": "Export-quality ",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 100105,
+                    "name": "",
+                    "slug": "product-100105",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778148883/43_a2b94493-2eec-4df0-9792-729e7602e32f_amfckr.png"
+                    ],
+                    "description": "Export-quality ",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 100106,
+                    "name": "cotton 40% polyester plain oxford fabric 165gsm oxford fabric strip wrinkle resistant classic shirt fabric",
+                    "slug": "cotton-40-polyester-plain-oxford-fabric-165gsm-oxford-fabric-strip-wrinkle-resistant-classic-shirt-fabric",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778148883/60-Cotton40-Polyester-Plain-Oxford-Fabric-165gsm-Oxford-Fabric-Strip-Wrinkle-Resistant-Classic-Shirt-Fabric_u254be.jpg"
+                    ],
+                    "description": "Export-quality cotton 40% polyester plain oxford fabric 165gsm oxford fabric strip wrinkle resistant classic shirt fabric",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 100107,
+                    "name": "100% Cotton Plain Woven Stretch Combed Cotton Fabric",
+                    "slug": "100-cotton-plain-woven-stretch-combed-cotton-fabric",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778148883/BF356990-AC5E-488E-93A5-3E524D0F557E_mka38b.jpg"
+                    ],
+                    "description": "Export-quality 100% Cotton Plain Woven Stretch Combed Cotton Fabric",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 100108,
+                    "name": "",
+                    "slug": "product-100108",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778148886/FY0847-5_umwzcf.jpg"
+                    ],
+                    "description": "Export-quality ",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 100109,
+                    "name": "",
+                    "slug": "product-100109",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778148886/high-quality-fabrics-with-excellent-fit-black-shirt--292_fwxgxo.jpg"
+                    ],
+                    "description": "Export-quality ",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 100110,
+                    "name": "",
+                    "slug": "product-100110",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778149370/support_your_local_dealer_tshirt_thek_deniz_weber_graphic_design_itsnice_EfuYaJj_qf1huj.webp"
+                    ],
+                    "description": "Export-quality ",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 100111,
+                    "name": "",
+                    "slug": "product-100111",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1778149369/B1pppR4gVKL._CLa_7C2140_2C2000_7C61D8N6mfy3L.png_7C0_2C0_2C2140_2C2000_2B0.0_2C0.0_2C2140.0_2C2000.0_AC_UY1000__agxsuo.jpg"
+                    ],
+                    "description": "Export-quality ",
+                    "price": 1.5,
+                    "currency": "AED"
+                }
+            ]
+        },
+        {
+            "general_category": "service-items",
+            "category_name": "Midevial & Historical Artifacts Replicas",
+            "category_image": "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1782339583/armor_absvw2.png",
+            "category_description": "Battle-ready medieval armor replicas, handcrafted for collectors, reenactors, and Buhurt fighters—built for authenticity, durability, and combat performance.",
+            "items": [
+                {
+                    "id": 100101,
+                    "name": "",
+                    "slug": "product-100101",
+                    "images": [],
+                    "description": "Export-quality ",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 100102,
+                    "name": "",
+                    "slug": "product-100102-100102",
+                    "images": [],
+                    "description": "Export-quality ",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 100103,
+                    "name": "",
+                    "slug": "product-100103-100103",
+                    "images": [],
+                    "description": "Export-quality ",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 100104,
+                    "name": "",
+                    "slug": "product-100104-100104",
+                    "images": [],
+                    "description": "Export-quality ",
+                    "price": 1.5,
+                    "currency": "AED"
+                }
+            ]
+        }
     ]
-  }
-
-
+}

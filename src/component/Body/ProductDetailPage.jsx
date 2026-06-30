@@ -43,6 +43,61 @@ function safeJoin(value, delimiter = ", ") {
   return "N/A";
 }
 
+function formatDetailValue(value) {
+  if (value === null || value === undefined || value === "") return "N/A";
+  if (Array.isArray(value)) return value.join(", ");
+  if (typeof value === "boolean") return value ? "Yes" : "No";
+  return String(value);
+}
+
+function renderTextBlock(block) {
+  if (!block) return null;
+  if (typeof block === "string") return <p style={{ marginTop: 8, color: "var(--text-mid)" }}>{block}</p>;
+  if (Array.isArray(block)) {
+    return (
+      <ul style={{ marginTop: 8, paddingLeft: 18, color: "var(--text-mid)" }}>
+        {block.map((item) => (
+          <li key={item} style={{ marginBottom: 6 }}>{item}</li>
+        ))}
+      </ul>
+    );
+  }
+  return null;
+}
+
+function getDetailEntries(product) {
+  const entries = [];
+  const itemDetails = Array.isArray(product?.details) ? product.details : [];
+
+  const fallbackEntries = [];
+  const genericName = product?.generic || product?.genericName || null;
+  const casNumber = product?.cas || product?.casNumber || null;
+  const purityInfo = product?.purity || product?.purityInfo || null;
+  const availability = product?.availability || null;
+
+  if (genericName) {
+    fallbackEntries.push({ label: "Generic Name", value: genericName, highlight: true });
+  }
+  if (casNumber) {
+    fallbackEntries.push({ label: "CAS Number", value: casNumber, highlight: true });
+  }
+  if (purityInfo) {
+    fallbackEntries.push({ label: "Purity", value: purityInfo, highlight: true });
+  }
+  if (availability) {
+    fallbackEntries.push({ label: "Availability", value: availability, highlight: true });
+  }
+
+  const normalizedDetails = itemDetails.map((detail) => ({
+    label: detail?.label || detail?.title || "Detail",
+    value: detail?.value ?? detail?.content ?? detail?.text ?? "",
+    type: detail?.type || "text",
+    highlight: Boolean(detail?.highlight || detail?.showInSummary),
+  }));
+
+  return [...fallbackEntries, ...normalizedDetails].filter((detail) => detail.label);
+}
+
 function normalizeRelatedItems(productSlug, categories) {
   const allItems = collectServiceItems(categories);
   return allItems
@@ -100,6 +155,7 @@ export default function ProductDetailPage() {
   const { pathname } = useLocation();
   const navigate = useNavigate();
   const [inquiry, setInquiry] = useState({ name: "", company: "", country: "", email: "", phone: "", qty: "", message: "" });
+  const [productDetailsMap, setProductDetailsMap] = useState(null);
 
   const { data } = useSiteData();
   const slug = useMemo(() => {
@@ -107,9 +163,22 @@ export default function ProductDetailPage() {
     return parts.length ? parts[parts.length - 1] : null;
   }, [pathname]);
 
+  useEffect(() => {
+    fetch("/api/product-details.json")
+      .then((res) => res.json())
+      .then((details) => setProductDetailsMap(details))
+      .catch(() => setProductDetailsMap({}));
+  }, []);
+
   const productEntry = useMemo(() => findProductBySlug(slug, data?.categories), [slug, data?.categories]);
-  const product = productEntry?.item || null;
+  const baseProduct = productEntry?.item || null;
   const productCategory = productEntry?.category || null;
+
+  const product = useMemo(() => {
+    if (!baseProduct) return null;
+    const apiDetails = productDetailsMap?.[slug] || {};
+    return { ...baseProduct, ...apiDetails };
+  }, [baseProduct, productDetailsMap, slug]);
 
   const applications = Array.isArray(product?.applications) ? product.applications : [];
   const benefits = Array.isArray(product?.benefits) ? product.benefits : [];
@@ -119,18 +188,19 @@ export default function ProductDetailPage() {
   const exportDocs = Array.isArray(product?.exportDocs) ? product.exportDocs : [];
   const specs = product?.specs || {};
   const certifications = product?.certifications || {};
+  const customSections = Array.isArray(product?.sections) ? product.sections : [];
   const productCategoryLabel = productCategory?.category_name || product?.category || "Product";
   const availability = product?.availability || "Check availability";
-  const genericName = product?.generic || "N/A";
-  const casNumber = product?.cas || "N/A";
-  const purityInfo = product?.purity || "N/A";
+  const detailEntries = useMemo(() => getDetailEntries(product), [product]);
+  const highlightDetails = detailEntries.filter((item) => item.highlight).slice(0, 3);
+  const detailsLoading = productDetailsMap === null;
 
   useEffect(() => {
-    if (!product && slug) {
+    if (!product && slug && !detailsLoading) {
       // if slug not found, navigate to NotFound or stay
       // keep simple: do nothing (Seo will handle)
     }
-  }, [product, slug]);
+  }, [product, slug, detailsLoading]);
 
   function handleInquiryChange(e) {
     const { name, value } = e.target;
@@ -144,13 +214,17 @@ export default function ProductDetailPage() {
     setInquiry({ name: "", company: "", country: "", email: "", phone: "", qty: "", message: "" });
   }
 
-  if (!product) {
+  if (!product || detailsLoading) {
     return (
       <main style={{ padding: "4rem 2rem" }}>
         <Seo />
         <div className="services-section">
-          <div className="section-heading">Product not found</div>
-          <p style={{ marginTop: "1rem" }}>The product you're looking for could not be found.</p>
+          <div className="section-heading">
+            {!product && !detailsLoading ? "Product not found" : "Loading product..."}
+          </div>
+          {!product && !detailsLoading ? (
+            <p style={{ marginTop: "1rem" }}>The product you're looking for could not be found.</p>
+          ) : null}
         </div>
       </main>
     );
@@ -165,7 +239,7 @@ export default function ProductDetailPage() {
       <section className="hero" style={{ paddingTop: "2rem", gridTemplateColumns: "1fr 1fr" }}>
         <div className="hero-left">
           <div className="hero-eyebrow">
-            <span className="tag-label">{product.category}</span>
+            <span className="tag-label">{productCategoryLabel}</span>
           </div>
           <h1 className="hero-title">{product.name}</h1>
           <p className="hero-desc">{product.description}</p>
@@ -175,18 +249,29 @@ export default function ProductDetailPage() {
             <button className="btn-outline">Download Specification</button> */}
           </div>
           <div className="hero-stats" style={{ marginTop: 20 }}>
-            <div className="hero-stat">
-              <div className="num">Generic</div>
-              <div className="lbl">{genericName}</div>
-            </div>
-            <div className="hero-stat">
-              <div className="num">CAS</div>
-              <div className="lbl">{casNumber}</div>
-            </div>
-            <div className="hero-stat">
-              <div className="num">Purity</div>
-              <div className="lbl">{purityInfo}</div>
-            </div>
+            {highlightDetails.length ? (
+              highlightDetails.map((detail) => (
+                <div className="hero-stat" key={detail.label}>
+                  <div className="num">{detail.label}</div>
+                  <div className="lbl">{formatDetailValue(detail.value)}</div>
+                </div>
+              ))
+            ) : (
+              <>
+                <div className="hero-stat">
+                  <div className="num">Generic</div>
+                  <div className="lbl">{product.generic || "N/A"}</div>
+                </div>
+                <div className="hero-stat">
+                  <div className="num">CAS</div>
+                  <div className="lbl">{product.cas || "N/A"}</div>
+                </div>
+                <div className="hero-stat">
+                  <div className="num">Purity</div>
+                  <div className="lbl">{product.purity || "N/A"}</div>
+                </div>
+              </>
+            )}
           </div>
         </div>
         <div className="hero-right">
@@ -228,6 +313,42 @@ export default function ProductDetailPage() {
             </div>
           </div>
         </div>
+
+        <div style={{ marginTop: 28 }}>
+          <div className="tag-label">Key Product Details</div>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(180px,1fr))", gap: 12, marginTop: 12 }}>
+            {detailEntries.map((detail) => (
+              <div key={`${detail.label}-${detail.value}`} className="service-card">
+                <div className="service-card-body">
+                  <h3>{detail.label}</h3>
+                  <p>{formatDetailValue(detail.value)}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {customSections.map((section) => (
+          <div key={section?.title || section?.heading || "custom-section"} style={{ marginTop: 28 }}>
+            <div className="tag-label">{section?.title || "Additional Details"}</div>
+            <div style={{ marginTop: 12 }}>
+              {section?.description ? <p style={{ color: "var(--text-mid)", lineHeight: 1.7 }}>{section.description}</p> : null}
+              {section?.items ? (
+                <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(180px,1fr))", gap: 12, marginTop: 12 }}>
+                  {section.items.map((item) => (
+                    <div key={item?.label || item?.title || JSON.stringify(item)} className="service-card">
+                      <div className="service-card-body">
+                        <h3>{item?.label || item?.title || "Detail"}</h3>
+                        <p>{formatDetailValue(item?.value ?? item?.content ?? item?.text)}</p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              ) : null}
+              {section?.content ? renderTextBlock(section.content) : null}
+            </div>
+          </div>
+        ))}
 
         <div style={{ marginTop: 28 }}>
           <div className="tag-label">Technical Specifications</div>
@@ -296,7 +417,11 @@ export default function ProductDetailPage() {
 
         <div style={{ marginTop: 28 }}>
           <div className="tag-label">Related Products</div>
-          <RelatedProducts ids={product.related || []} onView={(s) => navigate(`/products/${s}`)} />
+          <RelatedProducts
+            ids={product.related || []}
+            categories={data?.categories}
+            onView={(s) => navigate(`/products/${s}`)}
+          />
         </div>
 
         <div style={{ marginTop: 28, display: "grid", gridTemplateColumns: "1fr 380px", gap: 20 }}>
@@ -329,11 +454,6 @@ export default function ProductDetailPage() {
         </div>
       </section>
 
-      {/* Sticky action panel */}
-      {/* <div style={{ position: "fixed", right: 18, bottom: 18, display: "flex", flexDirection: "column", gap: 10 }}>
-        <a className="tel-btn" href={`mailto:info@example.com`} style={{ padding: "10px 14px" }}>Email</a>
-        <a className="tel-btn" href={`https://wa.me/`} style={{ padding: "10px 14px", background: "#25D366" }}>WhatsApp</a>
-      </div> */}
     </main>
   );
 }

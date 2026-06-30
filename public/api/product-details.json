@@ -1,0 +1,6147 @@
+{
+  "potatoes": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "Solanum tuberosum",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Fresh Grade A",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Cool dry storage"
+      }
+    ],
+    "specs": {
+      "Moisture": "12%",
+      "Size": "40-60 mm",
+      "Packaging": "25 kg bag",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    },
+    "applications": [
+      "Food processing",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Long shelf life",
+      "Consistent quality"
+    ],
+    "industries": [
+      "Food",
+      "Wholesale"
+    ],
+    "packagingOptions": [
+      "25 kg bags",
+      "40 kg cartons"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Phytosanitary Certificate"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "ISO 22000",
+      "coa": true,
+      "msds": false
+    }
+  },
+  "onions": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "Allium cepa",
+        "highlight": true
+      },
+      {
+        "label": "CAS Number",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Premium export grade",
+        "highlight": true
+      },
+      {
+        "label": "Shelf Life",
+        "value": "Up to 6 months",
+        "type": "text"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Storage & Handling",
+        "description": "Best conditions for export-ready onions.",
+        "items": [
+          {
+            "label": "Storage",
+            "value": "Cool and dry"
+          },
+          {
+            "label": "Shelf Life",
+            "value": "Up to 6 months"
+          }
+        ]
+      }
+    ],
+    "applications": [
+      "Food processing",
+      "Retail supply",
+      "Export"
+    ],
+    "benefits": [
+      "Long shelf life",
+      "Consistent quality",
+      "Export grade"
+    ],
+    "industries": [
+      "Food",
+      "Wholesale",
+      "Retail"
+    ],
+    "packagingOptions": [
+      "25 kg bags",
+      "40 kg cartons",
+      "Custom packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Phytosanitary Certificate"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "ISO 22000",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Moisture": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "carrots": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "CAS Number",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Shelf Life",
+        "value": "N/A",
+        "type": "text"
+      }
+    ],
+    "applications": [
+      "Food processing",
+      "Retail supply",
+      "Export"
+    ],
+    "benefits": [
+      "Long shelf life",
+      "Consistent quality",
+      "Export grade"
+    ],
+    "industries": [
+      "Food",
+      "Wholesale",
+      "Retail"
+    ],
+    "packagingOptions": [
+      "25 kg bags",
+      "40 kg cartons",
+      "Custom packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Phytosanitary Certificate"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "ISO 22000",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Moisture": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "apples": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "CAS Number",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Shelf Life",
+        "value": "N/A",
+        "type": "text"
+      }
+    ],
+    "applications": [
+      "Food processing",
+      "Retail supply",
+      "Export"
+    ],
+    "benefits": [
+      "Long shelf life",
+      "Consistent quality",
+      "Export grade"
+    ],
+    "industries": [
+      "Food",
+      "Wholesale",
+      "Retail"
+    ],
+    "packagingOptions": [
+      "25 kg bags",
+      "40 kg cartons",
+      "Custom packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Phytosanitary Certificate"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "ISO 22000",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Moisture": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "oranges": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "CAS Number",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Shelf Life",
+        "value": "N/A",
+        "type": "text"
+      }
+    ],
+    "applications": [
+      "Food processing",
+      "Retail supply",
+      "Export"
+    ],
+    "benefits": [
+      "Long shelf life",
+      "Consistent quality",
+      "Export grade"
+    ],
+    "industries": [
+      "Food",
+      "Wholesale",
+      "Retail"
+    ],
+    "packagingOptions": [
+      "25 kg bags",
+      "40 kg cartons",
+      "Custom packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Phytosanitary Certificate"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "ISO 22000",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Moisture": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "coconut": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "CAS Number",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Shelf Life",
+        "value": "N/A",
+        "type": "text"
+      }
+    ],
+    "applications": [
+      "Food processing",
+      "Retail supply",
+      "Export"
+    ],
+    "benefits": [
+      "Long shelf life",
+      "Consistent quality",
+      "Export grade"
+    ],
+    "industries": [
+      "Food",
+      "Wholesale",
+      "Retail"
+    ],
+    "packagingOptions": [
+      "25 kg bags",
+      "40 kg cartons",
+      "Custom packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Phytosanitary Certificate"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "ISO 22000",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Moisture": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "banana": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Food processing",
+      "Retail supply",
+      "Export"
+    ],
+    "benefits": [
+      "Long shelf life",
+      "Consistent quality",
+      "Export grade"
+    ],
+    "industries": [
+      "Food",
+      "Wholesale",
+      "Retail"
+    ],
+    "packagingOptions": [
+      "25 kg bags",
+      "40 kg cartons",
+      "Custom packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Phytosanitary Certificate"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "ISO 22000",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Moisture": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "pine-apple": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Food processing",
+      "Retail supply",
+      "Export"
+    ],
+    "benefits": [
+      "Long shelf life",
+      "Consistent quality",
+      "Export grade"
+    ],
+    "industries": [
+      "Food",
+      "Wholesale",
+      "Retail"
+    ],
+    "packagingOptions": [
+      "25 kg bags",
+      "40 kg cartons",
+      "Custom packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Phytosanitary Certificate"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "ISO 22000",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Moisture": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "mango": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "Mangifera indica",
+        "highlight": true
+      },
+      {
+        "label": "CAS Number",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Fresh Grade A",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Cool dry storage",
+        "type": "text"
+      },
+      {
+        "label": "Packaging",
+        "value": [
+          "10 kg cartons",
+          "20 kg mesh bags"
+        ],
+        "type": "list"
+      }
+    ],
+    "applications": [
+      "Food processing",
+      "Retail supply",
+      "Export"
+    ],
+    "benefits": [
+      "Long shelf life",
+      "Consistent quality",
+      "Export grade"
+    ],
+    "industries": [
+      "Food",
+      "Wholesale",
+      "Retail"
+    ],
+    "packagingOptions": [
+      "25 kg bags",
+      "40 kg cartons",
+      "Custom packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Phytosanitary Certificate"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "ISO 22000",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Moisture": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "guava": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "Psidium guajava",
+        "highlight": true
+      },
+      {
+        "label": "CAS Number",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Fresh Grade A",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Cool dry storage",
+        "type": "text"
+      },
+      {
+        "label": "Packaging",
+        "value": [
+          "10 kg cartons",
+          "20 kg mesh bags"
+        ],
+        "type": "list"
+      }
+    ],
+    "applications": [
+      "Food processing",
+      "Retail supply",
+      "Export"
+    ],
+    "benefits": [
+      "Long shelf life",
+      "Consistent quality",
+      "Export grade"
+    ],
+    "industries": [
+      "Food",
+      "Wholesale",
+      "Retail"
+    ],
+    "packagingOptions": [
+      "25 kg bags",
+      "40 kg cartons",
+      "Custom packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Phytosanitary Certificate"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "ISO 22000",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Moisture": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "star-fruits": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "Averrhoa carambola",
+        "highlight": true
+      },
+      {
+        "label": "CAS Number",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Fresh Grade A",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Cool dry storage",
+        "type": "text"
+      },
+      {
+        "label": "Packaging",
+        "value": [
+          "10 kg cartons",
+          "20 kg mesh bags"
+        ],
+        "type": "list"
+      }
+    ],
+    "applications": [
+      "Food processing",
+      "Retail supply",
+      "Export"
+    ],
+    "benefits": [
+      "Long shelf life",
+      "Consistent quality",
+      "Export grade"
+    ],
+    "industries": [
+      "Food",
+      "Wholesale",
+      "Retail"
+    ],
+    "packagingOptions": [
+      "25 kg bags",
+      "40 kg cartons",
+      "Custom packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Phytosanitary Certificate"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "ISO 22000",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Moisture": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "grapes": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "Vitis vinifera",
+        "highlight": true
+      },
+      {
+        "label": "CAS Number",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Fresh Grade A",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Cool dry storage",
+        "type": "text"
+      },
+      {
+        "label": "Packaging",
+        "value": [
+          "10 kg cartons",
+          "20 kg mesh bags"
+        ],
+        "type": "list"
+      }
+    ],
+    "applications": [
+      "Food processing",
+      "Retail supply",
+      "Export"
+    ],
+    "benefits": [
+      "Long shelf life",
+      "Consistent quality",
+      "Export grade"
+    ],
+    "industries": [
+      "Food",
+      "Wholesale",
+      "Retail"
+    ],
+    "packagingOptions": [
+      "25 kg bags",
+      "40 kg cartons",
+      "Custom packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Phytosanitary Certificate"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "ISO 22000",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Moisture": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "basmati-rice": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "Oryza sativa",
+        "highlight": true
+      },
+      {
+        "label": "CAS Number",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Fresh Grade A",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Cool dry storage",
+        "type": "text"
+      },
+      {
+        "label": "Packaging",
+        "value": [
+          "10 kg cartons",
+          "20 kg mesh bags"
+        ],
+        "type": "list"
+      }
+    ],
+    "applications": [
+      "Food processing",
+      "Retail supply",
+      "Export"
+    ],
+    "benefits": [
+      "Long shelf life",
+      "Consistent quality",
+      "Export grade"
+    ],
+    "industries": [
+      "Food",
+      "Wholesale",
+      "Retail"
+    ],
+    "packagingOptions": [
+      "25 kg bags",
+      "40 kg cartons",
+      "Custom packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Phytosanitary Certificate"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "ISO 22000",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Moisture": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "spare-parts": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "CAS Number",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "N/A",
+        "type": "text"
+      },
+      {
+        "label": "Packaging",
+        "value": [
+          "N/A"
+        ],
+        "type": "list"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Product Notes",
+        "description": "Custom details for this category can be managed directly here.",
+        "items": [
+          {
+            "label": "Manufacturing",
+            "value": "Custom made to requirement"
+          },
+          {
+            "label": "Lead Time",
+            "value": "Based on order size"
+          }
+        ]
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "indoor-miniature-planting-pot": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "CAS Number",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "N/A",
+        "type": "text"
+      },
+      {
+        "label": "Packaging",
+        "value": [
+          "N/A"
+        ],
+        "type": "list"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "garden-pottery-set": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "CAS Number",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "N/A",
+        "type": "text"
+      },
+      {
+        "label": "Packaging",
+        "value": [
+          "N/A"
+        ],
+        "type": "list"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "round-white-vietnam-earthenware-ceramic-planter": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "CAS Number",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "N/A",
+        "type": "text"
+      },
+      {
+        "label": "Packaging",
+        "value": [
+          "N/A"
+        ],
+        "type": "list"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "clay-pot": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "CAS Number",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "N/A",
+        "type": "text"
+      },
+      {
+        "label": "Packaging",
+        "value": [
+          "N/A"
+        ],
+        "type": "list"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "glazed-pottery": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "ppe-kit": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Healthcare",
+      "Hospitals",
+      "Industrial safety"
+    ],
+    "benefits": [
+      "Quality assured",
+      "Export compliant",
+      "Reliable supply"
+    ],
+    "industries": [
+      "Medical",
+      "Healthcare",
+      "Wholesale"
+    ],
+    "packagingOptions": [
+      "Standard export packaging",
+      "Bulk cartons"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "ISO 13485",
+      "coa": true,
+      "msds": true
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "ska12-bag-pp": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "CAS Number",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "N/A",
+        "type": "text"
+      },
+      {
+        "label": "Packaging",
+        "value": [
+          "N/A"
+        ],
+        "type": "list"
+      }
+    ],
+    "applications": [
+      "Healthcare",
+      "Hospitals",
+      "Industrial safety"
+    ],
+    "benefits": [
+      "Quality assured",
+      "Export compliant",
+      "Reliable supply"
+    ],
+    "industries": [
+      "Medical",
+      "Healthcare",
+      "Wholesale"
+    ],
+    "packagingOptions": [
+      "Standard export packaging",
+      "Bulk cartons"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "ISO 13485",
+      "coa": true,
+      "msds": true
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "arc-flash-face-shield-kit": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "CAS Number",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "N/A",
+        "type": "text"
+      },
+      {
+        "label": "Packaging",
+        "value": [
+          "N/A"
+        ],
+        "type": "list"
+      }
+    ],
+    "applications": [
+      "Healthcare",
+      "Hospitals",
+      "Industrial safety"
+    ],
+    "benefits": [
+      "Quality assured",
+      "Export compliant",
+      "Reliable supply"
+    ],
+    "industries": [
+      "Medical",
+      "Healthcare",
+      "Wholesale"
+    ],
+    "packagingOptions": [
+      "Standard export packaging",
+      "Bulk cartons"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "ISO 13485",
+      "coa": true,
+      "msds": true
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "ppe-kit-40104": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "CAS Number",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "N/A",
+        "type": "text"
+      },
+      {
+        "label": "Packaging",
+        "value": [
+          "N/A"
+        ],
+        "type": "list"
+      }
+    ],
+    "applications": [
+      "Healthcare",
+      "Hospitals",
+      "Industrial safety"
+    ],
+    "benefits": [
+      "Quality assured",
+      "Export compliant",
+      "Reliable supply"
+    ],
+    "industries": [
+      "Medical",
+      "Healthcare",
+      "Wholesale"
+    ],
+    "packagingOptions": [
+      "Standard export packaging",
+      "Bulk cartons"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "ISO 13485",
+      "coa": true,
+      "msds": true
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "ppe-gloves": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "CAS Number",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "N/A",
+        "type": "text"
+      },
+      {
+        "label": "Packaging",
+        "value": [
+          "N/A"
+        ],
+        "type": "list"
+      }
+    ],
+    "applications": [
+      "Healthcare",
+      "Hospitals",
+      "Industrial safety"
+    ],
+    "benefits": [
+      "Quality assured",
+      "Export compliant",
+      "Reliable supply"
+    ],
+    "industries": [
+      "Medical",
+      "Healthcare",
+      "Wholesale"
+    ],
+    "packagingOptions": [
+      "Standard export packaging",
+      "Bulk cartons"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "ISO 13485",
+      "coa": true,
+      "msds": true
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "medical-gadgets": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "CAS Number",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "N/A",
+        "type": "text"
+      },
+      {
+        "label": "Packaging",
+        "value": [
+          "N/A"
+        ],
+        "type": "list"
+      }
+    ],
+    "applications": [
+      "Healthcare",
+      "Hospitals",
+      "Industrial safety"
+    ],
+    "benefits": [
+      "Quality assured",
+      "Export compliant",
+      "Reliable supply"
+    ],
+    "industries": [
+      "Medical",
+      "Healthcare",
+      "Wholesale"
+    ],
+    "packagingOptions": [
+      "Standard export packaging",
+      "Bulk cartons"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "ISO 13485",
+      "coa": true,
+      "msds": true
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "blood-pressure-monitor": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "CAS Number",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "N/A",
+        "type": "text"
+      },
+      {
+        "label": "Packaging",
+        "value": [
+          "N/A"
+        ],
+        "type": "list"
+      }
+    ],
+    "applications": [
+      "Healthcare",
+      "Hospitals",
+      "Industrial safety"
+    ],
+    "benefits": [
+      "Quality assured",
+      "Export compliant",
+      "Reliable supply"
+    ],
+    "industries": [
+      "Medical",
+      "Healthcare",
+      "Wholesale"
+    ],
+    "packagingOptions": [
+      "Standard export packaging",
+      "Bulk cartons"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "ISO 13485",
+      "coa": true,
+      "msds": true
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "safety-goggles": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "CAS Number",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "N/A",
+        "type": "text"
+      },
+      {
+        "label": "Packaging",
+        "value": [
+          "N/A"
+        ],
+        "type": "list"
+      }
+    ],
+    "applications": [
+      "Healthcare",
+      "Hospitals",
+      "Industrial safety"
+    ],
+    "benefits": [
+      "Quality assured",
+      "Export compliant",
+      "Reliable supply"
+    ],
+    "industries": [
+      "Medical",
+      "Healthcare",
+      "Wholesale"
+    ],
+    "packagingOptions": [
+      "Standard export packaging",
+      "Bulk cartons"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "ISO 13485",
+      "coa": true,
+      "msds": true
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "scrubs": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "CAS Number",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "N/A",
+        "type": "text"
+      },
+      {
+        "label": "Packaging",
+        "value": [
+          "N/A"
+        ],
+        "type": "list"
+      }
+    ],
+    "applications": [
+      "Healthcare",
+      "Hospitals",
+      "Industrial safety"
+    ],
+    "benefits": [
+      "Quality assured",
+      "Export compliant",
+      "Reliable supply"
+    ],
+    "industries": [
+      "Medical",
+      "Healthcare",
+      "Wholesale"
+    ],
+    "packagingOptions": [
+      "Standard export packaging",
+      "Bulk cartons"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "ISO 13485",
+      "coa": true,
+      "msds": true
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "medical-face-mask": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "CAS Number",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "N/A",
+        "type": "text"
+      },
+      {
+        "label": "Packaging",
+        "value": [
+          "N/A"
+        ],
+        "type": "list"
+      }
+    ],
+    "applications": [
+      "Healthcare",
+      "Hospitals",
+      "Industrial safety"
+    ],
+    "benefits": [
+      "Quality assured",
+      "Export compliant",
+      "Reliable supply"
+    ],
+    "industries": [
+      "Medical",
+      "Healthcare",
+      "Wholesale"
+    ],
+    "packagingOptions": [
+      "Standard export packaging",
+      "Bulk cartons"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "ISO 13485",
+      "coa": true,
+      "msds": true
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "medical-face-mask-40111": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "CAS Number",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "N/A",
+        "type": "text"
+      },
+      {
+        "label": "Packaging",
+        "value": [
+          "N/A"
+        ],
+        "type": "list"
+      }
+    ],
+    "applications": [
+      "Healthcare",
+      "Hospitals",
+      "Industrial safety"
+    ],
+    "benefits": [
+      "Quality assured",
+      "Export compliant",
+      "Reliable supply"
+    ],
+    "industries": [
+      "Medical",
+      "Healthcare",
+      "Wholesale"
+    ],
+    "packagingOptions": [
+      "Standard export packaging",
+      "Bulk cartons"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "ISO 13485",
+      "coa": true,
+      "msds": true
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "scrubs-40113": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "CAS Number",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "N/A",
+        "type": "text"
+      },
+      {
+        "label": "Packaging",
+        "value": [
+          "N/A"
+        ],
+        "type": "list"
+      }
+    ],
+    "applications": [
+      "Healthcare",
+      "Hospitals",
+      "Industrial safety"
+    ],
+    "benefits": [
+      "Quality assured",
+      "Export compliant",
+      "Reliable supply"
+    ],
+    "industries": [
+      "Medical",
+      "Healthcare",
+      "Wholesale"
+    ],
+    "packagingOptions": [
+      "Standard export packaging",
+      "Bulk cartons"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "ISO 13485",
+      "coa": true,
+      "msds": true
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "medical-face-mask-40114": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "CAS Number",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "N/A",
+        "type": "text"
+      },
+      {
+        "label": "Packaging",
+        "value": [
+          "N/A"
+        ],
+        "type": "list"
+      }
+    ],
+    "applications": [
+      "Healthcare",
+      "Hospitals",
+      "Industrial safety"
+    ],
+    "benefits": [
+      "Quality assured",
+      "Export compliant",
+      "Reliable supply"
+    ],
+    "industries": [
+      "Medical",
+      "Healthcare",
+      "Wholesale"
+    ],
+    "packagingOptions": [
+      "Standard export packaging",
+      "Bulk cartons"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "ISO 13485",
+      "coa": true,
+      "msds": true
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "lab-coat": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "CAS Number",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "N/A",
+        "type": "text"
+      },
+      {
+        "label": "Packaging",
+        "value": [
+          "N/A"
+        ],
+        "type": "list"
+      }
+    ],
+    "applications": [
+      "Healthcare",
+      "Hospitals",
+      "Industrial safety"
+    ],
+    "benefits": [
+      "Quality assured",
+      "Export compliant",
+      "Reliable supply"
+    ],
+    "industries": [
+      "Medical",
+      "Healthcare",
+      "Wholesale"
+    ],
+    "packagingOptions": [
+      "Standard export packaging",
+      "Bulk cartons"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "ISO 13485",
+      "coa": true,
+      "msds": true
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "lab-coat-40116": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Healthcare",
+      "Hospitals",
+      "Industrial safety"
+    ],
+    "benefits": [
+      "Quality assured",
+      "Export compliant",
+      "Reliable supply"
+    ],
+    "industries": [
+      "Medical",
+      "Healthcare",
+      "Wholesale"
+    ],
+    "packagingOptions": [
+      "Standard export packaging",
+      "Bulk cartons"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "ISO 13485",
+      "coa": true,
+      "msds": true
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "ceramic-plate": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "ceramic-plate-50102": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "ceramic-plate-50103": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "ceramic-plate-50104": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "kitchen-downey": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "table-cover": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "rosewood-wooden-temple": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "brass-decorative-kettle": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "table-decor": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "brass-decorative-musician": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "brass-decorative-elephant": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "brass-decorative-camel": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "brass-decorative-camel-50113": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "biodegradable-utensils-made-from-bagasse": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "biodegradable-utensils-made-from-bagasse-60102": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "biodegradable-utensils-made-from-bagasse-60103": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "biodegradable-utensils-made-from-bagasse-60104": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "biodegradable-utensils-made-from-bagasse-60105": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "biodegradable-utensils-made-from-bagasse-60106": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "biodegradable-utensils-made-from-bagasse-60107": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "product-60108": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "product-60109": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "product-60101": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "product-60101-60101": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "hindu-marriage-bridal-ring": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "silver-chain": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "silver-chain-70103": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "ad-set": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "gold-chain": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "kundan-necklace": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "gold-chain-70107": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "kundan-necklace-70108": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "jewellers": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "polki-kundan-bridal-jwellery": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "jwellery-marriage-bridal-ring": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "spices": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "pickles": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "spices-80103": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "jute-bags": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "jute-bags-90102": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "hand-jute-bags": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "jute-bags-90104": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "jute-bags-90105": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "jute-bags-90106": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "jute-bags-90107": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "jute-bags-90108": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "jute-bags-90109": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "jute-bags-90110": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "power-bank-jute-bags": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "jute-bags-90112": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "shirt-fabric-100-cotton-plain-woven-stretch-combed-cotton": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "product-100102": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "product-100103": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "product-100104": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "product-100105": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "cotton-40-polyester-plain-oxford-fabric-165gsm-oxford-fabric-strip-wrinkle-resistant-classic-shirt-fabric": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "100-cotton-plain-woven-stretch-combed-cotton-fabric": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "product-100108": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "product-100109": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "product-100110": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "product-100111": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "product-100101": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "product-100102-100102": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "product-100103-100103": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  },
+  "product-100104-100104": {
+    "details": [
+      {
+        "label": "Generic Name",
+        "value": "N/A",
+        "highlight": true
+      },
+      {
+        "label": "Purity",
+        "value": "Export grade",
+        "highlight": true
+      },
+      {
+        "label": "Storage",
+        "value": "Contact us for storage guidelines"
+      }
+    ],
+    "applications": [
+      "Export",
+      "Wholesale",
+      "Retail supply"
+    ],
+    "benefits": [
+      "Export quality",
+      "Consistent supply",
+      "Reliable sourcing"
+    ],
+    "industries": [
+      "Wholesale",
+      "Retail",
+      "Export"
+    ],
+    "packagingOptions": [
+      "Standard export packaging"
+    ],
+    "shipping": [
+      "Sea freight",
+      "Air freight"
+    ],
+    "exportDocs": [
+      "Invoice",
+      "Packing List",
+      "Certificate of Origin"
+    ],
+    "certifications": {
+      "whoGmp": false,
+      "iso": "N/A",
+      "coa": true,
+      "msds": false
+    },
+    "specs": {
+      "Material": "Contact us",
+      "Size": "Contact us",
+      "Packaging": "Export standard",
+      "MOQ": "Contact us",
+      "Lead Time": "Contact us"
+    }
+  }
+}
