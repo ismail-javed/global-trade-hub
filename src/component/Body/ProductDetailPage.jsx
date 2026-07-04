@@ -1,16 +1,10 @@
-import { useEffect, useMemo, useState } from "react";
+import { useMemo } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { useSiteData } from "../../data/siteDataContext.js";
+import { useProductDetail } from "../../hooks/useProductDetail.js";
+import { toSlug } from "../../utils/strings.js";
 import Seo from "../Seo.jsx";
-
-const buildSlug = (value = "") =>
-  value
-    .toString()
-    .trim()
-    .toLowerCase()
-    .replace(/[^a-z0-9\s-]/g, "")
-    .replace(/\s+/g, "-");
 
 const collectServiceItems = (categories) => {
   if (!Array.isArray(categories)) return [];
@@ -24,12 +18,6 @@ const collectServiceItems = (categories) => {
       return [...directItems, ...subItems].map((item) => ({ item, category }));
     });
 };
-
-function findProductBySlug(slug, categories) {
-  if (!slug || !Array.isArray(categories)) return null;
-  const serviceItems = collectServiceItems(categories);
-  return serviceItems.find((entry) => buildSlug(entry.item.slug || entry.item.name) === slug) || null;
-}
 
 function getProductImages(item, fallbackImage) {
   const images = Array.isArray(item?.images) ? item.images.filter(Boolean) : [];
@@ -66,7 +54,6 @@ function renderTextBlock(block) {
 }
 
 function getDetailEntries(product) {
-  const entries = [];
   const itemDetails = Array.isArray(product?.details) ? product.details : [];
 
   const fallbackEntries = [];
@@ -98,23 +85,10 @@ function getDetailEntries(product) {
   return [...fallbackEntries, ...normalizedDetails].filter((detail) => detail.label);
 }
 
-function normalizeRelatedItems(productSlug, categories) {
-  const allItems = collectServiceItems(categories);
-  return allItems
-    .filter(({ item }) => buildSlug(item.slug || item.name) !== productSlug)
-    .slice(0, 3)
-    .map(({ item }) => ({
-      slug: buildSlug(item.slug || item.name),
-      name: item.name,
-      images: getProductImages(item),
-      description: item.description,
-    }));
-}
-
 function RelatedProducts({ ids, onView, categories }) {
   const allItems = collectServiceItems(categories);
   const items = ids && ids.length
-    ? allItems.filter(({ item }) => ids.includes(buildSlug(item.slug || item.name))).map(({ item }) => item)
+    ? allItems.filter(({ item }) => ids.includes(toSlug(item.slug || item.name))).map(({ item }) => item)
     : allItems.slice(0, 3).map(({ item }) => item);
 
   if (!items.length) return null;
@@ -123,13 +97,13 @@ function RelatedProducts({ ids, onView, categories }) {
     <div className="services-grid" style={{ gridTemplateColumns: "repeat(auto-fill,minmax(220px,1fr))" }}>
       {items.map((it) => (
         <div
-          key={buildSlug(it.slug || it.name)}
+          key={toSlug(it.slug || it.name)}
           className="service-card"
           role="link"
           tabIndex={0}
-          onClick={() => onView(buildSlug(it.slug || it.name))}
+          onClick={() => onView(toSlug(it.slug || it.name))}
           onKeyDown={(e) => {
-            if (e.key === "Enter" || e.key === " ") onView(buildSlug(it.slug || it.name));
+            if (e.key === "Enter" || e.key === " ") onView(toSlug(it.slug || it.name));
           }}
           style={{ cursor: "pointer" }}
         >
@@ -154,8 +128,6 @@ function RelatedProducts({ ids, onView, categories }) {
 export default function ProductDetailPage() {
   const { pathname } = useLocation();
   const navigate = useNavigate();
-  const [inquiry, setInquiry] = useState({ name: "", company: "", country: "", email: "", phone: "", qty: "", message: "" });
-  const [productDetailsMap, setProductDetailsMap] = useState(null);
 
   const { data } = useSiteData();
   const slug = useMemo(() => {
@@ -163,22 +135,7 @@ export default function ProductDetailPage() {
     return parts.length ? parts[parts.length - 1] : null;
   }, [pathname]);
 
-  useEffect(() => {
-    fetch("/api/product-details.json")
-      .then((res) => res.json())
-      .then((details) => setProductDetailsMap(details))
-      .catch(() => setProductDetailsMap({}));
-  }, []);
-
-  const productEntry = useMemo(() => findProductBySlug(slug, data?.categories), [slug, data?.categories]);
-  const baseProduct = productEntry?.item || null;
-  const productCategory = productEntry?.category || null;
-
-  const product = useMemo(() => {
-    if (!baseProduct) return null;
-    const apiDetails = productDetailsMap?.[slug] || {};
-    return { ...baseProduct, ...apiDetails };
-  }, [baseProduct, productDetailsMap, slug]);
+  const { product, loading: detailsLoading, category: productCategory } = useProductDetail(slug, data?.categories);
 
   const applications = Array.isArray(product?.applications) ? product.applications : [];
   const benefits = Array.isArray(product?.benefits) ? product.benefits : [];
@@ -193,26 +150,6 @@ export default function ProductDetailPage() {
   const availability = product?.availability || "Check availability";
   const detailEntries = useMemo(() => getDetailEntries(product), [product]);
   const highlightDetails = detailEntries.filter((item) => item.highlight).slice(0, 3);
-  const detailsLoading = productDetailsMap === null;
-
-  useEffect(() => {
-    if (!product && slug && !detailsLoading) {
-      // if slug not found, navigate to NotFound or stay
-      // keep simple: do nothing (Seo will handle)
-    }
-  }, [product, slug, detailsLoading]);
-
-  function handleInquiryChange(e) {
-    const { name, value } = e.target;
-    setInquiry((s) => ({ ...s, [name]: value }));
-  }
-
-  function submitInquiry(e) {
-    e.preventDefault();
-    // Stub: replace with actual submission endpoint
-    alert("Inquiry submitted. We'll contact you shortly.");
-    setInquiry({ name: "", company: "", country: "", email: "", phone: "", qty: "", message: "" });
-  }
 
   if (!product || detailsLoading) {
     return (

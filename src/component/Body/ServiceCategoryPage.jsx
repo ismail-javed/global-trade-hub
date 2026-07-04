@@ -1,27 +1,10 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { useSiteData } from "../../data/siteDataContext.js";
-
-const normalize = (value = "") =>
-  value.toString().trim().toLowerCase().replace(/[-_]+/g, " ");
-
-const toSlug = (value = "") =>
-  value
-    .toString()
-    .trim()
-    .toLowerCase()
-    .replace(/[^a-z0-9\s-]/g, "")
-    .replace(/\s+/g, "-");
+import { formatTitle, normalizeText, toSlug } from "../../utils/strings.js";
 
 const categoryToSlug = (category = {}) =>
   toSlug(category.slug || category.category_name || "");
-
-const toTitleCase = (value = "") =>
-  value
-    .toString()
-    .replace(/[-_]+/g, " ")
-    .replace(/\b\w/g, (char) => char.toUpperCase())
-    .trim();
 
 const collectItems = (category) => {
   if (!category) return [];
@@ -38,7 +21,7 @@ const collectItems = (category) => {
         Array.isArray(sub?.items)
           ? sub.items.map((item) => ({
               ...item,
-              subcategory: sub?.name ? toTitleCase(sub.name) : null,
+              subcategory: sub?.name ? formatTitle(sub.name) : null,
             }))
           : []
       )
@@ -68,12 +51,6 @@ const ProductImageCarousel = ({ images, alt }) => {
     () => (Array.isArray(images) ? images.filter(Boolean) : []),
     [images]
   );
-
-  useEffect(() => {
-    setActiveIndex(0);
-    const track = trackRef.current;
-    if (track) track.scrollLeft = 0;
-  }, [safeImages.length]);
 
   useEffect(() => {
     const track = trackRef.current;
@@ -187,9 +164,9 @@ export default function ServiceCategoryPage() {
     : [];
 
   const matchedCategory = categories.find((category) => {
-    const slugValue = normalize(categoryToSlug(category) || "");
-    const nameValue = normalize(category.category_name || "");
-    const target = normalize(slug);
+    const slugValue = normalizeText(categoryToSlug(category) || "");
+    const nameValue = normalizeText(category.category_name || "");
+    const target = normalizeText(slug);
     return slugValue === target || nameValue === target;
   });
 
@@ -211,7 +188,7 @@ export default function ServiceCategoryPage() {
   }
 
   const products = collectItems(matchedCategory);
-  const categoryTitle = toTitleCase(matchedCategory.category_name);
+  const categoryTitle = formatTitle(matchedCategory.category_name);
 
   return (
     <main className="service-detail-page">

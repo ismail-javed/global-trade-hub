@@ -1,4 +1,4 @@
-import { StrictMode } from "react";
+import { StrictMode, lazy, Suspense } from "react";
 import { createRoot } from "react-dom/client";
 import { HelmetProvider } from "react-helmet-async";
 import "./index.css";
@@ -19,7 +19,8 @@ import AdminDataPage from "./component/Body/AdminDataPage.jsx";
 import AdminLogin from "./component/Admin/AdminLogin.jsx";
 import RequireAdminAuth from "./component/Admin/RequireAdminAuth.jsx";
 import { SiteDataProvider } from "./data/SiteDataProvider.jsx";
-import ProductDetailPage from "./component/Body/ProductDetailPage.jsx";
+
+export const ProductDetailPage = lazy(() => import("./component/Body/ProductDetailPage.jsx"));
 
 // ✅ Router
 const appRouter = createBrowserRouter([
@@ -52,7 +53,9 @@ createRoot(document.getElementById("root")).render(
   <StrictMode>
     <HelmetProvider>
       <SiteDataProvider>
-        <RouterProvider router={appRouter} />
+        <Suspense fallback={<div className="page-loading">Loading…</div>}>
+          <RouterProvider router={appRouter} />
+        </Suspense>
       </SiteDataProvider>
     </HelmetProvider>
   </StrictMode>
