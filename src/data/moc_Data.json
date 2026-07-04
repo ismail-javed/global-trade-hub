@@ -18,7 +18,29 @@
                             ],
                             "description": "Export-quality potatoes",
                             "price": 1.5,
-                            "currency": "AED"
+                            "currency": "AED",
+                            
+
+  "specs" : "Good for Chips and Fries",
+  "applications":"NA",
+  "benefits":"NA",
+  "industries":"NA",
+  "packagingOptions":"NA",
+  "shipping":"NA",
+  "exportDocs":"NA",
+  "certifications":"NA",
+  "sections":"NA",
+  "related":"NA",
+  "therapeuticCategory":"NA",
+  "exportReady":"NA",
+  "availability":"NA",
+  "generic":"NA",
+  "genericName":"NA",
+  "cas":"NA",
+  "casNumber":"NA",
+  "purity":"NA",
+  "purityInfo":"NA"
+
                         },
                         {
                             "id": 10102,
@@ -864,7 +886,7 @@
                     "name": "Pickles",
                     "slug": "pickles",
                     "images": [
-                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775757845/samples/food/spices.jpg"
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783082589/Pickles_vbrct8.jpg"
                     ],
                     "description": "Export-quality Pickles",
                     "price": 1.5,
@@ -872,7 +894,7 @@
                 },
                 {
                     "id": 80103,
-                    "name": "Spices",
+                    "name": "Fish 80103",
                     "slug": "spices-80103",
                     "images": [
                         "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775757841/samples/food/fish-vegetables.jpg"
@@ -886,7 +908,7 @@
         {
             "general_category": "service-items",
             "category_name": "Jute Bags",
-            "category_image": "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776780847/bd1_xotmjb.png",
+            "category_image": "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783080268/f8311d2b-aaf1-402b-8184-d2df042dd2a4.png",
             "category_description": "A beautiful, eco-friendly jute bag is a durable yet stylish accessory crafted from natural, biodegradable fiber. It often features a rustic beige tone enhanced with trendy elements like intricate embroidery, leather handles, colorful prints, or bohemian doll embellishments.",
             "items": [
                 {
@@ -894,7 +916,7 @@
                     "name": "Jute Bags",
                     "slug": "jute-bags",
                     "images": [
-                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776780847/bd1_xotmjb.png"
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783080268/f8311d2b-aaf1-402b-8184-d2df042dd2a4.png"
                     ],
                     "description": "Export-quality Jute Bags",
                     "price": 1.5,
@@ -927,7 +949,7 @@
                     "name": "Handbag ",
                     "slug": "jute-bags-90104",
                     "images": [
-                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776780841/b6_amlxcy.png"
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783081092/869fbe1f-70d3-4718-8b3c-28c8550ce10c.png"
                     ],
                     "description": "Export-quality Handbag ",
                     "price": 1.5,
@@ -946,12 +968,12 @@
                 },
                 {
                     "id": 90106,
-                    "name": "Jute Bags",
+                    "name": " Flower Jute Bags",
                     "slug": "jute-bags-90106",
                     "images": [
-                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776780839/b2_v5fier.png"
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783092491/71b8dc80591735adf46e7b7509122b34_yxnl93.jpg"
                     ],
-                    "description": "Export-quality Jute Bags",
+                    "description": "Export-quality Jute Bags with HAND cRAFTED Flower Design",
                     "price": 1.5,
                     "currency": "AED"
                 },
@@ -1015,7 +1037,18 @@
                     "name": "Jute Bags",
                     "slug": "jute-bags-90112",
                     "images": [
-                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1776780851/potli_bf54tj.png"
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783079633/925111fb-96cb-4c6e-900c-1180bd6b3ee5.png"
+                    ],
+                    "description": "Export-quality Jute Bags",
+                    "price": 1.5,
+                    "currency": "AED"
+                },
+                {
+                    "id": 90113,
+                    "name": "Jute Bags",
+                    "slug": "jute-bags-90113",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783079594/2c93f059-8d17-48c2-ae71-6706f9d2a9b1.png"
                     ],
                     "description": "Export-quality Jute Bags",
                     "price": 1.5,
@@ -1158,43 +1191,429 @@
             "category_image": "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1782339583/armor_absvw2.png",
             "category_description": "Battle-ready medieval armor replicas, handcrafted for collectors, reenactors, and Buhurt fighters—built for authenticity, durability, and combat performance.",
             "items": [
-                {
+               {
                     "id": 100101,
-                    "name": "",
+                    "name": "Medieval Full Plate Armor harness",
                     "slug": "product-100101",
-                    "images": [],
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1782338286/Medieval_Armor_m8v8ma.png"
+                    ],
                     "description": "Export-quality ",
-                    "price": 1.5,
+                    "price": " based upon the requirement",
                     "currency": "AED"
                 },
                 {
                     "id": 100102,
-                    "name": "",
+                    "name": "Medieval Full Plate Armor harness",
                     "slug": "product-100102-100102",
-                    "images": [],
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1782339434/ChatGPT_Image_Jun_25_2026_03_46_51_AM_jwt4jo.png"
+                    ],
                     "description": "Export-quality ",
-                    "price": 1.5,
+                    "price": " based upon the requirement",
                     "currency": "AED"
                 },
                 {
                     "id": 100103,
-                    "name": "",
+                    "name": "Medieval Full Plate Armor harness with Shield",
                     "slug": "product-100103-100103",
-                    "images": [],
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783088015/b2959243-4248-4b90-a00a-02ce93bb5f7f.png"
+                    ],
                     "description": "Export-quality ",
-                    "price": 1.5,
+                    "price": " based upon the requirement",
                     "currency": "AED"
                 },
                 {
                     "id": 100104,
-                    "name": "",
+                    "name": "Medieval Full Plate Armor harness",
                     "slug": "product-100104-100104",
-                    "images": [],
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783088274/9f39158c-bd39-44ba-a53b-d6f95d239d5d.png"
+                    ],
                     "description": "Export-quality ",
-                    "price": 1.5,
+                    "price": " based upon the requirement",
+                    "currency": "AED"
+                },
+                {
+                    "id": 100105,
+                    "name": "Medieval Full Plate Armor harness",
+                    "slug": "product-100105-100105",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783088387/a39c6509-f790-479a-b8df-4d5f73273750.png"
+                    ],
+                    "description": "Export-quality ",
+                    "price": " based upon the requirement",
+                    "currency": "AED"
+                },
+                {
+                    "id": 100106,
+                    "name": "Medieval Costume Customizable",
+                    "slug": "product-100106-100106",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783090709/e97147972f6e83db1f81a5e513521893_kbwzue.jpg"
+                    ],
+                    "description": "Export-quality ",
+                    "price": " based upon the requirement",
+                    "currency": "AED"
+                },
+                {
+                    "id": 100107,
+                    "name": "Medieval Female Costume",
+                    "slug": "product-100107-100107",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783090658/7f1139cd03fe8e8af2fc769fcaed1a48_lyynuu.jpg"
+                    ],
+                    "description": "Export-quality ",
+                    "price": " based upon the requirement",
+                    "currency": "AED"
+                },
+                {
+                    "id": 100108,
+                    "name": "Medieval Female Costume",
+                    "slug": "product-100108-100108",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783087757/bb0effb1-47ba-4f9a-9516-85544756fe9f.png"
+                    ],
+                    "description": "Export-quality product id 100108",
+                    "price": " based upon the requirement",
+                    "currency": "AED"
+                },
+                {
+                    "id": 100109,
+                    "name": "Medieval Female Costume",
+                    "slug": "product-100109-100109",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783087791/1ba24b1a-b435-4139-84ad-c38a76941732.png"
+                    ],
+                    "description": "Export-quality ",
+                    "price": " based upon the requirement",
+                    "currency": "AED"
+                },
+                {
+                    "id": 100110,
+                    "name": "Medieval Male Costume",
+                    "slug": "product-100110-100110",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783087924/227938ca-5dfa-4abb-acf3-c3c8b039b160.png"
+                    ],
+                    "description": "Export-quality  product id 100110",
+                    "price": " based upon the requirement",
+                    "currency": "AED"
+                },
+                {
+                    "id": 100111,
+                    "name": "Medieval Male Costume",
+                    "slug": "product-100111-100111",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783087944/8f85b85d-8845-4b3d-b01b-0ae427368ca5.png"
+                    ],
+                    "description": "Export-quality  product id 100111",
+                    "price": " based upon the requirement",
+                    "currency": "AED"
+                },
+                {
+                    "id": 100112,
+                    "name": "Medieval Male Costume",
+                    "slug": "product-100112-100112",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783087984/53e68ad4-0379-40f9-b277-52f34b9d830b.png"
+                    ],
+                    "description": "Export-quality  product id 100112",
+                    "price": " based upon the requirement",
+                    "currency": "AED"
+                },
+                {
+                    "id": 100113,
+                    "name": "Medieval Female Costume",
+                    "slug": "product-100113-100113",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783088054/2fa6dca7-72e4-4805-a04b-35723dbd489f.png"
+                    ],
+                    "description": "Export-quality  product id 100113   ",
+                    "price": " based upon the requirement",
+                    "currency": "AED"
+                },
+                {
+                    "id": 100114,
+                    "name": "Medieval Female Costume",
+                    "slug": "product-100114-100114",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783088083/9912c457-d7d8-46f2-849f-a8ee7682f25e.png"
+                    ],
+                    "description": "Export-quality  product id 100114",
+                    "price": " based upon the requirement",
+                    "currency": "AED"
+                },
+                {
+                    "id": 100115,
+                    "name": "Medieval Belts with Buckle and Bags for Accessories(Leather)",
+                    "slug": "product-100115-100115",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783088141/0a2df97f-2aa1-4c0e-a2df-e20304113e4a.png"
+                    ],
+                    "description": "Export-quality  product id 100115   ",
+                    "price": " based upon the requirement",
+                    "currency": "AED"
+                },
+                {
+                    "id": 100116,
+                    "name": "Medieval Unisex Shouler Guard(Leather)",
+                    "slug": "product-100116-100116",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783088157/43705817-e4bb-4cdc-82b0-18c5b33ae1e6.png"
+                    ],
+                    "description": "Export-quality  product id 100116   ",
+                    "price": " based upon the requirement",
+                    "currency": "AED"
+                },
+                {
+                    "id": 100117,
+                    "name": "Medieval Watch (Leather)",
+                    "slug": "product-100117-100117",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783088191/e624e263-a788-4e56-aef7-0f3e27ea6347.png"
+                    ],
+                    "description": "Export-quality  product id 100117   ",
+                    "price": " based upon the requirement",
+                    "currency": "AED"
+                }
+
+            ]
+        },
+        {
+            "general_category": "service-items",
+            "category_name": "Sports & Fitness Equipment",
+            "category_image": "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783085519/89bb1688-e59c-4363-96d8-d9f4920bfce1.png",
+            "category_description": "High-performance sports and fitness equipment for athletes and enthusiasts.",
+            "items": [
+                 {
+                    "id ": 110101,
+                    "name": "Kashmiri Willow Wood Cricket Bat",
+                    "slug": "kashmiri-willow-wood-cricket-bat",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783093440/73a55c1cff882ed3003d523aa6da7438_st6ifg.jpg"
+                ],
+                    "description": "Export-quality ",
+                    "price": " based upon the requirement",
+                    "currency": "AED"
+
+                },
+                {
+                    "id": 110102,
+                    "name": "English Willow Wood Cricket Bat",
+                    "slug": "english-willow-wood-cricket-bat-100118",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783093653/fe5c670d9384164a8a8ec13f686d1c39_dapmps.jpg"
+                    ],
+                    "description": "Export-quality ",
+                    "price": " based upon the requirement",
+                    "currency": "AED"
+                },
+                {
+                    "id": 110103,
+                    "name": "Cricket Kit Bag with Kashmiri Willow Wood Cricket Bat",
+                    "slug": "cricket-kit-bag-100119",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783096086/383e3b8e-228e-4ac8-8f11-684103d85804.png"
+                    ],
+                    "description": "🏏 Cricket Bat (with pre-fitted grip)🛡️ Protective Toe Guard (pre-installed)🎒 Padded Full Cover💎 Anti-Scuff Sheet ",
+                    "price": " based upon the requirement",
+                    "currency": "AED"
+                },
+                {
+                    "id": 110104,
+                    "name": "Cricket Kit Bag With English Willow Wood Cricket Bat",
+                    "slug": "cricket-kit-bag-110104 ",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783096086/383e3b8e-228e-4ac8-8f11-684103d85804.png"
+                    ],
+                    "description": "🏏 Cricket Bat (with pre-fitted grip)🛡️ Protective Toe Guard (pre-installed)🎒 Padded Full Cover💎 Anti-Scuff Sheet ",
+                    "price": " based upon the requirement",
+                    "currency": "AED"
+                },
+                {
+                    "id": 110105,
+                    "name": "750gm -1000gm plastic Cricket Bat",
+                    "slug": "cricket-kit-bag-100121",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783093523/602e91d458e9c9e33f76d7090d4fd131_vyeq6n.jpg"
+                    ],
+                    "description": "Plastic bats differ in size, weight, and design. They are made of high-quality plastic and are designed to be durable and long-lasting. The bats are available in different colors and designs, making them suitable for players of all ages and skill levels.",
+                    "price": " based upon the requirement",
+                    "currency": "AED"
+                },
+                
+                {
+                    "id": 110106 ,
+                    "name": "FootBall",
+                    "slug": "football",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783091998/b4131430-351f-4a4f-8259-4c2396d8d546.png"
+                    ],
+                    "description": "Foot Ball for athletes and enthusiasts.",
+                    "price": "based upon the requirement",
+                    "currency": "AED"
+                },
+                {
+                    "id": 110107,
+                    "name": "FootBall",
+                    "slug": "football",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783086217/27708efe-3c1e-46fe-8405-f68683b54ca9.png"
+                    ],
+                    "description": "High-performance football equipment for athletes and enthusiasts.",
+                    "price": "based upon the requirement",
+                    "currency": "AED"
+                },
+                {
+                    "id": 110108,
+                    "name": "Tennise Bat And Ball Set",
+                    "slug": "tennise-bat-and-ball-set",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783086326/295c6212-9cec-422c-b88c-708c30b8e0fd.png"
+                    ],
+                    "description": "High-performance tennis equipment for athletes and enthusiasts.",
+                    "price": "based upon the requirement",
+                    "currency": "AED"
+                },
+                {
+                    "id": 110109,
+                    "name": "Tennise Bat And Ball Set With case ",
+                    "slug": "tennise-bat-and-ball-set-with-case",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783086409/7cd88779-9afb-465a-af29-a54f9da3991d.png"
+                    ],
+                    "description": "High-performance tennis equipment for athletes and enthusiasts.",
+                    "price": "based upon the requirement",
+                    "currency": "AED"
+                },
+                {
+                    "id": 110110,
+                    "name": "Tennise and Bedminton Net Set",
+                    "slug": "tennise-and-bedminton-net-set",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783086351/5f5c146d-dbaa-4abe-8718-278fbda02f90.png"
+                    ],
+                    "description": "High-performance tennis and badminton equipment for athletes and enthusiasts.",
+                    "price": "based upon the requirement",
+                    "currency": "AED"
+                },
+                {
+                    "id": 110111,
+                    "name": "Tennise Balls",
+                    "slug": "tennise-balls",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783086432/d20c6a65-c853-4289-bd63-269d7cd73337.png"
+                    ],
+                    "description": "High-performance tennis and badminton equipment for athletes and enthusiasts.",
+                    "price": "based upon the requirement",
+                    "currency": "AED"
+                },
+                {
+                    "id": 110112,
+                    "name": " Table Tennise(Table) with Accessories",
+                    "slug": "table-tennise-table-with-accessories",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783086460/4eb6c4cd-fbad-4447-ab58-023686eb9bec.png"
+                    ],
+                    "description": "High-performance tennis Table for athletes and enthusiasts.",
+                    "price": "based upon the requirement",
+                    "currency": "AED"
+                },
+                {
+                    "id": 110113,
+                    "name": "Tennise Table",
+                    "slug": "tennise-table-110113",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783086513/f3ff53e2-f2b2-47c2-9668-08404f1dd255.png"
+                    ],
+                    "description": "High-performance tennis  equipment for athletes and enthusiasts.",
+                    "price": "based upon the requirement",
+                    "currency": "AED"
+                },
+                {
+                    "id": 110114,
+                    "name": "Pool Table",
+                    "slug": "pool-table-110114",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783086543/f059ba8d-ba17-4abf-823e-8cbd607c7c24.png"
+                    ],
+                    "description": "High-performance pool table for athletes and enthusiasts.",
+                    "price": "based upon the requirement",
+                    "currency": "AED"
+                },
+                {
+                    "id": 110115,
+                    "name": "Pool Table",
+                    "slug": "pool-table-110115",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783086597/0941f3bf-a4a4-476a-be5a-c77242f43205.png"
+                    ],
+                    "description": "High-performance pool table for athletes and enthusiasts.",
+                    "price": "based upon the requirement",
+                    "currency": "AED"
+                },
+                {
+                    "id": 110116,
+                    "name": "Pool Accessories Cabinet",
+                    "slug": "pool-accessories-cabinet-110116",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783086651/7f5d28af-fb15-4893-95b1-c5f74011d4b0.png"
+                    ],
+                    "description": "High-performance pool accessories cabinet.",
+                    "price": "based upon the requirement",
+                    "currency": "AED"
+                },
+                {
+                    "id": 110117,
+                    "name": "Pool Accessories Cabinet",
+                    "slug": "pool-accessories-cabinet-110112",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783086662/bbeb6e92-9b62-4ddd-836b-07e9a6e34577.png"
+                    ],
+                    "description": "High-performance pool accessories cabinet.",
+                    "price": "based upon the requirement",
+                    "currency": "AED"
+                },
+                {
+                    "id": 110118   ,
+                    "name": "Pool Accessories Cabinet",
+                    "slug": "pool-accessories-cabinet-110113",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783086673/ffe5debb-4455-409f-8bb7-8290b75e64d4.png"
+                    ],
+                    "description": "High-performance pool accessories cabinet.",
+                    "price": "based upon the requirement",
+                    "currency": "AED"
+                },
+                {
+                    "id": 110119,
+                    "name": " Premium Pool Table and Dart Board with Accessories Cabinet",
+                    "slug": "pool-accessories-cabinet-110114",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783086703/e73cbd4e-31c0-48cf-9bd1-b483ed76757f.png"
+                    ],
+                    "description": "High-performance pool accessories cabinet.",
+                    "price": "based upon the requirement",
+                    "currency": "AED"
+                },
+                {
+                    "id": 110120,
+                    "name": "Dart Board",
+                    "slug": "dart-board-110120",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783086723/0c73e3db-bc00-4b3f-bf32-4a9747ee75b7.png"
+                    ],
+                    "description": "High-performance Dart Board along with accessories and holder cabinet.",
+                    "price": "based upon the requirement",
                     "currency": "AED"
                 }
             ]
         }
+
+            
+
+
     ]
 }
