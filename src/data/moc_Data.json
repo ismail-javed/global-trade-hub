@@ -1468,8 +1468,8 @@
                 },
                 {
                     "id": 110108,
-                    "name": "Tennise Bat And Ball Set",
-                    "slug": "tennise-bat-and-ball-set",
+                    "name": "Tennis Bat And Ball Set",
+                    "slug": "tennis-bat-and-ball-set",
                     "images": [
                         "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783086326/295c6212-9cec-422c-b88c-708c30b8e0fd.png"
                     ],
@@ -1479,8 +1479,8 @@
                 },
                 {
                     "id": 110109,
-                    "name": "Tennise Bat And Ball Set With case ",
-                    "slug": "tennise-bat-and-ball-set-with-case",
+                    "name": "Tennis Bat And Ball Set With case ",
+                    "slug": "tennis-bat-and-ball-set-with-case",
                     "images": [
                         "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783086409/7cd88779-9afb-465a-af29-a54f9da3991d.png"
                     ],
@@ -1490,8 +1490,8 @@
                 },
                 {
                     "id": 110110,
-                    "name": "Tennise and Bedminton Net Set",
-                    "slug": "tennise-and-bedminton-net-set",
+                    "name": "Tennis and Badminton Net Set",
+                    "slug": "tennis-and-badminton-net-set",
                     "images": [
                         "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783086351/5f5c146d-dbaa-4abe-8718-278fbda02f90.png"
                     ],
@@ -1500,9 +1500,20 @@
                     "currency": "AED"
                 },
                 {
-                    "id": 110111,
-                    "name": "Tennise Balls",
-                    "slug": "tennise-balls",
+                    "id": 110112,
+                    "name": "Tennis Balls",
+                    "slug":"tennis-and-badminton-net-set-with-case",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783112370/de8314407863fe4d2f7d2dfe533aa06e_jccryj.jpg"
+                    ],
+                    "description": "High-performance tennis and badminton equipment for athletes and enthusiasts.",
+                    "price": "based upon the requirement",
+                    "currency": "AED"
+                },
+                {
+                    "id": 110113,
+                    "name": "Tennis Balls",
+                    "slug": "tennis-balls",
                     "images": [
                         "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783086432/d20c6a65-c853-4289-bd63-269d7cd73337.png"
                     ],
@@ -1511,9 +1522,100 @@
                     "currency": "AED"
                 },
                 {
-                    "id": 110112,
-                    "name": " Table Tennise(Table) with Accessories",
-                    "slug": "table-tennise-table-with-accessories",
+                    "id": 110114,
+                    "name": "hand Grips for Strong Hand",
+                    "slug": "hand-grips-for-strong-hand",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783184731/ae525576a5022395bbf91b797dbfe7ba_zuvysc.jpg"
+                    ],
+                    "description": "High-performance hand grips for strong hands.",
+                    "price": "based upon the requirement",
+                    "currency": "AED"
+                },
+                {
+                    "id": 110115,
+                    "name": "Skipping Ropes",
+                    "slug": "skipping-ropes",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783184811/30715c525c71514484ae1d439e13b547_tbawxh.jpg",
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783184819/d83b2371b0847626ef742e2125ae8b48_hejwub.jpg",
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783184842/125f4673e22a43095772b49ccd508116_mqvxyt.jpg"
+                    ],
+                    "description": "High-performance skipping ropes for athletes and enthusiasts.",
+                    "price": "based upon the requirement",
+                    "currency": "AED"
+                },
+                {
+                    "id": 110116,
+                    "name": "Push-up Bars ",
+                    "slug": "push-up-bars",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783184902/b84cacc6f1023c09306ba732bf9f2ef5_jjsuas.jpg"
+                    ],
+                    "description": "High-performance push-up bars for athletes and enthusiasts.",
+                    "price": "based upon the requirement",
+                    "currency": "AED"
+                },
+                {
+                    "id": 110117,
+                    "name": "Gym Geario",
+                    "slug": "gym-geario-110117",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783184834/98abac0c8d9ac59c03368db9c168c67e_hig9hi.jpg"
+                    ],
+                    "description": "High-performance gym equipment for athletes and enthusiasts.",
+                    "price": "based upon the requirement",
+                    "currency": "AED"
+                },
+                {
+                    "id": 110118,
+                    "name": "Gym Geario",
+                    "slug": "gym-geario-110118",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783184893/f27849dd6c44c98d16c0dfac9743efdc_e933lw.jpg"
+                    ],
+                    "description": "High-performance gym equipment for athletes and enthusiasts.",
+                    "price": "based upon the requirement",
+                    "currency": "AED"
+                },
+                {
+                    "id": 110119,
+                    "name": "BQH Home Gym Equipment Resistance Bands Set",
+                    "slug": "bqh-home-gym-equipment-resistance-bands-set-110119",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783184871/404ae024b10f6e901ca9b98fe0bff698_cemxz8.jpg"
+                    ],
+                    "description": "High-performance gym equipment for athletes and enthusiasts.",
+                    "price": "based upon the requirement",
+                    "currency": "AED"
+                },
+                {
+                    "id": 110131,
+                    "name": "Wally Ball",
+                    "slug": "wally-ball-110131",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783184632/367a14317fab84e23ed30985395de863_agsheu.jpg"
+                    ],
+                    "description": "Wally Ball.",
+                    "price": "based upon the requirement",
+                    "currency": "AED"
+                },
+                {
+                    "id": 110130,
+                    "name": "Basket Ball Net",
+                    "slug": "basket-ball-net-110130",
+                    "images": [
+                        "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783112327/00d8ef1b37fe03f2e0a352f534b90d53_syqjt7.jpg"
+                    ],
+                    "description": "Basket Ball Net.",
+                    "price": "based upon the requirement",
+                    "currency": "AED"
+                },
+
+                {
+                    "id": 110132,
+                    "name": " Table Tennis(Table) with Accessories",
+                    "slug": "table-tennis-table-with-accessories",
                     "images": [
                         "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783086460/4eb6c4cd-fbad-4447-ab58-023686eb9bec.png"
                     ],
@@ -1522,9 +1624,9 @@
                     "currency": "AED"
                 },
                 {
-                    "id": 110113,
-                    "name": "Tennise Table",
-                    "slug": "tennise-table-110113",
+                    "id": 110133,
+                    "name": "Tennis Table",
+                    "slug": "tennis-table-110113",
                     "images": [
                         "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783086513/f3ff53e2-f2b2-47c2-9668-08404f1dd255.png"
                     ],
@@ -1533,7 +1635,7 @@
                     "currency": "AED"
                 },
                 {
-                    "id": 110114,
+                    "id": 110134,
                     "name": "Pool Table",
                     "slug": "pool-table-110114",
                     "images": [
@@ -1544,7 +1646,7 @@
                     "currency": "AED"
                 },
                 {
-                    "id": 110115,
+                    "id": 110135,
                     "name": "Pool Table",
                     "slug": "pool-table-110115",
                     "images": [
@@ -1555,7 +1657,7 @@
                     "currency": "AED"
                 },
                 {
-                    "id": 110116,
+                    "id": 110136,
                     "name": "Pool Accessories Cabinet",
                     "slug": "pool-accessories-cabinet-110116",
                     "images": [
@@ -1566,7 +1668,7 @@
                     "currency": "AED"
                 },
                 {
-                    "id": 110117,
+                    "id": 110137,
                     "name": "Pool Accessories Cabinet",
                     "slug": "pool-accessories-cabinet-110112",
                     "images": [
@@ -1577,7 +1679,7 @@
                     "currency": "AED"
                 },
                 {
-                    "id": 110118   ,
+                    "id": 110138   ,
                     "name": "Pool Accessories Cabinet",
                     "slug": "pool-accessories-cabinet-110113",
                     "images": [
@@ -1588,7 +1690,7 @@
                     "currency": "AED"
                 },
                 {
-                    "id": 110119,
+                    "id": 110139,
                     "name": " Premium Pool Table and Dart Board with Accessories Cabinet",
                     "slug": "pool-accessories-cabinet-110114",
                     "images": [
@@ -1599,7 +1701,7 @@
                     "currency": "AED"
                 },
                 {
-                    "id": 110120,
+                    "id": 110140,
                     "name": "Dart Board",
                     "slug": "dart-board-110120",
                     "images": [
