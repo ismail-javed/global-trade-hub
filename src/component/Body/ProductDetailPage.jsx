@@ -6,10 +6,16 @@ import { useProductDetail } from "../../hooks/useProductDetail.js";
 import { toSlug } from "../../utils/strings.js";
 import Seo from "../Seo.jsx";
 
-const collectServiceItems = (categories) => {
+const normalizeSlug = (value) => toSlug(value || "");
+
+const collectServiceItems = (categories, activeCategorySlug = null) => {
   if (!Array.isArray(categories)) return [];
   return categories
     .filter((category) => category.general_category === "service-items")
+    .filter((category) => {
+      if (!activeCategorySlug) return true;
+      return normalizeSlug(category.slug || category.category_name) === activeCategorySlug;
+    })
     .flatMap((category) => {
       const directItems = Array.isArray(category.items) ? category.items : [];
       const subItems = Array.isArray(category.subcategories)
@@ -85,25 +91,42 @@ function getDetailEntries(product) {
   return [...fallbackEntries, ...normalizedDetails].filter((detail) => detail.label);
 }
 
-function RelatedProducts({ ids, onView, categories }) {
-  const allItems = collectServiceItems(categories);
-  const items = ids && ids.length
-    ? allItems.filter(({ item }) => ids.includes(toSlug(item.slug || item.name))).map(({ item }) => item)
-    : allItems.slice(0, 3).map(({ item }) => item);
+function RelatedProducts({ ids, onView, categories, currentCategory, currentSlug }) {
+  const currentCategorySlug = normalizeSlug(currentCategory?.slug || currentCategory?.category_name || "");
+  const relatedIds = Array.isArray(ids)
+    ? ids.map((id) => normalizeSlug(id)).filter(Boolean)
+    : typeof ids === "string"
+      ? ids.split(",").map((id) => normalizeSlug(id)).filter(Boolean)
+      : [];
+
+  const categoryItems = collectServiceItems(categories, currentCategorySlug);
+  const fallbackItems = categoryItems.length ? categoryItems : collectServiceItems(categories);
+
+  const items = relatedIds.length
+    ? fallbackItems
+        .filter(({ item }) => {
+          const itemSlug = normalizeSlug(item?.slug || item?.name);
+          return itemSlug && relatedIds.includes(itemSlug);
+        })
+        .map(({ item }) => item)
+    : fallbackItems
+        .filter(({ item }) => normalizeSlug(item?.slug || item?.name) !== normalizeSlug(currentSlug))
+        .slice(0, 3)
+        .map(({ item }) => item);
 
   if (!items.length) return null;
 
   return (
-    <div className="services-grid" style={{ gridTemplateColumns: "repeat(auto-fill,minmax(220px,1fr))" }}>
+    <div className="services-grid related-products-grid">
       {items.map((it) => (
         <div
-          key={toSlug(it.slug || it.name)}
+          key={normalizeSlug(it.slug || it.name)}
           className="service-card"
           role="link"
           tabIndex={0}
-          onClick={() => onView(toSlug(it.slug || it.name))}
+          onClick={() => onView(normalizeSlug(it.slug || it.name))}
           onKeyDown={(e) => {
-            if (e.key === "Enter" || e.key === " ") onView(toSlug(it.slug || it.name));
+            if (e.key === "Enter" || e.key === " ") onView(normalizeSlug(it.slug || it.name));
           }}
           style={{ cursor: "pointer" }}
         >
@@ -168,7 +191,7 @@ export default function ProductDetailPage() {
   }
 
   return (
-    <main style={{ padding: "2.5rem 2rem 6rem" }}>
+    <main className="product-detail-page">
       <Helmet>
         <title>{product.name} | JNSSI Overseas</title>
         <meta name="description" content={product.description} />
@@ -180,7 +203,7 @@ export default function ProductDetailPage() {
           </div>
           <h1 className="hero-title">{product.name}</h1>
           <p className="hero-desc">{product.description}</p>
-          <div style={{ display: "flex", gap: 12, marginTop: 12 }}>
+          <div className="hero-btns" style={{ marginTop: 12 }}>
             <button className="btn-primary">Request Quote</button>
             {/* <button className="btn-outline">Download COA</button>
             <button className="btn-outline">Download Specification</button> */}
@@ -213,7 +236,7 @@ export default function ProductDetailPage() {
         </div>
         <div className="hero-right">
           <div className="hero-img-wrap">
-            <img src={product.images?.[0]} alt={product.name} />
+            <img className="product-detail-image" src={product.images?.[0]} alt={product.name} />
           </div>
           <div style={{ display: "flex", gap: 10, marginTop: 12 }}>
             <div className="hero-badge">
@@ -271,7 +294,7 @@ export default function ProductDetailPage() {
             <div style={{ marginTop: 12 }}>
               {section?.description ? <p style={{ color: "var(--text-mid)", lineHeight: 1.7 }}>{section.description}</p> : null}
               {section?.items ? (
-                <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(180px,1fr))", gap: 12, marginTop: 12 }}>
+                <div className="detail-card-grid" style={{ marginTop: 12 }}>
                   {section.items.map((item) => (
                     <div key={item?.label || item?.title || JSON.stringify(item)} className="service-card">
                       <div className="service-card-body">
@@ -307,7 +330,7 @@ export default function ProductDetailPage() {
 
         <div style={{ marginTop: 28 }}>
           <div className="tag-label">Quality & Certifications</div>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(160px,1fr))", gap: 12 }}>
+          <div className="cert-grid">
             <div className="service-card">
               <div className="service-card-body">
                 <h3>WHO-GMP</h3>
@@ -337,7 +360,7 @@ export default function ProductDetailPage() {
 
         <div style={{ marginTop: 28 }}>
           <div className="tag-label">Packaging & Export</div>
-          <div style={{ display: "flex", gap: 12, flexWrap: "wrap" }}>
+          <div className="packaging-grid">
             {packagingOptions.map((p) => (
               <div key={p} className="service-card" style={{ maxWidth: 220 }}>
                 <div className="service-card-body">
@@ -357,11 +380,13 @@ export default function ProductDetailPage() {
           <RelatedProducts
             ids={product.related || []}
             categories={data?.categories}
+            currentCategory={productCategory}
+            currentSlug={slug}
             onView={(s) => navigate(`/products/${s}`)}
           />
         </div>
 
-        <div style={{ marginTop: 28, display: "grid", gridTemplateColumns: "1fr 380px", gap: 20 }}>
+        <div className="product-detail-grid" style={{ marginTop: 28 }}>
           <div>
             <div className="tag-label">FAQ</div>
             <div style={{ background: "var(--white)", padding: 14, borderRadius: 12 }}>
