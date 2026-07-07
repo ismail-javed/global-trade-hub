@@ -61,8 +61,7 @@ function Hero() {
 
             <div className="hero-img-wrap">
                 <img
-                src="https://res.cloudinary.com/dyb9hlxzq/image/upload/v1775758011/ship_agrzty.png"
-                alt="Global Shipping — JNSSI Overseas"
+                src="https://res.cloudinary.com/dyb9hlxzq/image/upload/v1783415922/7d6de832-8c53-471b-a825-250a4558d197.png"
                 />
             </div>
 
