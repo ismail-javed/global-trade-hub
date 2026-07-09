@@ -110,6 +110,8 @@
       "Retail"
     ],
     "packagingOptions": [
+      "5 kg bags",
+      "10 kg bags",
       "25 kg bags",
       "40 kg cartons",
       "Custom packaging"
@@ -141,7 +143,7 @@
     "details": [
       {
         "label": "Generic Name",
-        "value": "N/A",
+        "value": "Daucus carota subsp. sativus",
         "highlight": true
       },
       {
@@ -151,12 +153,12 @@
       },
       {
         "label": "Purity",
-        "value": "N/A",
+        "value": "Premium export grade",
         "highlight": true
       },
       {
         "label": "Shelf Life",
-        "value": "N/A",
+        "value": "4 to 6 months under optimal conditions",
         "type": "text"
       }
     ],
@@ -176,6 +178,8 @@
       "Retail"
     ],
     "packagingOptions": [
+      "5 kg bags",
+      "10 kg bags",
       "25 kg bags",
       "40 kg cartons",
       "Custom packaging"
@@ -207,7 +211,7 @@
     "details": [
       {
         "label": "Generic Name",
-        "value": "N/A",
+        "value": "Malus Domestica",
         "highlight": true
       },
       {
@@ -217,7 +221,7 @@
       },
       {
         "label": "Purity",
-        "value": "N/A",
+        "value": "Premium export grade",
         "highlight": true
       },
       {
@@ -273,7 +277,7 @@
     "details": [
       {
         "label": "Generic Name",
-        "value": "N/A",
+        "value": "citrus sinensis",
         "highlight": true
       },
       {
@@ -283,7 +287,7 @@
       },
       {
         "label": "Purity",
-        "value": "N/A",
+        "value": "Premium export grade",
         "highlight": true
       },
       {
@@ -339,7 +343,7 @@
     "details": [
       {
         "label": "Generic Name",
-        "value": "N/A",
+        "value": "Cocos nucifera",
         "highlight": true
       },
       {
@@ -405,12 +409,12 @@
     "details": [
       {
         "label": "Generic Name",
-        "value": "N/A",
+        "value": "Musa spp.",
         "highlight": true
       },
       {
         "label": "Purity",
-        "value": "Export grade",
+        "value": "Premium export grade",
         "highlight": true
       },
       {
@@ -465,12 +469,12 @@
     "details": [
       {
         "label": "Generic Name",
-        "value": "N/A",
+        "value": "Ananas comosus",
         "highlight": true
       },
       {
         "label": "Purity",
-        "value": "Export grade",
+        "value": "Premium export grade",
         "highlight": true
       },
       {
@@ -605,7 +609,7 @@
       {
         "label": "CAS Number",
         "value": "N/A",
-        "highlight": true
+        "highlight": false
       },
       {
         "label": "Purity",
@@ -679,7 +683,7 @@
       {
         "label": "CAS Number",
         "value": "N/A",
-        "highlight": true
+        "highlight": false
       },
       {
         "label": "Purity",
@@ -896,17 +900,17 @@
       {
         "label": "Generic Name",
         "value": "N/A",
-        "highlight": true
+        "highlight": false
       },
       {
         "label": "CAS Number",
         "value": "N/A",
-        "highlight": true
+        "highlight": false
       },
       {
         "label": "Purity",
         "value": "N/A",
-        "highlight": true
+        "highlight": false
       },
       {
         "label": "Storage",
@@ -916,7 +920,8 @@
       {
         "label": "Packaging",
         "value": [
-          "N/A"
+          "Wooden crates",
+          "Plastic containers"
         ],
         "type": "list"
       }
@@ -966,8 +971,8 @@
     ],
     "certifications": {
       "whoGmp": false,
-      "iso": "N/A",
-      "coa": true,
+      "iso": "9001",
+      "coa": false,
       "msds": false
     },
     "specs": {
@@ -1037,7 +1042,7 @@
     ],
     "certifications": {
       "whoGmp": false,
-      "iso": "N/A",
+      "iso": "9001",
       "coa": true,
       "msds": false
     },
@@ -1125,17 +1130,17 @@
       {
         "label": "Generic Name",
         "value": "N/A",
-        "highlight": true
+        "highlight": false
       },
       {
         "label": "CAS Number",
         "value": "N/A",
-        "highlight": true
+        "highlight": false
       },
       {
         "label": "Purity",
         "value": "N/A",
-        "highlight": true
+        "highlight": false
       },
       {
         "label": "Storage",
@@ -1196,17 +1201,17 @@
       {
         "label": "Generic Name",
         "value": "N/A",
-        "highlight": true
+        "highlight": false
       },
       {
         "label": "CAS Number",
         "value": "N/A",
-        "highlight": true
+        "highlight": false
       },
       {
         "label": "Purity",
         "value": "N/A",
-        "highlight": true
+        "highlight": false
       },
       {
         "label": "Storage",
@@ -1216,7 +1221,8 @@
       {
         "label": "Packaging",
         "value": [
-          "N/A"
+          "Wooden crates",
+          "Plastic containers"
         ],
         "type": "list"
       }

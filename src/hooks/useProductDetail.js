@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
+import { toSlug } from "../utils/strings.js";
 
 export function useProductDetail(slug, categories) {
   const [productDetailsMap, setProductDetailsMap] = useState(null);
@@ -34,8 +35,8 @@ export function useProductDetail(slug, categories) {
     });
 
     const entry = serviceItems.find((candidate) => {
-      const candidateSlug = candidate.item?.slug || candidate.item?.name || "";
-      return candidateSlug.toString().trim().toLowerCase().replace(/[^a-z0-9\s-]/g, "").replace(/\s+/g, "-") === slug;
+      const candidateSlug = toSlug(candidate.item?.slug || candidate.item?.name || "");
+      return candidateSlug === slug;
     });
 
     if (!entry?.item) {

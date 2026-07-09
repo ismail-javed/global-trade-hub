@@ -1,4 +1,4 @@
-import { useMemo } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { useSiteData } from "../../data/siteDataContext.js";
@@ -7,6 +7,19 @@ import { toSlug } from "../../utils/strings.js";
 import Seo from "../Seo.jsx";
 
 const normalizeSlug = (value) => toSlug(value || "");
+
+const PLACEHOLDER_IMAGE =
+  "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='600'%3E%3Crect width='100%25' height='100%25' fill='%23f1f5f9'/%3E%3Ctext x='50%25' y='50%25' font-family='sans-serif' font-size='24' fill='%2394a3b8' text-anchor='middle' dominant-baseline='middle'%3EImage unavailable%3C/text%3E%3C/svg%3E";
+
+function formatPrice(price, currency) {
+  if (price === null || price === undefined || price === "") return null;
+  const numeric = typeof price === "number" ? price : Number(price);
+  if (!Number.isNaN(numeric) && typeof price !== "string") {
+    return `${currency || ""} ${numeric.toLocaleString()}`.trim();
+  }
+  // Non-numeric prices (e.g. "based upon the requirement") are shown as-is.
+  return String(price);
+}
 
 const collectServiceItems = (categories, activeCategorySlug = null) => {
   if (!Array.isArray(categories)) return [];
@@ -132,8 +145,12 @@ function RelatedProducts({ ids, onView, categories, currentCategory, currentSlug
         >
           <img
             className="service-card-img service-card-img--contain"
-            src={getProductImages(it)[0]}
+            src={getProductImages(it)[0] || PLACEHOLDER_IMAGE}
             alt={it.name}
+            onError={(e) => {
+              e.currentTarget.onerror = null;
+              e.currentTarget.src = PLACEHOLDER_IMAGE;
+            }}
           />
           <div className="service-card-body">
             <h3>{it.name}</h3>
@@ -160,6 +177,27 @@ export default function ProductDetailPage() {
 
   const { product, loading: detailsLoading, category: productCategory } = useProductDetail(slug, data?.categories);
 
+  const galleryImages = useMemo(() => {
+    const images = Array.isArray(product?.images) ? product.images.filter(Boolean) : [];
+    return images.length ? images : [PLACEHOLDER_IMAGE];
+  }, [product]);
+  const [activeImageIndex, setActiveImageIndex] = useState(0);
+  const [quantity, setQuantity] = useState(1);
+
+  // Reset gallery/quantity state whenever the visitor lands on a different product.
+  useEffect(() => {
+    setActiveImageIndex(0);
+    setQuantity(1);
+  }, [slug]);
+
+  const activeImage = galleryImages[activeImageIndex] || galleryImages[0];
+  const formattedPrice = formatPrice(product?.price, product?.currency);
+
+  const quoteMessage = product
+    ? `Hi, I'm interested in "${product.name}"${quantity > 1 ? ` (Qty: ${quantity})` : ""}. Could you share pricing and availability?`
+    : "";
+  const quoteLink = `https://wa.me/919084399069?text=${encodeURIComponent(quoteMessage)}`;
+
   const applications = Array.isArray(product?.applications) ? product.applications : [];
   const benefits = Array.isArray(product?.benefits) ? product.benefits : [];
   const industries = Array.isArray(product?.industries) ? product.industries : [];
@@ -175,15 +213,25 @@ export default function ProductDetailPage() {
   const highlightDetails = detailEntries.filter((item) => item.highlight).slice(0, 3);
 
   if (!product || detailsLoading) {
+    const notFound = !product && !detailsLoading;
     return (
       <main style={{ padding: "4rem 2rem" }}>
         <Seo />
         <div className="services-section">
-          <div className="section-heading">
-            {!product && !detailsLoading ? "Product not found" : "Loading product..."}
-          </div>
-          {!product && !detailsLoading ? (
-            <p style={{ marginTop: "1rem" }}>The product you're looking for could not be found.</p>
+          <div className="section-heading">{notFound ? "Product not found" : "Loading product..."}</div>
+          {notFound ? (
+            <>
+              <p style={{ marginTop: "1rem" }}>
+                We couldn't find the product you're looking for. It may have been moved or is no longer available.
+              </p>
+              <button
+                className="btn-primary"
+                style={{ marginTop: "1.5rem" }}
+                onClick={() => navigate("/services")}
+              >
+                Browse All Products
+              </button>
+            </>
           ) : null}
         </div>
       </main>
@@ -203,10 +251,43 @@ export default function ProductDetailPage() {
           </div>
           <h1 className="hero-title">{product.name}</h1>
           <p className="hero-desc">{product.description}</p>
-          <div className="hero-btns" style={{ marginTop: 12 }}>
-            <button className="btn-primary">Request Quote</button>
-            {/* <button className="btn-outline">Download COA</button>
-            <button className="btn-outline">Download Specification</button> */}
+
+          {formattedPrice ? (
+            <div className="product-price-row" style={{ marginTop: 12, display: "flex", alignItems: "baseline", gap: 10 }}>
+              <span className="product-price" style={{ fontSize: "1.6rem", fontWeight: 700, color: "var(--navy)" }}>
+                {formattedPrice}
+              </span>
+              <span style={{ color: "var(--text-lt)", fontSize: "0.85rem" }}>per unit, export terms apply</span>
+            </div>
+          ) : null}
+
+          <div className="product-qty-row" style={{ display: "flex", alignItems: "center", gap: 10, marginTop: 16 }}>
+            <span className="tag-label" style={{ margin: 0 }}>Quantity</span>
+            <div className="qty-stepper" style={{ display: "flex", alignItems: "center", border: "1px solid var(--border)", borderRadius: 8 }}>
+              <button
+                type="button"
+                aria-label="Decrease quantity"
+                onClick={() => setQuantity((q) => Math.max(1, q - 1))}
+                style={{ padding: "6px 12px", background: "none", border: "none", cursor: "pointer", fontSize: "1rem" }}
+              >
+                −
+              </button>
+              <span style={{ minWidth: 32, textAlign: "center" }}>{quantity}</span>
+              <button
+                type="button"
+                aria-label="Increase quantity"
+                onClick={() => setQuantity((q) => Math.min(999, q + 1))}
+                style={{ padding: "6px 12px", background: "none", border: "none", cursor: "pointer", fontSize: "1rem" }}
+              >
+                +
+              </button>
+            </div>
+          </div>
+
+          <div className="hero-btns" style={{ marginTop: 16 }}>
+            <a className="btn-primary" href={quoteLink} target="_blank" rel="noopener noreferrer">
+              Request Quote
+            </a>
           </div>
           <div className="hero-stats" style={{ marginTop: 20 }}>
             {highlightDetails.length ? (
@@ -219,25 +300,73 @@ export default function ProductDetailPage() {
             ) : (
               <>
                 <div className="hero-stat">
-                  <div className="num">Generic</div>
-                  <div className="lbl">{product.generic || "N/A"}</div>
+                  <div className="num">Category</div>
+                  <div className="lbl">{productCategoryLabel}</div>
                 </div>
                 <div className="hero-stat">
-                  <div className="num">CAS</div>
-                  <div className="lbl">{product.cas || "N/A"}</div>
+                  <div className="num">Availability</div>
+                  <div className="lbl">{availability}</div>
                 </div>
-                <div className="hero-stat">
-                  <div className="num">Purity</div>
-                  <div className="lbl">{product.purity || "N/A"}</div>
-                </div>
+                {formattedPrice ? (
+                  <div className="hero-stat">
+                    <div className="num">Price</div>
+                    <div className="lbl">{formattedPrice}</div>
+                  </div>
+                ) : null}
               </>
             )}
           </div>
         </div>
         <div className="hero-right">
           <div className="hero-img-wrap">
-            <img className="product-detail-image" src={product.images?.[0]} alt={product.name} />
+            <img
+              className="product-detail-image"
+              src={activeImage}
+              alt={product.name}
+              onError={(e) => {
+                e.currentTarget.onerror = null;
+                e.currentTarget.src = PLACEHOLDER_IMAGE;
+              }}
+            />
           </div>
+          {galleryImages.length > 1 ? (
+            <div
+              className="product-thumbnail-row"
+              style={{ display: "flex", gap: 8, marginTop: 12, flexWrap: "wrap" }}
+            >
+              {galleryImages.map((img, index) => (
+                <button
+                  key={`${img}-${index}`}
+                  type="button"
+                  onClick={() => setActiveImageIndex(index)}
+                  aria-label={`View image ${index + 1} of ${product.name}`}
+                  aria-current={index === activeImageIndex}
+                  className="product-thumbnail-btn"
+                  style={{
+                    padding: 0,
+                    width: 64,
+                    height: 64,
+                    borderRadius: 8,
+                    overflow: "hidden",
+                    border: index === activeImageIndex ? "2px solid var(--navy)" : "1px solid var(--border)",
+                    cursor: "pointer",
+                    background: "#f8fafc",
+                    flexShrink: 0,
+                  }}
+                >
+                  <img
+                    src={img}
+                    alt=""
+                    style={{ width: "100%", height: "100%", objectFit: "contain" }}
+                    onError={(e) => {
+                      e.currentTarget.onerror = null;
+                      e.currentTarget.src = PLACEHOLDER_IMAGE;
+                    }}
+                  />
+                </button>
+              ))}
+            </div>
+          ) : null}
           <div style={{ display: "flex", gap: 10, marginTop: 12 }}>
             <div className="hero-badge">
               <div className="badge-num">{availability}</div>
@@ -274,19 +403,21 @@ export default function ProductDetailPage() {
           </div>
         </div>
 
-        <div style={{ marginTop: 28 }}>
-          <div className="tag-label">Key Product Details</div>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(180px,1fr))", gap: 12, marginTop: 12 }}>
-            {detailEntries.map((detail) => (
-              <div key={`${detail.label}-${detail.value}`} className="service-card">
-                <div className="service-card-body">
-                  <h3>{detail.label}</h3>
-                  <p>{formatDetailValue(detail.value)}</p>
+        {detailEntries.length ? (
+          <div style={{ marginTop: 28 }}>
+            <div className="tag-label">Key Product Details</div>
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(180px,1fr))", gap: 12, marginTop: 12 }}>
+              {detailEntries.map((detail) => (
+                <div key={`${detail.label}-${detail.value}`} className="service-card">
+                  <div className="service-card-body">
+                    <h3>{detail.label}</h3>
+                    <p>{formatDetailValue(detail.value)}</p>
+                  </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
-        </div>
+        ) : null}
 
         {customSections.map((section) => (
           <div key={section?.title || section?.heading || "custom-section"} style={{ marginTop: 28 }}>
@@ -310,70 +441,80 @@ export default function ProductDetailPage() {
           </div>
         ))}
 
-        <div style={{ marginTop: 28 }}>
-          <div className="tag-label">Technical Specifications</div>
-          <div style={{ overflowX: "auto", marginTop: 12 }}>
-            <table style={{ width: "100%", borderCollapse: "collapse", background: "var(--white)", border: "1px solid var(--border)", borderRadius: "8px" }}>
-              <tbody>
-                {Object.entries(specs).map(([k, v]) => (
-                  <tr key={k}>
-                    <td style={{ padding: 12, border: "1px solid var(--border)" }}>
-                      <strong>{k}</strong>
-                    </td>
-                    <td style={{ padding: 12, border: "1px solid var(--border)" }}>{v}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        </div>
-
-        <div style={{ marginTop: 28 }}>
-          <div className="tag-label">Quality & Certifications</div>
-          <div className="cert-grid">
-            <div className="service-card">
-              <div className="service-card-body">
-                <h3>WHO-GMP</h3>
-                <p>{certifications.whoGmp ? "Available" : "-"}</p>
-              </div>
-            </div>
-            <div className="service-card">
-              <div className="service-card-body">
-                <h3>ISO</h3>
-                <p>{certifications.iso || "-"}</p>
-              </div>
-            </div>
-            <div className="service-card">
-              <div className="service-card-body">
-                <h3>COA</h3>
-                <p>{certifications.coa ? "Available" : "-"}</p>
-              </div>
-            </div>
-            <div className="service-card">
-              <div className="service-card-body">
-                <h3>MSDS</h3>
-                <p>{certifications.msds ? "Available" : "-"}</p>
-              </div>
+        {Object.keys(specs).length ? (
+          <div style={{ marginTop: 28 }}>
+            <div className="tag-label">Technical Specifications</div>
+            <div style={{ overflowX: "auto", marginTop: 12 }}>
+              <table style={{ width: "100%", borderCollapse: "collapse", background: "var(--white)", border: "1px solid var(--border)", borderRadius: "8px" }}>
+                <tbody>
+                  {Object.entries(specs).map(([k, v]) => (
+                    <tr key={k}>
+                      <td style={{ padding: 12, border: "1px solid var(--border)" }}>
+                        <strong>{k}</strong>
+                      </td>
+                      <td style={{ padding: 12, border: "1px solid var(--border)" }}>{v}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
             </div>
           </div>
-        </div>
+        ) : null}
 
-        <div style={{ marginTop: 28 }}>
-          <div className="tag-label">Packaging & Export</div>
-          <div className="packaging-grid">
-            {packagingOptions.map((p) => (
-              <div key={p} className="service-card" style={{ maxWidth: 220 }}>
+        {Object.values(certifications).some(Boolean) ? (
+          <div style={{ marginTop: 28 }}>
+            <div className="tag-label">Quality & Certifications</div>
+            <div className="cert-grid">
+              <div className="service-card">
                 <div className="service-card-body">
-                  <h3>{p}</h3>
-                  <p>Shipping: {safeJoin(shipping)}</p>
+                  <h3>WHO-GMP</h3>
+                  <p>{certifications.whoGmp ? "Available" : "-"}</p>
                 </div>
               </div>
-            ))}
+              <div className="service-card">
+                <div className="service-card-body">
+                  <h3>ISO</h3>
+                  <p>{certifications.iso || "-"}</p>
+                </div>
+              </div>
+              <div className="service-card">
+                <div className="service-card-body">
+                  <h3>COA</h3>
+                  <p>{certifications.coa ? "Available" : "-"}</p>
+                </div>
+              </div>
+              <div className="service-card">
+                <div className="service-card-body">
+                  <h3>MSDS</h3>
+                  <p>{certifications.msds ? "Available" : "-"}</p>
+                </div>
+              </div>
+            </div>
           </div>
-          <div style={{ marginTop: 12 }}>
-            <strong>Export Documents:</strong> {safeJoin(exportDocs)}
+        ) : null}
+
+        {packagingOptions.length || exportDocs.length ? (
+          <div style={{ marginTop: 28 }}>
+            <div className="tag-label">Packaging & Export</div>
+            {packagingOptions.length ? (
+              <div className="packaging-grid">
+                {packagingOptions.map((p) => (
+                  <div key={p} className="service-card" style={{ maxWidth: 220 }}>
+                    <div className="service-card-body">
+                      <h3>{p}</h3>
+                      <p>Shipping: {safeJoin(shipping)}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            ) : null}
+            {exportDocs.length ? (
+              <div style={{ marginTop: 12 }}>
+                <strong>Export Documents:</strong> {safeJoin(exportDocs)}
+              </div>
+            ) : null}
           </div>
-        </div>
+        ) : null}
 
         <div style={{ marginTop: 28 }}>
           <div className="tag-label">Related Products</div>

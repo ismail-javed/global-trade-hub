@@ -2,18 +2,11 @@ import { useMemo, useState } from "react";
 import seedData from "@data/moc_Data.json";
 import { SiteDataContext } from "./siteDataContext.js";
 import { getAdminUsername } from "../component/Admin/adminAuth.js";
+import { toSlug } from "../utils/strings.js";
 
 const STORAGE_KEY = "jnssi_site_data_v1";
 const AUDIT_KEY = "jnssi_site_audit_v1";
 const AUDIT_LIMIT = 200;
-
-const toSlug = (value = "") =>
-  value
-    .toString()
-    .trim()
-    .toLowerCase()
-    .replace(/[^a-z0-9\s-]/g, "")
-    .replace(/\s+/g, "-");
 
 const loadInitialData = () => {
   try {

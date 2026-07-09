@@ -17,8 +17,11 @@
                                 "https://res.cloudinary.com/dyb9hlxzq/image/upload/v1782817983/88be5c9f-ee12-4713-8cae-d4d777d669f2.png"
                             ],
                             "description": "Export-quality potatoes",
-                            "price": 1.5,
+                            "price": 2,
                             "currency": "AED",
+                            "ISO" : "ISO 9001:2015",
+                            "genericName" : "Solanum tuberosum",
+
                             
 
   "specs" : "Good for Chips and Fries",
@@ -1388,7 +1391,7 @@
             "category_description": "High-performance sports and fitness equipment for athletes and enthusiasts.",
             "items": [
                  {
-                    "id ": 110101,
+                    "id": 110101,
                     "name": "Kashmiri Willow Wood Cricket Bat",
                     "slug": "kashmiri-willow-wood-cricket-bat",
                     "images": [
